@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://hl7.no/fhir/ValueSet/tidspunkt-pa-dagen",
+  "name": "Tidspunkt på dagen",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "1",
+            "display": "Morgen"
+          },
+          {
+            "code": "2",
+            "display": "Formiddag"
+          },
+          {
+            "code": "3",
+            "display": "Midt på dagen"
+          },
+          {
+            "code": "4",
+            "display": "Ettermiddag"
+          },
+          {
+            "code": "5",
+            "display": "Kveld"
+          },
+          {
+            "code": "6",
+            "display": "Natt"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Omtrentlige angivelser av tidspunkt på dagen. Kan være aktuell for bruk i alle elektroniske meldinger.",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Tidspunkt på dagen</h2><tt>http://hl7.no/fhir/ValueSet/tidspunkt-pa-dagen</tt><p>Omtrentlige angivelser av tidspunkt på dagen. Kan være aktuell for bruk i alle elektroniske meldinger.</p></div>"
+  },
+  "identifier": {
+    "value": "oid:2.16.578.1.12.4.1.1.8325",
+    "system": "urn:oid:2.16.578.1.12.4.1.1"
+  },
+  "experimental": false,
+  "publisher": "HL7 Norge",
+  "date": "2017-01-20"
+}
