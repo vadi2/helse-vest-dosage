@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://hl7.no/fhir/ValueSet/9080",
+  "name": "Utgangspunkt for beregning av dosering",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1.9080",
+        "concept": [
+          {
+            "code": "1",
+            "display": "Vekt"
+          },
+          {
+            "code": "2",
+            "display": "Alder"
+          },
+          {
+            "code": "3",
+            "display": "Kroppsoverflate"
+          },
+          {
+            "code": "9",
+            "display": "Annet"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Dette kodeverket inneholder koder som benyttes for å angi hva som skal danne utgangspunktet for beregning av dosering av et legemiddel.",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Utgangspunkt for beregning av dosering</h2><tt>http://hl7.no/fhir/ValueSet/9080</tt><p>Dette kodeverket inneholder koder som benyttes for å angi hva som skal danne utgangspunktet for beregning av dosering av et legemiddel.</p></div>"
+  },
+  "date": "2017-01-20",
+  "publisher": "HL7 Norge",
+  "identifier": {
+    "value": "oid:2.16.578.1.12.4.1.1.9080",
+    "system": "urn:oid:2.16.578.1.12.4.1.1"
+  },
+  "experimental": false,
+  "id": "2567a874-6fc3-4a8e-97bd-2edb7a87c2c4"
+}
