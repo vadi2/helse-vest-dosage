@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-01-20T13:49:57.082+01:00" />
+    <lastUpdated value="2017-01-20T14:30:21.962+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -38,7 +38,7 @@
       <binding>
         <strength value="required" />
         <valueSetReference>
-          <reference value="https://www.simplifier.net/api/fhir/ValueSet/ebf7bd96-9aac-494e-8fa7-1dbe2894a32d" />
+          <reference value="https://www.simplifier.net/api/fhir/ValueSet/ce6a4e98-74df-4612-ace7-db6072e3c59b" />
         </valueSetReference>
       </binding>
     </element>
