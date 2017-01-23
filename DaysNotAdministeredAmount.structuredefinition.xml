@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="days-not-administered-amount" />
+  <meta>
+    <lastUpdated value="2017-01-23T16:10:31.171+01:00" />
+  </meta>
+  <text>
+    <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
+  <p>An extension to represent the number of days that a drug is NOT to be administered.</p>
+</div></text>
+  <url value="http://hl7.no/fhir/StructureDefinition/days-not-administered-amount" />
+  <name value="Days not administered amount" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="HL7 Norge" />
+  <date value="2017-01-23T11:12:44.7786029+01:00" />
+  <description value="Number of days a drug is NOT to be used. This extension is always in combination with http://hl7.no/fhir/StructureDefinition/days-administered-amount." />
+  <requirements value="A need to represent the element daysNotAdministeredAmount (DagerAv in Norwegian, type int): number of days a drug is NOT to be used." />
+  <kind value="datatype" />
+  <constrainedType value="Extension" />
+  <abstract value="false" />
+  <contextType value="resource" />
+  <context value="MedicationStatement.dosage" />
+  <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <differential>
+    <element>
+      <path value="Extension" />
+    </element>
+    <element>
+      <path value="Extension.url" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/days-not-administered-amount" />
+    </element>
+    <element>
+      <path value="Extension.valuePositiveInt" />
+      <short value="Days not administered amount" />
+      <definition value="Number of days a drug is NOT to be used." />
+      <type>
+        <code value="positiveInt" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
