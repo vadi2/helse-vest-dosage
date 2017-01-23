@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="timing-exact" />
   <meta>
-    <lastUpdated value="2017-01-23T14:40:46.236+01:00" />
+    <lastUpdated value="2017-01-23T15:32:19.1+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
-  <p>A comment or other relevant information about dosage calculation basis.</p>
+  <p>An extension to represent a comment or other relevant information about dosage calculation basis.</p>
 </div></text>
   <url value="http://hl7.no/fhir/StructureDefinition/timing-exact" />
   <name value="Exact timing" />
@@ -32,8 +32,8 @@
     </element>
     <element>
       <path value="Extension.valueBoolean" />
-      <short value="Calculation basis note" />
-      <definition value="A note for recording what forms the basis for calculating the dose." />
+      <short value="Exact timing" />
+      <definition value="In the context of scheduling a time in the future, this flag specifies that the time must be strictly obeyed." />
       <type>
         <code value="boolean" />
       </type>

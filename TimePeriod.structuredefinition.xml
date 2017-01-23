@@ -2,11 +2,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="timeperiod" />
   <meta>
-    <lastUpdated value="2017-01-23T14:29:57.104+01:00" />
+    <lastUpdated value="2017-01-23T15:33:31.842+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
-  <p>Approximate timeperiod of the day (morning, noon, etc).</p>
+  <p>An extension to represent the approximate timeperiod of the day (morning, noon, etc).</p>
 </div></text>
   <url value="http://hl7.no/fhir/StructureDefinition/timeperiod" />
   <name value="Time period of the day" />
@@ -32,6 +32,8 @@
     </element>
     <element>
       <path value="Extension.valueCode" />
+      <short value="Time period of the day" />
+      <definition value="An approximate way of describing the time of day." />
       <type>
         <code value="code" />
       </type>

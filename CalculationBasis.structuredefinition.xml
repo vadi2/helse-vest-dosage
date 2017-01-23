@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="calculation-basis" />
   <meta>
-    <lastUpdated value="2017-01-23T14:31:50.56+01:00" />
+    <lastUpdated value="2017-01-23T15:32:51.272+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -32,6 +32,7 @@
     </element>
     <element>
       <path value="Extension.valueCode" />
+      <short value="Dose calculation basis" />
       <type>
         <code value="code" />
       </type>
