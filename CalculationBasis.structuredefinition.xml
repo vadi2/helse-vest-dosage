@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-01-20T14:30:21.962+01:00" />
+    <lastUpdated value="2017-01-23T09:45:36.872+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
   <p>An extension that specifies what forms the basis for calculating the dose (weight, age, body surface, other).</p>
 </div></text>
-  <url value="http://hl7.no/fhir/StructureDefinition/CalculationBasis" />
+  <url value="http://hl7.no/fhir/StructureDefinition/calculation-basis" />
   <name value="CalculationBasis" />
   <status value="draft" />
-  <publisher value="Helse Vest" />
+  <experimental value="false" />
+  <publisher value="HL7 Norge" />
   <date value="2017-01-19T15:16:21.5215933+01:00" />
   <description value="Specifies what forms the basis for calculating the dose (weight, age, body surface, other)." />
   <requirements value="A need to represent the element doseCalculationBasis (CS): To specify what forms the basis for calculating the dose (Weight, Age, Body Surface, Other), using the coding system at OID 9080 (basis for calculating the dose) from www.volven.vo." />
@@ -27,7 +28,7 @@
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="http://hl7.no/fhir/StructureDefinition/CalculationBasis" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/calculation-basis" />
     </element>
     <element>
       <path value="Extension.valueCode" />
