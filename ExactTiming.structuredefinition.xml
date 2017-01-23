@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="timing-exact" />
   <meta>
-    <lastUpdated value="2017-01-23T14:27:27.459+01:00" />
+    <lastUpdated value="2017-01-23T14:40:46.236+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -31,11 +31,11 @@
       <fixedUri value="http://hl7.no/fhir/StructureDefinition/timing-exact" />
     </element>
     <element>
-      <path value="Extension.valueString" />
+      <path value="Extension.valueBoolean" />
       <short value="Calculation basis note" />
       <definition value="A note for recording what forms the basis for calculating the dose." />
       <type>
-        <code value="string" />
+        <code value="boolean" />
       </type>
     </element>
   </differential>
