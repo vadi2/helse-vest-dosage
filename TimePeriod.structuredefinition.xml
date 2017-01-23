@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="timeperiod" />
   <meta>
-    <lastUpdated value="2017-01-23T10:09:25.444+01:00" />
+    <lastUpdated value="2017-01-23T11:02:42.102+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
   <p>Approximate timeperiod of the day (morning, noon, etc).</p>
 </div></text>
   <url value="http://hl7.no/fhir/StructureDefinition/timeperiod" />
-  <name value="TimePeriod" />
+  <name value="Time period of the day" />
   <status value="draft" />
   <experimental value="false" />
   <publisher value="HL7 Norge" />
