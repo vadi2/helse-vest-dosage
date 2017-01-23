@@ -14,7 +14,7 @@
   <publisher value="HL7 Norge" />
   <date value="2017-01-19T15:16:21.5215933+01:00" />
   <description value="Specifies what forms the basis for calculating the dose (weight, age, body surface, other)." />
-  <requirements value="A need to represent the element doseCalculationBasis (CS): To specify what forms the basis for calculating the dose (Weight, Age, Body Surface, Other), using the coding system at OID 9080 (basis for calculating the dose) from www.volven.vo." />
+  <requirements value="A need to represent the element doseCalculationBasis (CS): to specify what forms the basis for calculating the dose (weight, age, body surface, other), using the coding system OID 9080 (basis for calculating the dose) from www.volven.vo." />
   <kind value="datatype" />
   <constrainedType value="Extension" />
   <abstract value="false" />
