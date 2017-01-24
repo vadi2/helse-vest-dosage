@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="days-not-administered-amount" />
   <meta>
-    <lastUpdated value="2017-01-24T10:13:02.094+01:00" />
+    <lastUpdated value="2017-01-24T13:47:48.615+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
