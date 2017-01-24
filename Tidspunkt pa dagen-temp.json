@@ -1,5 +1,5 @@
 {
-  "resourceType": "ValueSet",
+  "resourceType": "ValueSet", 
   "url": "http://hl7.no/fhir/ValueSet/tidspunkt-pa-dagen",
   "name": "Tidspunkt pa dagen",
   "status": "draft",
