@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "url": "http://hl7.no/fhir/ValueSet/tidspunkt-pa-dagen",
-  "name": "Tidspunkt på dagen",
+  "name": "Tidspunkt på dagen", 
   "status": "draft",
   "compose": {
     "include": [
