@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="time-of-day" />
+  <meta>
+    <lastUpdated value="2017-01-26T16:59:09.946+01:00" />
+  </meta>
+  <text>
+    <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
+  <p>An extension to backport Timing.repeat.timeOfDay (http://hl7.org/fhir/2017Jan/datatypes-definitions.html#Timing.repeat.timeOfDay) for use in DSTU2.</p>
+</div></text>
+  <url value="http://hl7.no/fhir/StructureDefinition/time-of-day" />
+  <name value="Time of day" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="HL7 Norge" />
+  <date value="2017-01-23T11:12:44.7786029+01:00" />
+  <description value="Specified time of day for action to take place.&#xD;&#xA;&#xD;&#xA;A backport of Timing.repeat.timeOfDay (http://hl7.org/fhir/2017Jan/datatypes-definitions.html#Timing.repeat.timeOfDay) for use in DSTU2." />
+  <requirements value="A need to represent the specific time of day." />
+  <kind value="datatype" />
+  <constrainedType value="Extension" />
+  <abstract value="false" />
+  <contextType value="datatype" />
+  <context value="Timing.repeat" />
+  <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <differential>
+    <element>
+      <path value="Extension" />
+    </element>
+    <element>
+      <path value="Extension.url" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/time-of-day" />
+    </element>
+    <element>
+      <path value="Extension.valueTime" />
+      <short value="Time of day" />
+      <definition value="Specified time of day for action to take place." />
+      <comments value="When time of day is specified, it is inferred that the action happens every day (as filtered by Timing.repeat.dayOfWeek) on the specified times. The elements when, frequency and period cannot be used as well as timeOfDay." />
+      <type>
+        <code value="time" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
