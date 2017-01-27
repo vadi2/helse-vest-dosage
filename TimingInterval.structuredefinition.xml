@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="timing-interval" />
+  <meta>
+    <lastUpdated value="2017-01-27T11:36:10.171+01:00" />
+  </meta>
+  <text>
+    <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
+  <p>An extension to represent an interval between Timing events.</p>
+</div></text>
+  <url value="http://hl7.no/fhir/StructureDefinition/timing-interval" />
+  <name value="Timing interval" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="HL7 Norge" />
+  <date value="2017-01-27T00:00:00" />
+  <description value="Number of units of time that must pass between each event." />
+  <requirements value="The ability to express the number of units of time that must pass between each time a drug is given/taken in a MedicationStatement resource." />
+  <kind value="datatype" />
+  <constrainedType value="Extension" />
+  <abstract value="false" />
+  <contextType value="datatype" />
+  <context value="Timing.repeat" />
+  <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <differential>
+    <element>
+      <path value="Extension" />
+      <name value="extension" />
+    </element>
+    <element>
+      <path value="Extension.extension" />
+      <slicing>
+        <discriminator value="url" />
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element>
+      <path value="Extension.extension" />
+      <name value="min" />
+      <definition value="Minimum interval time." />
+      <max value="1" />
+    </element>
+    <element>
+      <path value="Extension.extension.valueInteger" />
+      <type>
+        <code value="integer" />
+      </type>
+    </element>
+    <element>
+      <path value="Extension.extension" />
+      <name value="max" />
+      <definition value="Maximum interval time." />
+      <max value="1" />
+    </element>
+    <element>
+      <path value="Extension.extension.valueInteger" />
+      <type>
+        <code value="integer" />
+      </type>
+    </element>
+    <element>
+      <path value="Extension.extension" />
+      <name value="unit" />
+      <definition value="The unit of the min and max time." />
+      <max value="1" />
+    </element>
+    <element>
+      <path value="Extension.extension.valueCode" />
+      <type>
+        <code value="code" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSetReference>
+          <reference value="http://hl7.org/fhir/ValueSet/units-of-time" />
+        </valueSetReference>
+      </binding>
+    </element>
+    <element>
+      <path value="Extension.url" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/timing-interval" />
+    </element>
+    <element>
+      <path value="Extension.value[x]" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>
