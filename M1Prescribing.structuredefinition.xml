@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-01-27T14:39:41.378+01:00" />
+    <lastUpdated value="2017-01-27T15:41:40.756+01:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/m1-prescribing" />
   <name value="M1 Prescribing" />
@@ -18,7 +18,7 @@
   <differential>
     <element>
       <path value="MedicationStatement" />
-      <short value="M1 Prescribing" />
+      <short value="M1 Prescribing profile." />
       <definition value="A prescription as defined by Forskrivning in the eResept M1 Norwegian project." />
     </element>
     <element>
@@ -55,9 +55,8 @@
     <element>
       <path value="MedicationStatement.dosage.extension" />
       <name value="calculationBasis, DoseresEtter" />
-      <short value="Base for all elements" />
-      <definition value="Optional Extensions Element - found in all resources." />
-      <min value="0" />
+      <definition value="To specify what forms the basis for calculating the dose (weight, age, body surface, other)." />
+      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/calculation-basis" />
@@ -66,6 +65,89 @@
         <identity value="norway-m1-resept" />
         <map value="Doseringsregel.DoseresEtter" />
       </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.extension" />
+      <name value="calculationBasisNote, Merknad" />
+      <definition value="Comment, other relevant information about dosage." />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/calculation-basis-note" />
+      </type>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Doseringsregel.Merknad" />
+      </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.timing.extension" />
+      <slicing>
+        <discriminator value="url" />
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.timing.extension" />
+      <name value="administerAtSpecificTime, GisEksakt" />
+      <definition value="Medication must be given/taken at exact times." />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/timing-exact" />
+      </type>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="DoseFastTidspunkt.GisEksakt" />
+      </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.timing.repeat.extension" />
+      <slicing>
+        <discriminator value="url" />
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.timing.repeat.extension" />
+      <name value="specificTime, Klokkeslett" />
+      <definition value="Exact time of day medication must be taken at." />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/time-of-day" />
+      </type>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="DoseFastTidspunkt.Klokkeslett" />
+      </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.timing.repeat.extension" />
+      <name value="timePeriod, Tidsomrade" />
+      <definition value="Time period of the day the drug should be taken at (ex.: morning, noon, afternoon, etc)." />
+      <comments value="Timing.repeat.when is not used as the binding is of strength &quot;required&quot; and is semantically incompatible with OID 8325 from volven.no" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/timeperiod" />
+      </type>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="DoseFastTidspunkt.Tidsomrade" />
+      </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.timing.repeat.extension" />
+      <name value="whichWeekdays, FasteUkedager" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://simplifier.net/Nictiz/days-of-week" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <description value="Days of the week" />
+        <valueSetReference>
+          <reference value="http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.9.5.4--2015-04-01T00:00:00" />
+        </valueSetReference>
+      </binding>
     </element>
     <element>
       <path value="MedicationStatement.dosage.rateRatio" />
