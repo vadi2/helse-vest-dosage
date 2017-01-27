@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="timing-interval" />
   <meta>
-    <lastUpdated value="2017-01-27T11:36:10.171+01:00" />
+    <lastUpdated value="2017-01-27T11:47:32.038+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -14,7 +14,7 @@
   <experimental value="false" />
   <publisher value="HL7 Norge" />
   <date value="2017-01-27T00:00:00" />
-  <description value="Number of units of time that must pass between each event." />
+  <description value="Number of units of time that must pass between each event.&#xD;&#xA;&#xD;&#xA;This extension is similar to https://simplifier.net/ColumnaCura/timing-interval as the original authors weren't able to respond to a request for collaboration. The context of this extension is different and is in Timing.repeat instead of Timing itself." />
   <requirements value="The ability to express the number of units of time that must pass between each time a drug is given/taken in a MedicationStatement resource." />
   <kind value="datatype" />
   <constrainedType value="Extension" />
