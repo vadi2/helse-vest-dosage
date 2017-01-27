@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://hl7.no/fhir/ValueSet/benevning-tidsenhet",
+  "name": "Benevning tidsenhet",
+  "status": "draft",
+  "compose": {
+    "import": [
+      "http://hl7.org/fhir/ValueSet/units-of-time"
+    ],
+    "exclude": [
+      {
+        "concept": [
+          {
+            "code": "wk",
+            "display": "week"
+          }
+        ],
+        "system": "http://hl7.org/fhir/ValueSet/units-of-time"
+      }
+    ]
+  },
+  "description": "Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet.",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Benevning tidsenhet</h2><tt>http://hl7.no/fhir/ValueSet/benevning-tidsenhet</tt><p>Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet.</p></div>"
+  },
+  "date": "2017-01-27",
+  "publisher": "HL7 Norge",
+  "experimental": false,
+  "identifier": {
+    "system": "urn:oid:2.16.578.1.12.4.1.1",
+    "value": "oid:2.16.578.1.12.4.1.1.9088"
+  }
+}
