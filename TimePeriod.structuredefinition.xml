@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="timeperiod" />
   <meta>
-    <lastUpdated value="2017-01-23T15:33:31.842+01:00" />
+    <lastUpdated value="2017-01-27T10:44:53.218+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -40,7 +40,7 @@
       <binding>
         <strength value="required" />
         <valueSetReference>
-          <reference value="SET ME TO A SIMPLIFIER URL" />
+          <reference value="https://simplifier.net/api/fhir/ValueSet/1021d407-859c-40a6-9358-af3bd7690205" />
         </valueSetReference>
       </binding>
     </element>
