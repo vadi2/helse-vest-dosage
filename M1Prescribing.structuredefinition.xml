@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="m1-prescribing" />
+  <meta>
+    <lastUpdated value="2017-01-27T14:31:35.498+01:00" />
+  </meta>
+  <url value="http://hl7.no/fhir/StructureDefinition/m1-prescribing" />
+  <name value="M1 Prescribing" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="HL7 Norge" />
+  <date value="2017-01-27T13:11:14.8692835+01:00" />
+  <description value="A prescription as defined by Forskrivning in the eResept M1 Norwegian project." />
+  <kind value="resource" />
+  <constrainedType value="MedicationStatement" />
+  <abstract value="false" />
+  <base value="http://hl7.org/fhir/StructureDefinition/MedicationStatement" />
+  <differential>
+    <element>
+      <path value="MedicationStatement" />
+      <short value="M1 Prescribing" />
+      <definition value="A prescription as defined by Forskrivning in the eResept M1 Norwegian project." />
+    </element>
+    <element>
+      <path value="MedicationStatement.effectivePeriod" />
+      <type>
+        <code value="Period" />
+      </type>
+    </element>
+    <element>
+      <path value="MedicationStatement.effectivePeriod.start" />
+      <definition value="Time when the dosage starts." />
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Dosering.Starttidspunkt" />
+      </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.effectivePeriod.end" />
+      <name value="Sluttidspunkt" />
+      <definition value="Time when the dosage ends." />
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Dosering.Sluttidspunkt" />
+      </mapping>
+    </element>
+  </differential>
+</StructureDefinition>
