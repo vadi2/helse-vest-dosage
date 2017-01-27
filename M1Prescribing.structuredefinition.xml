@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-01-27T14:37:23.189+01:00" />
+    <lastUpdated value="2017-01-27T14:39:41.378+01:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/m1-prescribing" />
   <name value="M1 Prescribing" />
@@ -66,6 +66,12 @@
         <identity value="norway-m1-resept" />
         <map value="Doseringsregel.DoseresEtter" />
       </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.rateRatio" />
+      <type>
+        <code value="Ratio" />
+      </type>
     </element>
   </differential>
 </StructureDefinition>
