@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-01-27T14:31:35.498+01:00" />
+    <lastUpdated value="2017-01-27T14:37:23.189+01:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/m1-prescribing" />
   <name value="M1 Prescribing" />
@@ -29,6 +29,7 @@
     </element>
     <element>
       <path value="MedicationStatement.effectivePeriod.start" />
+      <name value="Starttidspunkt" />
       <definition value="Time when the dosage starts." />
       <mapping>
         <identity value="norway-m1-resept" />
@@ -42,6 +43,28 @@
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Dosering.Sluttidspunkt" />
+      </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.extension" />
+      <slicing>
+        <discriminator value="url" />
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.extension" />
+      <name value="calculationBasis, DoseresEtter" />
+      <short value="Base for all elements" />
+      <definition value="Optional Extensions Element - found in all resources." />
+      <min value="0" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/calculation-basis" />
+      </type>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Doseringsregel.DoseresEtter" />
       </mapping>
     </element>
   </differential>
