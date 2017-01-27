@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="time-of-day" />
   <meta>
-    <lastUpdated value="2017-01-26T16:59:09.946+01:00" />
+    <lastUpdated value="2017-01-27T10:04:05.176+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
