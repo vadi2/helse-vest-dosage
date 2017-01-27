@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-01-27T15:41:40.756+01:00" />
+    <lastUpdated value="2017-01-27T17:03:26.9+01:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/m1-prescribing" />
   <name value="M1 Prescribing" />
@@ -81,6 +81,24 @@
       </mapping>
     </element>
     <element>
+      <path value="MedicationStatement.dosage.extension" />
+      <name value="daysAdministeredAmount, DagerPa" />
+      <definition value="Number of days a drug is to be used." />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/days-administered-amount" />
+      </type>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.extension" />
+      <name value="daysNotAdministeredAmount, DagerAv" />
+      <definition value="Number of days a drug is NOT to be used. This element is always in combination with DagerPa." />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/days-not-administered-amount" />
+      </type>
+    </element>
+    <element>
       <path value="MedicationStatement.dosage.timing.extension" />
       <slicing>
         <discriminator value="url" />
@@ -98,6 +116,19 @@
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="DoseFastTidspunkt.GisEksakt" />
+      </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.timing.extension" />
+      <name value="administrationInterval, Intervall" />
+      <definition value="Number of units of time that must pass between each time the drug is given/taken." />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/timing-interval" />
+      </type>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Dose.Intervall" />
       </mapping>
     </element>
     <element>
@@ -150,10 +181,23 @@
       </binding>
     </element>
     <element>
+      <path value="MedicationStatement.dosage.quantityQuantity" />
+      <name value="SimpleQuantity" />
+      <type>
+        <code value="Quantity" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity" />
+      </type>
+    </element>
+    <element>
       <path value="MedicationStatement.dosage.rateRatio" />
       <type>
         <code value="Ratio" />
       </type>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.rateRatio.denominator" />
+      <name value="Tidsenhet" />
+      <definition value="Time unit." />
     </element>
   </differential>
 </StructureDefinition>
