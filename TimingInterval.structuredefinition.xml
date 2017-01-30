@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="timing-interval" />
   <meta>
-    <lastUpdated value="2017-01-27T11:47:32.038+01:00" />
+    <lastUpdated value="2017-01-30T10:27:48.458+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -70,7 +70,7 @@
         <code value="code" />
       </type>
       <binding>
-        <strength value="required" />
+        <strength value="preferred" />
         <valueSetReference>
           <reference value="http://hl7.org/fhir/ValueSet/units-of-time" />
         </valueSetReference>
