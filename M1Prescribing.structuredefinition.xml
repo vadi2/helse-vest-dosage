@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-01-30T12:01:34.085+01:00" />
+    <lastUpdated value="2017-01-30T12:25:20.003+01:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/m1-prescribing" />
   <name value="M1 Prescribing" />
@@ -128,6 +128,7 @@
       </type>
       <binding>
         <strength value="required" />
+        <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet." />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/91336a25-1f89-4f12-a185-08a6d06a1af5" />
         </valueSetReference>
@@ -195,6 +196,7 @@
       </type>
       <binding>
         <strength value="required" />
+        <description value="Enhet som skal inngå i doseringstekst som sendes i M1 og inngår på apotek-etiketten. Kodeverk til bruk i M30 fra versjon 2.4, og i M1" />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/7b326ba1-4fae-406f-a50a-35de49e172b1" />
         </valueSetReference>
@@ -210,6 +212,7 @@
       <path value="MedicationStatement.dosage.rateRatio.numerator" />
       <binding>
         <strength value="required" />
+        <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST" />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/7a86c026-005b-489c-86d5-c68dcf7c08c9" />
         </valueSetReference>
@@ -221,6 +224,7 @@
       <definition value="Time unit." />
       <binding>
         <strength value="required" />
+        <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet." />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/91336a25-1f89-4f12-a185-08a6d06a1af5" />
         </valueSetReference>
