@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-01-27T17:03:26.9+01:00" />
+    <lastUpdated value="2017-01-30T10:46:42.358+01:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/m1-prescribing" />
   <name value="M1 Prescribing" />
@@ -126,6 +126,12 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/timing-interval" />
       </type>
+      <binding>
+        <strength value="required" />
+        <valueSetReference>
+          <reference value="https://simplifier.net/api/fhir/ValueSet/91336a25-1f89-4f12-a185-08a6d06a1af5" />
+        </valueSetReference>
+      </binding>
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Dose.Intervall" />
@@ -198,6 +204,12 @@
       <path value="MedicationStatement.dosage.rateRatio.denominator" />
       <name value="Tidsenhet" />
       <definition value="Time unit." />
+      <binding>
+        <strength value="required" />
+        <valueSetReference>
+          <reference value="https://simplifier.net/api/fhir/ValueSet/91336a25-1f89-4f12-a185-08a6d06a1af5" />
+        </valueSetReference>
+      </binding>
     </element>
   </differential>
 </StructureDefinition>
