@@ -1,0 +1,66 @@
+<Bundle xmlns="http://hl7.org/fhir">
+    <type value="transaction"/>
+    <entry>
+        <resource>
+            <MedicationStatement xmlns="http://hl7.org/fhir">
+                <id value="2-tablets-in-the-morning-on-the-first-day"/>
+                <effectivePeriod>
+                    <start value="2012-11-01T00:00:00"/>
+                </effectivePeriod>
+                <dosage>
+                    <timing>
+                        <extension url="http://hl7.no/fhir/StructureDefinition/timing-exact">
+                            <valueBoolean value="false"/>
+                        </extension>
+                        <repeat>
+                            <extension url="http://hl7.no/fhir/StructureDefinition/timeperiod">
+                                <valueCode value="1"/>
+                            </extension>
+                        </repeat>
+                    </timing>
+                    <quantityQuantity>
+                        <unit value="1"/>
+                        <system value="http://hl7.no/fhir/ValueSet/enhet-for-dosering"/>
+                        <code value="tablett"/>
+                    </quantityQuantity>
+                </dosage>
+            </MedicationStatement>
+        </resource>
+        <request>
+            <method value="PUT"/>
+            <url value="MedicationStatement/2-tablets-in-the-morning-on-the-first-day"/>
+        </request>
+    </entry>
+    <entry>
+        <resource>
+            <MedicationStatement xmlns="http://hl7.org/fhir">
+                <id value="from-day-2-take-1-tablet-in-the-morning"/>
+                <effectivePeriod>
+                    <start value="2012-11-01T00:00:00"/>
+                    <end value="2012-11-02T00:00:00"/>
+                </effectivePeriod>
+                <dosage>
+                    <timing>
+                        <extension url="http://hl7.no/fhir/StructureDefinition/timing-exact">
+                            <valueBoolean value="false"/>
+                        </extension>
+                        <repeat>
+                            <extension url="http://hl7.no/fhir/StructureDefinition/timeperiod">
+                                <valueCode value="1"/>
+                            </extension>
+                        </repeat>
+                    </timing>
+                    <quantityQuantity>
+                        <unit value="2"/>
+                        <system value="http://hl7.no/fhir/ValueSet/enhet-for-dosering"/>
+                        <code value="tablett"/>
+                    </quantityQuantity>
+                </dosage>
+            </MedicationStatement>
+        </resource>
+        <request>
+            <method value="PUT"/>
+            <url value="MedicationStatement/from-day-2-take-1-tablet-in-the-morning"/>
+        </request>
+    </entry>
+</Bundle>
