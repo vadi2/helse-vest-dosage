@@ -1,0 +1,259 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://hl7.no/fhir/ValueSet/maleenhet-for-legemidlers-styrke",
+  "name": "Måleenhet for legemidlers styrke",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1",
+        "concept": [
+          {
+            "code": "%",
+            "display": "prosent"
+          },
+          {
+            "code": "% w/v",
+            "display": "prosent gitt som vekt per volum"
+          },
+          {
+            "code": "% w/w",
+            "display": "prosent gitt som vekt per vekt"
+          },
+          {
+            "code": "(ikke angitt)",
+            "display": "ikke angitt"
+          },
+          {
+            "code": "10E10 bakterier",
+            "display": "10 opphøyd i 10'ende bakterier"
+          },
+          {
+            "code": "10E9 bakterier",
+            "display": "10 opphøyd i 9'ende bakterier"
+          },
+          {
+            "code": "antigen enheter",
+            "display": "antigen enheter"
+          },
+          {
+            "code": "anti-heparin IE",
+            "display": "anti-heparin internasjonale enheter"
+          },
+          {
+            "code": "CCID50",
+            "display": "Cell Culture Infective Dose 50%"
+          },
+          {
+            "code": "cfu",
+            "display": "colony forming units"
+          },
+          {
+            "code": "D-antigen enheter",
+            "display": "Enheter av smittsomme poliovirus"
+          },
+          {
+            "code": "E",
+            "display": "enheter"
+          },
+          {
+            "code": "ELISA E",
+            "display": "ELISA-enheter"
+          },
+          {
+            "code": "ELISA RU",
+            "display": "relative ELISA-enheter"
+          },
+          {
+            "code": "g",
+            "display": "gram"
+          },
+          {
+            "code": "g Ca",
+            "display": "gram kalsium"
+          },
+          {
+            "code": "g N",
+            "display": "gram nitrogen"
+          },
+          {
+            "code": "GBq",
+            "display": "gigabequerel"
+          },
+          {
+            "code": "HEP",
+            "display": "Histaminekvivalenter basert på prikktesting"
+          },
+          {
+            "code": "IE",
+            "display": "internasjonale enheter"
+          },
+          {
+            "code": "IE anti-Xa",
+            "display": "internasjonale enheter antistoff"
+          },
+          {
+            "code": "IU",
+            "display": "international units"
+          },
+          {
+            "code": "kBq",
+            "display": "kilobequerel"
+          },
+          {
+            "code": "kg",
+            "display": "kilogram"
+          },
+          {
+            "code": "KIU",
+            "display": "kallidinogenase inactivator unit"
+          },
+          {
+            "code": "kJ",
+            "display": "kilojoule"
+          },
+          {
+            "code": "LD50 enheter",
+            "display": "den statistisk bestemte dødelige dosen hos 50 % av dyrene"
+          },
+          {
+            "code": "MBq",
+            "display": "megabequerel"
+          },
+          {
+            "code": "mg",
+            "display": "milligram"
+          },
+          {
+            "code": "mg Ca",
+            "display": "milligram kalsium"
+          },
+          {
+            "code": "mg F",
+            "display": "milligram fluor"
+          },
+          {
+            "code": "mg Fe",
+            "display": "milligram jern"
+          },
+          {
+            "code": "mg FNE",
+            "display": "milligram fenytoinnatriumekvivalenter"
+          },
+          {
+            "code": "mg I",
+            "display": "milligram iod"
+          },
+          {
+            "code": "mg K",
+            "display": "milligram kalium"
+          },
+          {
+            "code": "mg Mg",
+            "display": "milligram magnesium (ion)"
+          },
+          {
+            "code": "mg Zn",
+            "display": "milligram sink"
+          },
+          {
+            "code": "mikrog",
+            "display": "mikrogram"
+          },
+          {
+            "code": "mikrog HA",
+            "display": "mikrogram haemagglutinin"
+          },
+          {
+            "code": "mikroliter",
+            "display": "mikroliter"
+          },
+          {
+            "code": "mikromol",
+            "display": "mikromol"
+          },
+          {
+            "code": "mill E",
+            "display": "millioner enheter"
+          },
+          {
+            "code": "mill IE",
+            "display": "millioner internasjonale enheter"
+          },
+          {
+            "code": "ml",
+            "display": "milliliter"
+          },
+          {
+            "code": "mmol",
+            "display": "millimol"
+          },
+          {
+            "code": "mmol Li",
+            "display": "millimol Litium"
+          },
+          {
+            "code": "mol",
+            "display": "mol"
+          },
+          {
+            "code": "PFU",
+            "display": "plaque forming units"
+          },
+          {
+            "code": "PhEur. enheter",
+            "display": "enheter etter standard i den europeiske farmakope"
+          },
+          {
+            "code": "ppm (mol pr. mol)",
+            "display": "parts per million beregnet som mol/mol"
+          },
+          {
+            "code": "SA.U",
+            "display": "tilstrekkelig mengde til å oppnå et titer av agglutinerende antistoff på 1 log10 i marsvin"
+          },
+          {
+            "code": "SN.U",
+            "display": "titer av serumnøytraliserende antistoff fra vaksinasjon av marsvin"
+          },
+          {
+            "code": "SQ-E",
+            "display": "standardiserte kvalitetsenheter"
+          },
+          {
+            "code": "SQ-T",
+            "display": "standardiserte kvalitetsenheter for tablett"
+          },
+          {
+            "code": "IC",
+            "display": "konsentrasjonsindeks"
+          },
+          {
+            "code": "Normal",
+            "display": "normal"
+          },
+          {
+            "code": "IR",
+            "display": "reaktivitetsindeks"
+          },
+          {
+            "code": "OMEQ",
+            "display": "orale morfinekvivalenter"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Måleenhet for legemidlers styrke</h2><tt>http://hl7.no/fhir/ValueSet/maleenhet-for-legemidlers-styrke</tt><p>Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST</p></div>"
+  },
+  "identifier": {
+    "value": "oid:2.16.578.1.12.4.1.1.9090",
+    "system": "urn:oid:2.16.578.1.12.4.1.1"
+  },
+  "experimental": false,
+  "publisher": "HL7 Norge",
+  "date": "2017-01-30"
+}
