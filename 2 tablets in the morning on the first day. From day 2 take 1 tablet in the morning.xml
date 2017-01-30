@@ -4,6 +4,9 @@
         <resource>
             <MedicationStatement xmlns="http://hl7.org/fhir">
                 <id value="2-tablets-in-the-morning-on-the-first-day"/>
+                <meta>
+                    <profile value="http://hl7.no/fhir/StructureDefinition/m1-prescribing"/>
+                </meta>
                 <effectivePeriod>
                     <start value="2012-11-01T00:00:00"/>
                 </effectivePeriod>
@@ -35,6 +38,9 @@
         <resource>
             <MedicationStatement xmlns="http://hl7.org/fhir">
                 <id value="from-day-2-take-1-tablet-in-the-morning"/>
+                <meta>
+                    <profile value="http://hl7.no/fhir/StructureDefinition/m1-prescribing"/>
+                </meta>
                 <effectivePeriod>
                     <start value="2012-11-01T00:00:00"/>
                     <end value="2012-11-02T00:00:00"/>
