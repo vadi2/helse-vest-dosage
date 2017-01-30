@@ -1,0 +1,194 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://hl7.no/fhir/ValueSet/enhet-for-dosering",
+  "name": "Enhet for dosering",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1",
+        "concept": [
+          {
+            "code": "0",
+            "display": "(Ingen)"
+          },
+          {
+            "code": "1",
+            "display": "ampulle"
+          },
+          {
+            "code": "3",
+            "display": "dråpe"
+          },
+          {
+            "code": "4",
+            "display": "dusj"
+          },
+          {
+            "code": "6",
+            "display": "kapsel"
+          },
+          {
+            "code": "7",
+            "display": "klyster"
+          },
+          {
+            "code": "8",
+            "display": "ml"
+          },
+          {
+            "code": "9",
+            "display": "pose"
+          },
+          {
+            "code": "11",
+            "display": "sprøyte"
+          },
+          {
+            "code": "12",
+            "display": "stikkpille"
+          },
+          {
+            "code": "13",
+            "display": "tablett"
+          },
+          {
+            "code": "14",
+            "display": "tampong"
+          },
+          {
+            "code": "15",
+            "display": "kule"
+          },
+          {
+            "code": "16",
+            "display": "plaster"
+          },
+          {
+            "code": "17",
+            "display": "IE"
+          },
+          {
+            "code": "18",
+            "display": "tyggetablett"
+          },
+          {
+            "code": "19",
+            "display": "dose"
+          },
+          {
+            "code": "20",
+            "display": "vagitorie"
+          },
+          {
+            "code": "21",
+            "display": "vaginaltablett"
+          },
+          {
+            "code": "60",
+            "display": "vaginalring"
+          },
+          {
+            "code": "64",
+            "display": "g"
+          },
+          {
+            "code": "65",
+            "display": "tyggegummi"
+          },
+          {
+            "code": "66",
+            "display": "pipette"
+          },
+          {
+            "code": "67",
+            "display": "pumpetrykk"
+          },
+          {
+            "code": "68",
+            "display": "spray"
+          },
+          {
+            "code": "69",
+            "display": "instillasjon"
+          },
+          {
+            "code": "70",
+            "display": "mg"
+          },
+          {
+            "code": "71",
+            "display": "bukkalfilm"
+          },
+          {
+            "code": "72",
+            "display": "øyelamell"
+          },
+          {
+            "code": "74",
+            "display": "mikrog"
+          },
+          {
+            "code": "75",
+            "display": "innlegg"
+          },
+          {
+            "code": "76",
+            "display": "implantat"
+          },
+          {
+            "code": "77",
+            "display": "kompress"
+          },
+          {
+            "code": "78",
+            "display": "tråd"
+          },
+          {
+            "code": "79",
+            "display": "E"
+          },
+          {
+            "code": "80",
+            "display": "penn"
+          },
+          {
+            "code": "81",
+            "display": "hgl"
+          },
+          {
+            "code": "82",
+            "display": "KIU"
+          },
+          {
+            "code": "83",
+            "display": "sublingvalfilm"
+          },
+          {
+            "code": "84",
+            "display": "bukkaltablett"
+          },
+          {
+            "code": "85",
+            "display": "pute"
+          },
+          {
+            "code": "86",
+            "display": "orale morfinekvivalenter"
+          }
+        ]
+      }
+    ]
+  },
+  "description": "Enhet som skal inngå i doseringstekst som sendes i M1 og inngår på apotek-etiketten. Kodeverk til bruk i M30 fra versjon 2.4, og i M1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Enhet for dosering</h2><tt>http://hl7.no/fhir/ValueSet/enhet-for-dosering</tt><p>Enhet som skal inngå i doseringstekst som sendes i M1 og inngår på apotek-etiketten. Kodeverk til bruk i M30 fra versjon 2.4, og i M1</p></div>"
+  },
+  "identifier": {
+    "value": "oid:2.16.578.1.12.4.1.1.7480",
+    "system": "urn:oid:2.16.578.1.12.4.1.1"
+  },
+  "publisher": "HL7 Norge",
+  "experimental": false
+}
