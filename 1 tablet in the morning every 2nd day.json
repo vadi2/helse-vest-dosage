@@ -1,0 +1,54 @@
+{
+   "resourceType": "MedicationStatement",
+   "id": "1-tablet-in-the-morning-every-2nd-day",
+   "meta": {
+      "profile": [
+         "http://hl7.no/fhir/StructureDefinition/m1-prescribing"
+      ]
+   },
+   "effectivePeriod": {
+      "start": "2012-11-01T00:00:00"
+   },
+   "dosage": [
+      {
+         "timing": {
+            "extension": [
+               {
+                  "url": "http://hl7.no/fhir/StructureDefinition/timing-exact",
+                  "valueBoolean": "false"
+               },
+               {
+                  "extension": [
+                     {
+                        "url": "min",
+                        "valueInteger": "2"
+                     },
+                     {
+                        "url": "max",
+                        "valueInteger": "2"
+                     },
+                     {
+                        "url": "code",
+                        "valueCode": "d"
+                     }
+                  ],
+                  "url": "http://hl7.no/fhir/StructureDefinition/timing-interval"
+               }
+            ],
+            "repeat": {
+               "extension": [
+                  {
+                     "url": "http://hl7.no/fhir/StructureDefinition/timeperiod",
+                     "valueCode": "1"
+                  }
+               ]
+            }
+         },
+         "quantityQuantity": {
+            "unit": "1",
+            "system": "http://hl7.no/fhir/ValueSet/enhet-for-dosering",
+            "code": "tablett"
+         }
+      }
+   ]
+}
