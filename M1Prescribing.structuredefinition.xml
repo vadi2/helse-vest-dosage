@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-01-30T11:01:21.827+01:00" />
+    <lastUpdated value="2017-01-30T12:01:34.085+01:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/m1-prescribing" />
   <name value="M1 Prescribing" />
@@ -205,6 +205,15 @@
       <type>
         <code value="Ratio" />
       </type>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.rateRatio.numerator" />
+      <binding>
+        <strength value="required" />
+        <valueSetReference>
+          <reference value="https://simplifier.net/api/fhir/ValueSet/7a86c026-005b-489c-86d5-c68dcf7c08c9" />
+        </valueSetReference>
+      </binding>
     </element>
     <element>
       <path value="MedicationStatement.dosage.rateRatio.denominator" />
