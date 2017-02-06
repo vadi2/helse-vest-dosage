@@ -1,4 +1,4 @@
-{ 
+{
   "resourceType": "ValueSet",
   "url": "http://hl7.no/fhir/ValueSet/benevning-tidsenhet",
   "name": "Benevning tidsenhet",

@@ -6,7 +6,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://snomed.info/sct",
+        "system": "urn:oid:2.16.578.1.12.4.1.1",
         "concept": [
           {
             "code": "1",
