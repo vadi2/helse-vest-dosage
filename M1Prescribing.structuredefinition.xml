@@ -2,8 +2,12 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-01T15:30:58.502+01:00" />
+    <lastUpdated value="2017-02-17T09:20:57.961+01:00" />
   </meta>
+  <text>
+    <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
+  <p>A profile on MedicationStatement describing a prescription as defined by Forskrivning in the eResept M1 Norwegian project.</p>
+</div></text>
   <url value="http://hl7.no/fhir/StructureDefinition/m1-prescribing" />
   <name value="M1 Prescribing" />
   <status value="draft" />
@@ -29,8 +33,8 @@
     </element>
     <element>
       <path value="MedicationStatement.effectivePeriod.start" />
-      <name value="Starttidspunkt" />
       <definition value="Time when the dosage starts." />
+      <alias value="Starttidspunkt" />
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Dosering.Starttidspunkt" />
@@ -38,8 +42,8 @@
     </element>
     <element>
       <path value="MedicationStatement.effectivePeriod.end" />
-      <name value="Sluttidspunkt" />
       <definition value="Time when the dosage ends." />
+      <alias value="Sluttidspunkt" />
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Dosering.Sluttidspunkt" />
@@ -54,8 +58,9 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.extension" />
-      <name value="calculationBasis, DoseresEtter" />
       <definition value="To specify what forms the basis for calculating the dose (weight, age, body surface, other)." />
+      <alias value="calculationBasis" />
+      <alias value="DoseresEtter" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -68,8 +73,9 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.extension" />
-      <name value="calculationBasisNote, Merknad" />
       <definition value="Comment, other relevant information about dosage." />
+      <alias value="calculationBasisNote" />
+      <alias value="Merknad" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -82,8 +88,9 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.extension" />
-      <name value="daysAdministeredAmount, DagerPa" />
       <definition value="Number of days a drug is to be used." />
+      <alias value="daysAdministeredAmount" />
+      <alias value="DagerPa" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/days-administered-amount" />
@@ -91,8 +98,9 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.extension" />
-      <name value="daysNotAdministeredAmount, DagerAv" />
       <definition value="Number of days a drug is NOT to be used. This element is always in combination with DagerPa." />
+      <alias value="daysNotAdministeredAmount" />
+      <alias value="DagerAv" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/days-not-administered-amount" />
@@ -107,8 +115,9 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.timing.extension" />
-      <name value="administerAtSpecificTime, GisEksakt" />
       <definition value="Medication must be given/taken at exact times." />
+      <alias value="administerAtSpecificTime" />
+      <alias value="GisEksakt" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/timing-exact" />
@@ -120,8 +129,10 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.timing.extension" />
-      <name value="administrationInterval, Intervall" />
+      <name value="extension" />
       <definition value="Number of units of time that must pass between each time the drug is given/taken." />
+      <alias value="administrationInterval" />
+      <alias value="Intervall" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/timing-interval" />
@@ -147,8 +158,9 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.timing.repeat.extension" />
-      <name value="specificTime, Klokkeslett" />
       <definition value="Exact time of day medication must be taken at." />
+      <alias value="specificTime" />
+      <alias value="Klokkeslett" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/time-of-day" />
@@ -160,9 +172,10 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.timing.repeat.extension" />
-      <name value="timePeriod, Tidsomrade" />
       <definition value="Time period of the day the drug should be taken at (ex.: morning, noon, afternoon, etc)." />
       <comments value="Timing.repeat.when is not used as the binding is of strength &quot;required&quot; and is semantically incompatible with OID 8325 from volven.no" />
+      <alias value="timePeriod" />
+      <alias value="Tidsomrade" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/timeperiod" />
@@ -174,7 +187,8 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.timing.repeat.extension" />
-      <name value="whichWeekdays, FasteUkedager" />
+      <alias value="whichWeekdays" />
+      <alias value="FasteUkedager" />
       <type>
         <code value="Extension" />
         <profile value="https://simplifier.net/Nictiz/days-of-week" />
@@ -220,8 +234,8 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.rateRatio.denominator" />
-      <name value="Tidsenhet" />
       <definition value="Time unit." />
+      <alias value="Tidsenhet" />
       <binding>
         <strength value="required" />
         <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet." />
