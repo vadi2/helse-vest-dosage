@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="short-dosage-text" />
+  <meta>
+    <lastUpdated value="2017-02-20T15:03:51.978+01:00" />
+  </meta>
+  <url value="http://hl7.no/fhir/StructureDefinition/short-dosage-text" />
+  <name value="Short dosage text" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="HL7 Norge" />
+  <date value="2017-02-20T14:49:15.6665934+01:00" />
+  <requirements value="The need to record shorter text than what would go into the MedicationStatement.dosage.text normally." />
+  <kind value="datatype" />
+  <constrainedType value="Extension" />
+  <abstract value="false" />
+  <contextType value="resource" />
+  <context value="MedicationStatement.dosage" />
+  <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <differential>
+    <element>
+      <path value="Extension" />
+    </element>
+    <element>
+      <path value="Extension.url" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/short-dosage-text" />
+    </element>
+    <element>
+      <path value="Extension.valueString" />
+      <type>
+        <code value="string" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
