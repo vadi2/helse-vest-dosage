@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="drug-use-type" />
+  <meta>
+    <lastUpdated value="2017-02-20T19:21:06.033+01:00" />
+  </meta>
+  <url value="http://hl7.no/fhir/StructureDefinition/drug-use-type" />
+  <name value="Drug use type" />
+  <status value="draft" />
+  <experimental value="false" />
+  <publisher value="HL7 Norge" />
+  <date value="2017-02-20T00:00:00" />
+  <kind value="datatype" />
+  <constrainedType value="Extension" />
+  <abstract value="false" />
+  <contextType value="resource" />
+  <context value="MedicationStatement.dosage" />
+  <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <differential>
+    <element>
+      <path value="Extension" />
+    </element>
+    <element>
+      <path value="Extension.url" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/drug-use-type" />
+    </element>
+    <element>
+      <path value="Extension.valueCode" />
+      <short value="Drug use type" />
+      <type>
+        <code value="code" />
+      </type>
+      <binding>
+        <strength value="preferred" />
+        <valueSetReference>
+          <reference value="https://simplifier.net/api/fhir/ValueSet/f552702d-e769-4c4b-9fa5-0512c9ffe66b" />
+        </valueSetReference>
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>
