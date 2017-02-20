@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-20T11:07:30.504+01:00" />
+    <lastUpdated value="2017-02-20T15:39:56.568+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -34,6 +34,7 @@
     </element>
     <element>
       <path value="MedicationStatement.extension" />
+      <name value="MyExtension" />
       <definition value="Dato for forskrivning." />
       <alias value="authoredOn" />
       <min value="1" />
@@ -57,11 +58,8 @@
     <element>
       <path value="MedicationStatement.status.modifierExtension" />
       <name value="prescriptionStatus" />
-      <short value="Base for all elements" />
-      <definition value="Optional Extensions Element - found in all resources." />
       <comments value="Receiving systems should prioritise prescririptionStatus over status if it's present.&#xD;&#xA;&#xD;&#xA;When the prescrtiptionStatus is set to 'on-hold', MedicationStatement.status should be set to 'intended'." />
       <requirements value="The need to set the status on a MedicationStatement to 'paused' when the resource is used as a prescription of medication." />
-      <min value="0" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -69,13 +67,28 @@
       </type>
       <meaningWhenMissing value="Code needed is available in MedicationStatement.status and the extended code was not required." />
       <mustSupport value="true" />
-      <isModifier value="true" />
+    </element>
+    <element>
+      <path value="MedicationStatement.status.modifierExtension.value[x]" />
       <binding>
         <strength value="required" />
         <valueSetReference>
           <reference value="http://hl7.org/fhir/medication-order-status" />
         </valueSetReference>
       </binding>
+    </element>
+    <element>
+      <path value="MedicationStatement.reasonForUse[x]" />
+      <binding>
+        <strength value="required" />
+        <valueSetReference>
+          <reference value="https://simplifier.net/api/fhir/ValueSet/c877187c-f362-4425-827b-db2192001969" />
+        </valueSetReference>
+      </binding>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Bruksomrade" />
+      </mapping>
     </element>
     <element>
       <path value="MedicationStatement.effectivePeriod" />
@@ -102,6 +115,31 @@
       </mapping>
     </element>
     <element>
+      <path value="MedicationStatement.note" />
+      <short value="Important information about the usage of the medication." />
+      <definition value="Important information about the usage of the medication." />
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Resept.EkspAnm.Merknad" />
+      </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.medicationReference" />
+      <type>
+        <code value="Reference" />
+        <profile value="https://simplifier.net/api/fhir/StructureDefinition/aebd4436-a488-4aab-ba1f-372ec300abbb" />
+      </type>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage" />
+      <constraint>
+        <key value="m1prescribing-1" />
+        <severity value="error" />
+        <human value="Dosage must include a freetext if no structured dosage is used" />
+        <xpath value="not(exists(f:text)) or not(exists(f:timing))" />
+      </constraint>
+    </element>
+    <element>
       <path value="MedicationStatement.dosage.extension" />
       <slicing>
         <discriminator value="url" />
@@ -121,7 +159,7 @@
       </type>
       <mapping>
         <identity value="norway-m1-resept" />
-        <map value="Doseringsregel.DoseresEtter" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.Doseringsregel.DoseresEtter" />
       </mapping>
     </element>
     <element>
@@ -161,6 +199,25 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/days-not-administered-amount" />
       </type>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.extension" />
+      <name value="MyExtension" />
+      <short value="Base for all elements" />
+      <definition value="Optional Extensions Element - found in all resources." />
+      <alias value="shortDosageText" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/short-dosage-text" />
+      </type>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.text" />
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.Doseringsregel.Merknad" />
+      </mapping>
     </element>
     <element>
       <path value="MedicationStatement.dosage.timing.extension" />
@@ -260,6 +317,26 @@
           <reference value="http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.9.5.4--2015-04-01T00:00:00" />
         </valueSetReference>
       </binding>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.route" />
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.typeLegemiddel.AdministreringLegemiddel.Administrasjonsvei" />
+      </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.route.coding" />
+      <binding>
+        <strength value="required" />
+        <valueSetReference>
+          <reference value="https://simplifier.net/api/fhir/ValueSet/7ab290d7-7e42-4ec2-a693-75440b0ea038" />
+        </valueSetReference>
+      </binding>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.route.text" />
+      <max value="0" />
     </element>
     <element>
       <path value="MedicationStatement.dosage.quantityQuantity" />
