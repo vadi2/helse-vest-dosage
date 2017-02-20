@@ -1,0 +1,302 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://hl7.no/fhir/ValueSet/administrasjonsvei",
+  "name": "Administrasjonsvei",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1",
+        "concept": [
+          {
+            "code": "0",
+            "display": "Administrasjonsvei ikke relevant"
+          },
+          {
+            "code": "1",
+            "display": "Bakre juxtaskleral bruk"
+          },
+          {
+            "code": "2",
+            "display": "Bruk i bihuler"
+          },
+          {
+            "code": "3",
+            "display": "Bruk i brusk"
+          },
+          {
+            "code": "4",
+            "display": "Bruk i munnhulen"
+          },
+          {
+            "code": "5",
+            "display": "Bruk i prostata"
+          },
+          {
+            "code": "6",
+            "display": "Bruk i øret"
+          },
+          {
+            "code": "7",
+            "display": "Bruk inni skadet område"
+          },
+          {
+            "code": "8",
+            "display": "Bruk på hud"
+          },
+          {
+            "code": "9",
+            "display": "Bruk på skadet område"
+          },
+          {
+            "code": "10",
+            "display": "Bruk på tannkjøttet"
+          },
+          {
+            "code": "11",
+            "display": "Bruk til inhalasjon"
+          },
+          {
+            "code": "12",
+            "display": "Bukkal bruk"
+          },
+          {
+            "code": "13",
+            "display": "Dental bruk"
+          },
+          {
+            "code": "14",
+            "display": "Ekstraamnial bruk"
+          },
+          {
+            "code": "15",
+            "display": "Endocervikal bruk"
+          },
+          {
+            "code": "16",
+            "display": "Endotrakeopulmonal bruk"
+          },
+          {
+            "code": "17",
+            "display": "Epidural bruk"
+          },
+          {
+            "code": "18",
+            "display": "Gastrisk bruk"
+          },
+          {
+            "code": "19",
+            "display": "Gastroenteral bruk"
+          },
+          {
+            "code": "20",
+            "display": "Hemodialyse"
+          },
+          {
+            "code": "21",
+            "display": "Implantering"
+          },
+          {
+            "code": "22",
+            "display": "Intestinal bruk"
+          },
+          {
+            "code": "23",
+            "display": "Intrabursal bruk"
+          },
+          {
+            "code": "24",
+            "display": "Intracerebral bruk"
+          },
+          {
+            "code": "25",
+            "display": "Intracervikal bruk"
+          },
+          {
+            "code": "26",
+            "display": "Intradermal bruk"
+          },
+          {
+            "code": "27",
+            "display": "Intradiskal bruk"
+          },
+          {
+            "code": "28",
+            "display": "Intraepidermal bruk"
+          },
+          {
+            "code": "29",
+            "display": "Intrakardial bruk"
+          },
+          {
+            "code": "30",
+            "display": "Intrakavernøs bruk"
+          },
+          {
+            "code": "31",
+            "display": "Intrakoronar bruk"
+          },
+          {
+            "code": "32",
+            "display": "Intralymfatisk bruk"
+          },
+          {
+            "code": "33",
+            "display": "Intramuskulær bruk"
+          },
+          {
+            "code": "34",
+            "display": "Intraokulær bruk"
+          },
+          {
+            "code": "35",
+            "display": "Intraossøs bruk"
+          },
+          {
+            "code": "36",
+            "display": "Intraperikardial bruk"
+          },
+          {
+            "code": "37",
+            "display": "Intraperitoneal bruk"
+          },
+          {
+            "code": "38",
+            "display": "Intrapleural bruk"
+          },
+          {
+            "code": "39",
+            "display": "Intrasternal bruk"
+          },
+          {
+            "code": "40",
+            "display": "Intratekal bruk"
+          },
+          {
+            "code": "41",
+            "display": "Intratumoral bruk"
+          },
+          {
+            "code": "42",
+            "display": "Intrauterin bruk"
+          },
+          {
+            "code": "43",
+            "display": "Intravenøs bruk"
+          },
+          {
+            "code": "44",
+            "display": "Intravesikal bruk"
+          },
+          {
+            "code": "45",
+            "display": "Intravitreal bruk"
+          },
+          {
+            "code": "46",
+            "display": "Intraamnial bruk"
+          },
+          {
+            "code": "47",
+            "display": "Intraarteriell bruk"
+          },
+          {
+            "code": "48",
+            "display": "Intraartikulær bruk"
+          },
+          {
+            "code": "49",
+            "display": "Iontoforese"
+          },
+          {
+            "code": "50",
+            "display": "Laryngofaryngeal bruk"
+          },
+          {
+            "code": "51",
+            "display": "Nasal bruk"
+          },
+          {
+            "code": "52",
+            "display": "Okulær bruk"
+          },
+          {
+            "code": "53",
+            "display": "Oral bruk"
+          },
+          {
+            "code": "54",
+            "display": "Orofaryngeal bruk"
+          },
+          {
+            "code": "55",
+            "display": "Periartikulær bruk"
+          },
+          {
+            "code": "56",
+            "display": "Perineural bruk"
+          },
+          {
+            "code": "57",
+            "display": "Periodontal bruk"
+          },
+          {
+            "code": "58",
+            "display": "Periossøs bruk"
+          },
+          {
+            "code": "59",
+            "display": "Rektal bruk"
+          },
+          {
+            "code": "60",
+            "display": "Skarifisering"
+          },
+          {
+            "code": "61",
+            "display": "Subkonjunktival bruk"
+          },
+          {
+            "code": "62",
+            "display": "Subkutan bruk"
+          },
+          {
+            "code": "63",
+            "display": "Sublingval bruk"
+          },
+          {
+            "code": "64",
+            "display": "Submukøs bruk"
+          },
+          {
+            "code": "65",
+            "display": "Transdermal bruk"
+          },
+          {
+            "code": "66",
+            "display": "Urethral bruk"
+          },
+          {
+            "code": "67",
+            "display": "Vaginal bruk"
+          },
+          {
+            "code": "69",
+            "display": "Intrakameral bruk"
+          }
+        ]
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Administrasjonsvei</h2><tt>http://hl7.no/fhir/ValueSet/administrasjonsvei</tt></div>"
+  },
+  "identifier": {
+    "value": "urn:oid:2.16.578.1.12.4.1.1.7477",
+    "system": "urn:ietf:rfc:3986"
+  },
+  "experimental": false,
+  "publisher": "HL7 Norge",
+  "date": "2017-02-20"
+}
