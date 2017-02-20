@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-20T19:22:14.793+01:00" />
+    <lastUpdated value="2017-02-20T20:00:38.982+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -227,6 +227,10 @@
           <reference value="https://simplifier.net/api/fhir/ValueSet/f552702d-e769-4c4b-9fa5-0512c9ffe66b" />
         </valueSetReference>
       </binding>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Resept.ReseptDokLegemiddel.Resept.Forskrivning.Bruk" />
+      </mapping>
     </element>
     <element>
       <path value="MedicationStatement.dosage.text" />
