@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-20T10:46:50.518+01:00" />
+    <lastUpdated value="2017-02-20T11:07:30.504+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -46,6 +46,36 @@
         <identity value="norway-m1-resept" />
         <map value="Resept.Forskrivningsdato" />
       </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.status.modifierExtension" />
+      <slicing>
+        <discriminator value="url" />
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element>
+      <path value="MedicationStatement.status.modifierExtension" />
+      <name value="prescriptionStatus" />
+      <short value="Base for all elements" />
+      <definition value="Optional Extensions Element - found in all resources." />
+      <comments value="Receiving systems should prioritise prescririptionStatus over status if it's present.&#xD;&#xA;&#xD;&#xA;When the prescrtiptionStatus is set to 'on-hold', MedicationStatement.status should be set to 'intended'." />
+      <requirements value="The need to set the status on a MedicationStatement to 'paused' when the resource is used as a prescription of medication." />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/prescription-status" />
+      </type>
+      <meaningWhenMissing value="Code needed is available in MedicationStatement.status and the extended code was not required." />
+      <mustSupport value="true" />
+      <isModifier value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSetReference>
+          <reference value="http://hl7.org/fhir/medication-order-status" />
+        </valueSetReference>
+      </binding>
     </element>
     <element>
       <path value="MedicationStatement.effectivePeriod" />
