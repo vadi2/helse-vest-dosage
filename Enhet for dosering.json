@@ -186,8 +186,8 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Enhet for dosering</h2><tt>http://hl7.no/fhir/ValueSet/enhet-for-dosering</tt><p>Enhet som skal inngå i doseringstekst som sendes i M1 og inngår på apotek-etiketten. Kodeverk til bruk i M30 fra versjon 2.4, og i M1</p></div>"
   },
   "identifier": {
-    "value": "oid:2.16.578.1.12.4.1.1.7480",
-    "system": "urn:oid:2.16.578.1.12.4.1.1"
+    "value": "urn:oid:2.16.578.1.12.4.1.1.7480",
+    "system": "urn:ietf:rfc:3986"
   },
   "publisher": "HL7 Norge",
   "experimental": false
