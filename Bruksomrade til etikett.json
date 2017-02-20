@@ -1,0 +1,1271 @@
+{
+  "resourceType": "ValueSet",
+  "url": "http://hl7.no/fhir/ValueSet/bruksomrade-til-etikett",
+  "name": "Bruksområde til etikett",
+  "status": "draft",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:oid:2.16.578.1.12.4.1.1",
+        "concept": [
+          {
+            "code": "3",
+            "display": "ALLERGIMEDISIN"
+          },
+          {
+            "code": "5",
+            "display": "ANTIMALARIAMIDDEL"
+          },
+          {
+            "code": "10",
+            "display": "APPETITTSTIMULERENDE"
+          },
+          {
+            "code": "15",
+            "display": "ASTMAMEDISIN"
+          },
+          {
+            "code": "20",
+            "display": "AVFØRENDE MIDDEL"
+          },
+          {
+            "code": "30",
+            "display": "BEROLIGENDE"
+          },
+          {
+            "code": "40",
+            "display": "BLODFORTYNNENDE"
+          },
+          {
+            "code": "50",
+            "display": "MOT HØYT BLODTRYKK"
+          },
+          {
+            "code": "60",
+            "display": "BLODTRYKKSMEDISIN"
+          },
+          {
+            "code": "70",
+            "display": "D-VITAMINTILSKUDD"
+          },
+          {
+            "code": "72",
+            "display": "ENZYMTILSKUDD"
+          },
+          {
+            "code": "75",
+            "display": "FEBERNEDSETTENDE"
+          },
+          {
+            "code": "76",
+            "display": "ØKER FORBRENNINGEN"
+          },
+          {
+            "code": "77",
+            "display": "FOLSYRETILSKUDD"
+          },
+          {
+            "code": "80",
+            "display": "FOR FORDØYELSEN"
+          },
+          {
+            "code": "81",
+            "display": "MOT ØSOFAGITT"
+          },
+          {
+            "code": "82",
+            "display": "MOT SURE OPPSTØT"
+          },
+          {
+            "code": "85",
+            "display": "FORDØYELSESENZYMER"
+          },
+          {
+            "code": "88",
+            "display": "FOREBYGGER ASTMA"
+          },
+          {
+            "code": "89",
+            "display": "FOREBYGGER ALLERGI"
+          },
+          {
+            "code": "90",
+            "display": "FOREBYGGER BLODPROPP"
+          },
+          {
+            "code": "91",
+            "display": "FOREBYGGER DIARÉ"
+          },
+          {
+            "code": "97",
+            "display": "FOREBYGGER MAGESÅR"
+          },
+          {
+            "code": "100",
+            "display": "FOREBYGGER MIGRENE"
+          },
+          {
+            "code": "105",
+            "display": "FOR NERVENE"
+          },
+          {
+            "code": "108",
+            "display": "FOR STOFFSKIFTET"
+          },
+          {
+            "code": "110",
+            "display": "HJERTEMEDISIN"
+          },
+          {
+            "code": "120",
+            "display": "HORMONTILSKUDD"
+          },
+          {
+            "code": "130",
+            "display": "HOSTESTILLENDE"
+          },
+          {
+            "code": "135",
+            "display": "INNFØRES I SKJEDEN"
+          },
+          {
+            "code": "140",
+            "display": "INNSOVNINGSMIDDEL"
+          },
+          {
+            "code": "150",
+            "display": "JERNTABLETTER"
+          },
+          {
+            "code": "160",
+            "display": "KALIUMTILSKUDD"
+          },
+          {
+            "code": "163",
+            "display": "KALKTILSKUDD"
+          },
+          {
+            "code": "165",
+            "display": "KALSIUMREGULERENDE"
+          },
+          {
+            "code": "168",
+            "display": "LETTER DIEGIVNING"
+          },
+          {
+            "code": "169",
+            "display": "LETTER PUMPING"
+          },
+          {
+            "code": "170",
+            "display": "KARIESFOREBYGGENDE"
+          },
+          {
+            "code": "174",
+            "display": "LEGEMIDDEL TIL DYR"
+          },
+          {
+            "code": "175",
+            "display": "KLØESTILLENDE"
+          },
+          {
+            "code": "176",
+            "display": "KOLESTEROLSENKENDE"
+          },
+          {
+            "code": "177",
+            "display": "MINIPILLER"
+          },
+          {
+            "code": "178",
+            "display": "LOKALBEDØVENDE"
+          },
+          {
+            "code": "179",
+            "display": "MINSKER URINMENGDEN"
+          },
+          {
+            "code": "180",
+            "display": "MOT AKNE"
+          },
+          {
+            "code": "181",
+            "display": "MINERALTILSKUDD"
+          },
+          {
+            "code": "190",
+            "display": "MOT ALLERGI"
+          },
+          {
+            "code": "191",
+            "display": "MOT ALLERGISK SJOKK"
+          },
+          {
+            "code": "195",
+            "display": "MOT ALLERGISK EKSEM"
+          },
+          {
+            "code": "197",
+            "display": "MOT ALS"
+          },
+          {
+            "code": "198",
+            "display": "MOT ALZHEIMERS SYKDOM"
+          },
+          {
+            "code": "199",
+            "display": "MOT ANEMI"
+          },
+          {
+            "code": "200",
+            "display": "MOT ANFALL"
+          },
+          {
+            "code": "205",
+            "display": "MOT HJERTEKRAMPE"
+          },
+          {
+            "code": "210",
+            "display": "MOT ANGST OG URO"
+          },
+          {
+            "code": "220",
+            "display": "MOT ANSIKTSSMERTER"
+          },
+          {
+            "code": "225",
+            "display": "MOT ARYTMI"
+          },
+          {
+            "code": "230",
+            "display": "MOT ASTMA"
+          },
+          {
+            "code": "231",
+            "display": "MOT ASTMABRONKITT"
+          },
+          {
+            "code": "232",
+            "display": "MOT BARNEMARK"
+          },
+          {
+            "code": "234",
+            "display": "MOT BEKHTEREV"
+          },
+          {
+            "code": "235",
+            "display": "MOT BENSKJØRHET"
+          },
+          {
+            "code": "240",
+            "display": "MOT BETENNELSE"
+          },
+          {
+            "code": "260",
+            "display": "MOT BIHULEBETENNELSE"
+          },
+          {
+            "code": "265",
+            "display": "MOT BINDEVEVSSYKDOM"
+          },
+          {
+            "code": "270",
+            "display": "MOT BLODPROPP"
+          },
+          {
+            "code": "280",
+            "display": "MOT BLÆREKATARR"
+          },
+          {
+            "code": "290",
+            "display": "MOT BLØDNING"
+          },
+          {
+            "code": "310",
+            "display": "MOT BRONKITT"
+          },
+          {
+            "code": "320",
+            "display": "MOT BRYSTSMERTER"
+          },
+          {
+            "code": "325",
+            "display": "MOT BULIMI"
+          },
+          {
+            "code": "327",
+            "display": "MOT CHLAMYDIA"
+          },
+          {
+            "code": "328",
+            "display": "MOT DEMENS"
+          },
+          {
+            "code": "330",
+            "display": "MOT DEPRESJON"
+          },
+          {
+            "code": "335",
+            "display": "MOT DIABETES"
+          },
+          {
+            "code": "340",
+            "display": "MOT DIARÉ"
+          },
+          {
+            "code": "345",
+            "display": "MOT DUODENALSÅR"
+          },
+          {
+            "code": "350",
+            "display": "MOT EKSEM"
+          },
+          {
+            "code": "370",
+            "display": "MOT EPILEPSI"
+          },
+          {
+            "code": "371",
+            "display": "MOT EREKSJONSSVIKT"
+          },
+          {
+            "code": "380",
+            "display": "MOT FEBERKRAMPER"
+          },
+          {
+            "code": "385",
+            "display": "MOT FLASS OG KLØE"
+          },
+          {
+            "code": "390",
+            "display": "MOT FLATLUS"
+          },
+          {
+            "code": "400",
+            "display": "MOT FOR MYE MAGESYRE"
+          },
+          {
+            "code": "410",
+            "display": "MOT FORKJØLELSESSÅR"
+          },
+          {
+            "code": "412",
+            "display": "MOT FORSTOPPELSE"
+          },
+          {
+            "code": "415",
+            "display": "MOT FOTSOPP"
+          },
+          {
+            "code": "420",
+            "display": "MOT GIKT"
+          },
+          {
+            "code": "425",
+            "display": "MOT GONORE"
+          },
+          {
+            "code": "430",
+            "display": "MOT GRØNN STÆR"
+          },
+          {
+            "code": "440",
+            "display": "MOT HALSBETENNELSE"
+          },
+          {
+            "code": "450",
+            "display": "MOT HELVETESILD"
+          },
+          {
+            "code": "460",
+            "display": "MOT HEMORROIDER"
+          },
+          {
+            "code": "470",
+            "display": "MOT HERPES"
+          },
+          {
+            "code": "471",
+            "display": "MOT HERPES ZOSTER"
+          },
+          {
+            "code": "472",
+            "display": "MOT HERPES SIMPLEX"
+          },
+          {
+            "code": "476",
+            "display": "MOT HERPESMUNNSÅR"
+          },
+          {
+            "code": "477",
+            "display": "MOT HERPESSÅR"
+          },
+          {
+            "code": "480",
+            "display": "MOT HETETOKTER"
+          },
+          {
+            "code": "490",
+            "display": "MOT HIKKE"
+          },
+          {
+            "code": "494",
+            "display": "MOT HJERTEFLIMMER"
+          },
+          {
+            "code": "495",
+            "display": "MOT HJERTESVIKT"
+          },
+          {
+            "code": "500",
+            "display": "MOT HOSTE"
+          },
+          {
+            "code": "503",
+            "display": "MOT HUDINFEKSJON"
+          },
+          {
+            "code": "505",
+            "display": "MOT HUDSOPP"
+          },
+          {
+            "code": "510",
+            "display": "MOT HULL I TENNENE"
+          },
+          {
+            "code": "515",
+            "display": "MOT HYPERAKTIVITET"
+          },
+          {
+            "code": "520",
+            "display": "MOT HØYSNUE"
+          },
+          {
+            "code": "530",
+            "display": "MOT INFEKSJON"
+          },
+          {
+            "code": "540",
+            "display": "MOT BETENT EKSEM"
+          },
+          {
+            "code": "545",
+            "display": "MOT INKONTINENS"
+          },
+          {
+            "code": "550",
+            "display": "MOT KLØE"
+          },
+          {
+            "code": "555",
+            "display": "MOT KONDYLOMER"
+          },
+          {
+            "code": "556",
+            "display": "MOT KRAMPER"
+          },
+          {
+            "code": "560",
+            "display": "MOT KVALME"
+          },
+          {
+            "code": "570",
+            "display": "MOT KVISER"
+          },
+          {
+            "code": "575",
+            "display": "MOT LAVT STOFFSKIFTE"
+          },
+          {
+            "code": "578",
+            "display": "MOT LEDDGIKT"
+          },
+          {
+            "code": "579",
+            "display": "MOT LEDDSMERTER"
+          },
+          {
+            "code": "580",
+            "display": "MOT LEGGSÅR"
+          },
+          {
+            "code": "581",
+            "display": "MOT LEGGSMERTER"
+          },
+          {
+            "code": "585",
+            "display": "MOT LUFTVEISINFEKSJON"
+          },
+          {
+            "code": "588",
+            "display": "MOT MAGEPLAGER"
+          },
+          {
+            "code": "590",
+            "display": "MOT MAGESÅR"
+          },
+          {
+            "code": "591",
+            "display": "MOT MALARIA"
+          },
+          {
+            "code": "600",
+            "display": "MOT MENSSMERTER"
+          },
+          {
+            "code": "610",
+            "display": "MOT MIGRENE"
+          },
+          {
+            "code": "611",
+            "display": "MOT MS"
+          },
+          {
+            "code": "615",
+            "display": "MOT MUSKELKRAMPER"
+          },
+          {
+            "code": "620",
+            "display": "MOT MUSKELSMERTER"
+          },
+          {
+            "code": "623",
+            "display": "MOT NARKOLEPSI"
+          },
+          {
+            "code": "625",
+            "display": "MOT NEGLESOPP"
+          },
+          {
+            "code": "630",
+            "display": "MOT NERVESMERTER"
+          },
+          {
+            "code": "635",
+            "display": "MOT NESETETTHET"
+          },
+          {
+            "code": "636",
+            "display": "MOT NYRESTENSMERTER"
+          },
+          {
+            "code": "637",
+            "display": "MOT PANIKK"
+          },
+          {
+            "code": "638",
+            "display": "MOT PANIKKANGST"
+          },
+          {
+            "code": "639",
+            "display": "MOT OVERGANGSPLAGER"
+          },
+          {
+            "code": "640",
+            "display": "MOT PARKINSONISME"
+          },
+          {
+            "code": "641",
+            "display": "MOT PARKINSONS SYKDOM"
+          },
+          {
+            "code": "645",
+            "display": "MOT PERIODONTITT"
+          },
+          {
+            "code": "650",
+            "display": "MOT PODAGRA"
+          },
+          {
+            "code": "651",
+            "display": "MOT POLYPPER"
+          },
+          {
+            "code": "655",
+            "display": "MOT PROSTATAPLAGER"
+          },
+          {
+            "code": "656",
+            "display": "MOT PSYKOSE"
+          },
+          {
+            "code": "657",
+            "display": "MOT SCHIZOFRENI"
+          },
+          {
+            "code": "660",
+            "display": "MOT PSORIASIS"
+          },
+          {
+            "code": "669",
+            "display": "MOT REFLUKSØSOFAGITT"
+          },
+          {
+            "code": "670",
+            "display": "MOT REISESYKE"
+          },
+          {
+            "code": "673",
+            "display": "MOT REUMATISME"
+          },
+          {
+            "code": "674",
+            "display": "MOT RIER"
+          },
+          {
+            "code": "675",
+            "display": "MOT RYGGSMERTER"
+          },
+          {
+            "code": "680",
+            "display": "MOT SEBORE OG FLASS"
+          },
+          {
+            "code": "690",
+            "display": "MOT SENGEVÆTING"
+          },
+          {
+            "code": "700",
+            "display": "MOT SKABB"
+          },
+          {
+            "code": "705",
+            "display": "MOT SKJEDEINFEKSJON"
+          },
+          {
+            "code": "710",
+            "display": "MOT SKJEDEKATARR"
+          },
+          {
+            "code": "720",
+            "display": "MOT SKJELVING"
+          },
+          {
+            "code": "730",
+            "display": "MOT SMERTER"
+          },
+          {
+            "code": "735",
+            "display": "MOT SMÅMARK"
+          },
+          {
+            "code": "740",
+            "display": "MOT SOPP"
+          },
+          {
+            "code": "745",
+            "display": "MOT SOPPINFEKSJON"
+          },
+          {
+            "code": "750",
+            "display": "MOT SOPP I SKJEDEN"
+          },
+          {
+            "code": "760",
+            "display": "MOT STERK HOSTE"
+          },
+          {
+            "code": "770",
+            "display": "MOT STERKE SMERTER"
+          },
+          {
+            "code": "780",
+            "display": "MOT STRUMA"
+          },
+          {
+            "code": "800",
+            "display": "MOT SVIMMELHET"
+          },
+          {
+            "code": "803",
+            "display": "MOT SÅRINFEKSJON"
+          },
+          {
+            "code": "805",
+            "display": "MOT TARMBETENNELSE"
+          },
+          {
+            "code": "810",
+            "display": "MOT TETT NESE"
+          },
+          {
+            "code": "812",
+            "display": "MOT TETTHET"
+          },
+          {
+            "code": "820",
+            "display": "MOT TUBERKULOSE"
+          },
+          {
+            "code": "821",
+            "display": "MOT TØRRHOSTE"
+          },
+          {
+            "code": "825",
+            "display": "MOT UREN HUD"
+          },
+          {
+            "code": "827",
+            "display": "MOT URININKONTINENS"
+          },
+          {
+            "code": "828",
+            "display": "MOT URINLEKKASJE"
+          },
+          {
+            "code": "829",
+            "display": "MOT HYPPIG VANNLATING"
+          },
+          {
+            "code": "830",
+            "display": "MOT URINSYREGIKT"
+          },
+          {
+            "code": "840",
+            "display": "MOT URINVEISINFEKSJON"
+          },
+          {
+            "code": "845",
+            "display": "MOT UTFLOD"
+          },
+          {
+            "code": "850",
+            "display": "MOT UTSLETT"
+          },
+          {
+            "code": "855",
+            "display": "MOT VORTER"
+          },
+          {
+            "code": "858",
+            "display": "MOT ØDEM"
+          },
+          {
+            "code": "860",
+            "display": "MOT ØREBETENNELSE"
+          },
+          {
+            "code": "865",
+            "display": "MOT ØYEBETENNELSE"
+          },
+          {
+            "code": "866",
+            "display": "MOT ØYEINFEKSJON"
+          },
+          {
+            "code": "867",
+            "display": "MOT ØREGANGSEKSEM"
+          },
+          {
+            "code": "870",
+            "display": "MOT ÅREBETENNELSE"
+          },
+          {
+            "code": "890",
+            "display": "MUNNSALVE"
+          },
+          {
+            "code": "900",
+            "display": "MUSKELAVSLAPPENDE"
+          },
+          {
+            "code": "905",
+            "display": "NERVEMEDISIN"
+          },
+          {
+            "code": "910",
+            "display": "NESEDRÅPER"
+          },
+          {
+            "code": "950",
+            "display": "NESEDRÅPER MOT SNUE"
+          },
+          {
+            "code": "960",
+            "display": "NESESPRAY"
+          },
+          {
+            "code": "969",
+            "display": "NESESPRAY VED MIGRENE"
+          },
+          {
+            "code": "970",
+            "display": "NESESPRAY MOT ALLERGI"
+          },
+          {
+            "code": "971",
+            "display": "PULVER TIL NESEN"
+          },
+          {
+            "code": "972",
+            "display": "TIL NESEN"
+          },
+          {
+            "code": "975",
+            "display": "NESESPRAY MOT HØYSNUE"
+          },
+          {
+            "code": "990",
+            "display": "NESESPRAY MOT SNUE"
+          },
+          {
+            "code": "1000",
+            "display": "ORMEMIDDEL"
+          },
+          {
+            "code": "1010",
+            "display": "P-PILLER"
+          },
+          {
+            "code": "1011",
+            "display": "P-PILLE TIL KATT"
+          },
+          {
+            "code": "1012",
+            "display": "PROGESTERONTILSKUDD"
+          },
+          {
+            "code": "1015",
+            "display": "REISEVAKSINE"
+          },
+          {
+            "code": "1016",
+            "display": "RIHEMMENDE MIDDEL"
+          },
+          {
+            "code": "1020",
+            "display": "PREVENSJONSMIDDEL"
+          },
+          {
+            "code": "1023",
+            "display": "PÅ BRANNSÅR"
+          },
+          {
+            "code": "1025",
+            "display": "PÅ KONDYLOMER"
+          },
+          {
+            "code": "1026",
+            "display": "PÅ VORTER"
+          },
+          {
+            "code": "1027",
+            "display": "PÅ UTSLETT"
+          },
+          {
+            "code": "1028",
+            "display": "REDUSERER BLØDNING"
+          },
+          {
+            "code": "1030",
+            "display": "SLIMHINNEAVSVELLENDE"
+          },
+          {
+            "code": "1040",
+            "display": "SLIMLØSENDE"
+          },
+          {
+            "code": "1050",
+            "display": "SENKER BLODLIPIDER"
+          },
+          {
+            "code": "1051",
+            "display": "SENKER TRIGLYCERIDER"
+          },
+          {
+            "code": "1060",
+            "display": "SMERTESTILLENDE"
+          },
+          {
+            "code": "1070",
+            "display": "SOVEMEDISIN"
+          },
+          {
+            "code": "1080",
+            "display": "SOVETABLETTER"
+          },
+          {
+            "code": "1085",
+            "display": "STERKT EKSEMMIDDEL"
+          },
+          {
+            "code": "1087",
+            "display": "STOFFSKIFTEMEDISIN"
+          },
+          {
+            "code": "1090",
+            "display": "SUGETABLETTER"
+          },
+          {
+            "code": "1100",
+            "display": "MOT INFLUENSA"
+          },
+          {
+            "code": "1101",
+            "display": "SÅRPUDDER"
+          },
+          {
+            "code": "1102",
+            "display": "SÅRSALVE"
+          },
+          {
+            "code": "1114",
+            "display": "TIL ALKOHOLAVVENNING"
+          },
+          {
+            "code": "1115",
+            "display": "TIL HODEBUNNEN"
+          },
+          {
+            "code": "1116",
+            "display": "TIL TARMTØMMING"
+          },
+          {
+            "code": "1120",
+            "display": "TIL INHALASJON"
+          },
+          {
+            "code": "1149",
+            "display": "TIL TARMTØMMIMG"
+          },
+          {
+            "code": "1150",
+            "display": "TIL KLINISK UTPRØVING"
+          },
+          {
+            "code": "1151",
+            "display": "TIL KATT"
+          },
+          {
+            "code": "1152",
+            "display": "TIL INJEKSJON"
+          },
+          {
+            "code": "1153",
+            "display": "TIL INSULINPUMPE"
+          },
+          {
+            "code": "1154",
+            "display": "TIL MENSFORSKYVNING"
+          },
+          {
+            "code": "1155",
+            "display": "TIL FJERNING AV NEGL"
+          },
+          {
+            "code": "1156",
+            "display": "TIL BRUK PÅ HUDEN"
+          },
+          {
+            "code": "1157",
+            "display": "TIL PARTNER"
+          },
+          {
+            "code": "1158",
+            "display": "TIL RØYKEAVVENNING"
+          },
+          {
+            "code": "1159",
+            "display": "TIL NEGL"
+          },
+          {
+            "code": "1160",
+            "display": "VANNDRIVENDE"
+          },
+          {
+            "code": "1161",
+            "display": "UTSETTER LØPETID"
+          },
+          {
+            "code": "1170",
+            "display": "VED ANFALL"
+          },
+          {
+            "code": "1172",
+            "display": "VED ASTMAANFALL"
+          },
+          {
+            "code": "1175",
+            "display": "MOT AUTOIMMUNITET"
+          },
+          {
+            "code": "1180",
+            "display": "MOT BINYRELIDELSE"
+          },
+          {
+            "code": "1181",
+            "display": "MOT BLØDNING"
+          },
+          {
+            "code": "1182",
+            "display": "MOT ENDOMETRIOSE"
+          },
+          {
+            "code": "1184",
+            "display": "MOT HODEPINE"
+          },
+          {
+            "code": "1185",
+            "display": "MOT HODEBUNNSEKSEM"
+          },
+          {
+            "code": "1186",
+            "display": "MOT HÅRAVFALL"
+          },
+          {
+            "code": "1188",
+            "display": "MOT KRAFTIG BLØDNING"
+          },
+          {
+            "code": "1190",
+            "display": "MOT LAVT BLODTRYKK"
+          },
+          {
+            "code": "1194",
+            "display": "VED MIGRENEANFALL"
+          },
+          {
+            "code": "1195",
+            "display": "MOT MIGRENE"
+          },
+          {
+            "code": "1196",
+            "display": "MOT RØYKESUG"
+          },
+          {
+            "code": "1197",
+            "display": "VED SØVNVANSKER"
+          },
+          {
+            "code": "1198",
+            "display": "VED TRANSPLANTASJON"
+          },
+          {
+            "code": "1199",
+            "display": "MOT STORE BLØDNINGER"
+          },
+          {
+            "code": "1200",
+            "display": "MOT TUNG PUST"
+          },
+          {
+            "code": "1210",
+            "display": "MOT TØRRHET I SKJEDEN"
+          },
+          {
+            "code": "1220",
+            "display": "MOT URO"
+          },
+          {
+            "code": "1225",
+            "display": "VED SMERTER"
+          },
+          {
+            "code": "1230",
+            "display": "ØREDRÅPER"
+          },
+          {
+            "code": "1250",
+            "display": "ØREDRÅPER MOT EKSEM"
+          },
+          {
+            "code": "1260",
+            "display": "ØYEDRÅPER"
+          },
+          {
+            "code": "1270",
+            "display": "ØYEDRÅPER MOT ALLERGI"
+          },
+          {
+            "code": "1290",
+            "display": "ØYEDRÅPER MOT HERPES"
+          },
+          {
+            "code": "1310",
+            "display": "ØYEDRÅPER MOT KATARR"
+          },
+          {
+            "code": "1312",
+            "display": "ØYEDRÅPER MOT KLØE"
+          },
+          {
+            "code": "1320",
+            "display": "ØYESALVE"
+          },
+          {
+            "code": "1340",
+            "display": "ØYESALVE MOT HERPES"
+          },
+          {
+            "code": "1360",
+            "display": "ØYESALVE MOT KATARR"
+          },
+          {
+            "code": "1362",
+            "display": "ØYESALVE MOT KLØE"
+          },
+          {
+            "code": "1363",
+            "display": "MOT ULCERØS KOLITT"
+          },
+          {
+            "code": "1364",
+            "display": "MOT B-VITAMINMANGEL"
+          },
+          {
+            "code": "1365",
+            "display": "MOT TØRRE ØYNE"
+          },
+          {
+            "code": "1366",
+            "display": "MOT LUNGEBETENNELSE"
+          },
+          {
+            "code": "1367",
+            "display": "TIL HUND"
+          },
+          {
+            "code": "1368",
+            "display": "TIL BRUK I MUNNEN"
+          },
+          {
+            "code": "1369",
+            "display": "MOT BLODLUS"
+          },
+          {
+            "code": "1370",
+            "display": "MOT RUNDORM"
+          },
+          {
+            "code": "1371",
+            "display": "TIL STORFE"
+          },
+          {
+            "code": "1372",
+            "display": "MOT HEPATITT C"
+          },
+          {
+            "code": "1374",
+            "display": "FOSFATBINDEMIDDEL"
+          },
+          {
+            "code": "1375",
+            "display": "MOT SLITASJEGIKT"
+          },
+          {
+            "code": "1376",
+            "display": "MOT ROSACEA"
+          },
+          {
+            "code": "1377",
+            "display": "MOT SPISERØRSSYKDOM"
+          },
+          {
+            "code": "1378",
+            "display": "HOSTEDEMPENDE"
+          },
+          {
+            "code": "1379",
+            "display": "HORMONPREPARAT"
+          },
+          {
+            "code": "1380",
+            "display": "MOT REUMATISK SYKDOM"
+          },
+          {
+            "code": "1381",
+            "display": "MOT HEPATITT B"
+          },
+          {
+            "code": "1382",
+            "display": "MOT KERATOSE"
+          },
+          {
+            "code": "1383",
+            "display": "DEMPER ABSTINENS"
+          },
+          {
+            "code": "1384",
+            "display": "MOT BRENNKOPPER"
+          },
+          {
+            "code": "1385",
+            "display": "SENKER BLODPLATENIVÅ"
+          },
+          {
+            "code": "1386",
+            "display": "TIL GRIS"
+          },
+          {
+            "code": "1387",
+            "display": "MOT RASTLØSE BEN"
+          },
+          {
+            "code": "1388",
+            "display": "VED RØYKEAVVENNING"
+          },
+          {
+            "code": "1389",
+            "display": "MOT LEGGKRAMPER"
+          },
+          {
+            "code": "1390",
+            "display": "MOT WILSONS SYKDOM"
+          },
+          {
+            "code": "1391",
+            "display": "NØDPREVENSJON"
+          },
+          {
+            "code": "1392",
+            "display": "TIL HEST"
+          },
+          {
+            "code": "1393",
+            "display": "MOT PSORIASISARTRITT"
+          },
+          {
+            "code": "1394",
+            "display": "TAMIFLU TIL SMÅ BARN"
+          },
+          {
+            "code": "1395",
+            "display": "MOT KOLS"
+          },
+          {
+            "code": "1396",
+            "display": "MOT PLAKKPSORIASIS"
+          },
+          {
+            "code": "1398",
+            "display": "MOT ATRIEFLIMMER"
+          },
+          {
+            "code": "1399",
+            "display": "MOT HØYT KOLESTEROL"
+          },
+          {
+            "code": "1400",
+            "display": "MOT TANNSMERTER"
+          },
+          {
+            "code": "1401",
+            "display": "MOT HÅNDEKSEM"
+          }
+        ]
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Bruksområde til etikett</h2><tt>http://hl7.no/fhir/ValueSet/bruksomrade-til-etikett</tt><p>Angir bruksområde for legemiddel. Det overføres til M1 og blir med på utskrift på apoteketikett. Brukes i FEST og Eresept.</p></div>"
+  },
+  "identifier": {
+    "value": "urn:oid:2.16.578.1.12.4.1.1.7488",
+    "system": "urn:ietf:rfc:3986"
+  },
+  "date": "2017-02-20",
+  "publisher": "HL7 Norge",
+  "experimental": false,
+  "description": "Angir bruksområde for legemiddel. Det overføres til M1 og blir med på utskrift på apoteketikett. Brukes i FEST og Eresept."
+}
