@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <meta>
+    <lastUpdated value="2017-02-20T13:31:21.885+01:00" />
+  </meta>
+  <url value="StructureDefinition/MyMedication" />
+  <name value="MyMedication" />
+  <status value="draft" />
+  <date value="2017-02-20T13:28:02.1831186+01:00" />
+  <kind value="resource" />
+  <constrainedType value="Medication" />
+  <abstract value="false" />
+  <base value="http://hl7.org/fhir/StructureDefinition/Medication" />
+  <differential>
+    <element>
+      <path value="Medication" />
+    </element>
+    <element>
+      <path value="Medication.code.coding" />
+      <min value="1" />
+    </element>
+    <element>
+      <path value="Medication.code.text" />
+      <min value="1" />
+    </element>
+    <element>
+      <path value="Medication.isBrand" />
+      <min value="1" />
+    </element>
+    <element>
+      <path value="Medication.product" />
+      <max value="0" />
+    </element>
+    <element>
+      <path value="Medication.package" />
+      <max value="0" />
+    </element>
+  </differential>
+</StructureDefinition>
