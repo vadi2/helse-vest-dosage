@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-17T09:20:57.961+01:00" />
+    <lastUpdated value="2017-02-20T10:46:50.518+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -24,6 +24,28 @@
       <path value="MedicationStatement" />
       <short value="M1 Prescribing profile." />
       <definition value="A prescription as defined by Forskrivning in the eResept M1 Norwegian project." />
+    </element>
+    <element>
+      <path value="MedicationStatement.extension" />
+      <slicing>
+        <discriminator value="url" />
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element>
+      <path value="MedicationStatement.extension" />
+      <definition value="Dato for forskrivning." />
+      <alias value="authoredOn" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://nictiz.nl/fhir/StructureDefinition/mp9-authored-on" />
+      </type>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Resept.Forskrivningsdato" />
+      </mapping>
     </element>
     <element>
       <path value="MedicationStatement.effectivePeriod" />
@@ -58,6 +80,7 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.extension" />
+      <name value="MyExtension" />
       <definition value="To specify what forms the basis for calculating the dose (weight, age, body surface, other)." />
       <alias value="calculationBasis" />
       <alias value="DoseresEtter" />
@@ -73,6 +96,7 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.extension" />
+      <name value="MyExtension" />
       <definition value="Comment, other relevant information about dosage." />
       <alias value="calculationBasisNote" />
       <alias value="Merknad" />
@@ -88,6 +112,7 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.extension" />
+      <name value="MyExtension" />
       <definition value="Number of days a drug is to be used." />
       <alias value="daysAdministeredAmount" />
       <alias value="DagerPa" />
@@ -98,6 +123,7 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.extension" />
+      <name value="MyExtension" />
       <definition value="Number of days a drug is NOT to be used. This element is always in combination with DagerPa." />
       <alias value="daysNotAdministeredAmount" />
       <alias value="DagerAv" />
@@ -115,6 +141,7 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.timing.extension" />
+      <name value="MyExtension" />
       <definition value="Medication must be given/taken at exact times." />
       <alias value="administerAtSpecificTime" />
       <alias value="GisEksakt" />
@@ -158,6 +185,7 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.timing.repeat.extension" />
+      <name value="MyExtension" />
       <definition value="Exact time of day medication must be taken at." />
       <alias value="specificTime" />
       <alias value="Klokkeslett" />
@@ -172,6 +200,7 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.timing.repeat.extension" />
+      <name value="MyExtension" />
       <definition value="Time period of the day the drug should be taken at (ex.: morning, noon, afternoon, etc)." />
       <comments value="Timing.repeat.when is not used as the binding is of strength &quot;required&quot; and is semantically incompatible with OID 8325 from volven.no" />
       <alias value="timePeriod" />
@@ -187,6 +216,7 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.timing.repeat.extension" />
+      <name value="MyExtension" />
       <alias value="whichWeekdays" />
       <alias value="FasteUkedager" />
       <type>
