@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-20T15:39:56.568+01:00" />
+    <lastUpdated value="2017-02-20T19:22:14.793+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -203,14 +203,30 @@
     <element>
       <path value="MedicationStatement.dosage.extension" />
       <name value="MyExtension" />
-      <short value="Base for all elements" />
-      <definition value="Optional Extensions Element - found in all resources." />
       <alias value="shortDosageText" />
       <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/short-dosage-text" />
       </type>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.extension" />
+      <name value="MyExtension" />
+      <short value="Base for all elements" />
+      <definition value="Optional Extensions Element - found in all resources." />
+      <alias value="drugUseType" />
+      <min value="0" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/drug-use-type" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSetReference>
+          <reference value="https://simplifier.net/api/fhir/ValueSet/f552702d-e769-4c4b-9fa5-0512c9ffe66b" />
+        </valueSetReference>
+      </binding>
     </element>
     <element>
       <path value="MedicationStatement.dosage.text" />
@@ -354,30 +370,28 @@
       </binding>
     </element>
     <element>
-      <path value="MedicationStatement.dosage.rateRatio" />
+      <path value="MedicationStatement.dosage.rateRange" />
       <type>
-        <code value="Ratio" />
+        <code value="Range" />
       </type>
     </element>
     <element>
-      <path value="MedicationStatement.dosage.rateRatio.numerator" />
+      <path value="MedicationStatement.dosage.rateRange.low" />
+      <name value="SimpleQuantity" />
       <binding>
         <strength value="required" />
-        <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST" />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/7a86c026-005b-489c-86d5-c68dcf7c08c9" />
         </valueSetReference>
       </binding>
     </element>
     <element>
-      <path value="MedicationStatement.dosage.rateRatio.denominator" />
-      <definition value="Time unit." />
-      <alias value="Tidsenhet" />
+      <path value="MedicationStatement.dosage.rateRange.high" />
+      <name value="SimpleQuantity" />
       <binding>
         <strength value="required" />
-        <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet." />
         <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/91336a25-1f89-4f12-a185-08a6d06a1af5" />
+          <reference value="https://simplifier.net/api/fhir/ValueSet/7a86c026-005b-489c-86d5-c68dcf7c08c9" />
         </valueSetReference>
       </binding>
     </element>
