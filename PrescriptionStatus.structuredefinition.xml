@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="prescription-status" />
+  <meta>
+    <lastUpdated value="2017-02-20T10:48:16.848+01:00" />
+  </meta>
+  <text>
+    <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
+  <p>An extension that specifies extra code for use in the status of a MedicationStatement</p>
+</div></text>
+  <url value="http://hl7.no/fhir/StructureDefinition/prescription-status" />
+  <name value="Prescription status" />
+  <status value="draft" />
+  <publisher value="HL7 Norge" />
+  <date value="2017-02-20T10:21:05.3163195+01:00" />
+  <description value="Specifies the prescription status (active, paused, etc.)" />
+  <requirements value="The need to set a paused status on a MedicationStatement when the resource is used as a prescription of medication." />
+  <kind value="datatype" />
+  <constrainedType value="Extension" />
+  <abstract value="false" />
+  <contextType value="resource" />
+  <context value="MedicationStatement" />
+  <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <differential>
+    <element>
+      <path value="Extension" />
+    </element>
+    <element>
+      <path value="Extension.url" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/prescription-status" />
+    </element>
+    <element>
+      <path value="Extension.valueCode" />
+      <type>
+        <code value="code" />
+      </type>
+      <binding>
+        <strength value="required" />
+        <valueSetReference>
+          <reference value="http://hl7.org/fhir/medication-order-status" />
+        </valueSetReference>
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>
