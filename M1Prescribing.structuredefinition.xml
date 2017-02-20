@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-20T20:00:38.982+01:00" />
+    <lastUpdated value="2017-02-20T20:05:21.682+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -211,28 +211,6 @@
       </type>
     </element>
     <element>
-      <path value="MedicationStatement.dosage.extension" />
-      <name value="MyExtension" />
-      <short value="Base for all elements" />
-      <definition value="Optional Extensions Element - found in all resources." />
-      <alias value="drugUseType" />
-      <min value="0" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/drug-use-type" />
-      </type>
-      <binding>
-        <strength value="required" />
-        <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/f552702d-e769-4c4b-9fa5-0512c9ffe66b" />
-        </valueSetReference>
-      </binding>
-      <mapping>
-        <identity value="norway-m1-resept" />
-        <map value="Resept.ReseptDokLegemiddel.Resept.Forskrivning.Bruk" />
-      </mapping>
-    </element>
-    <element>
       <path value="MedicationStatement.dosage.text" />
       <mapping>
         <identity value="norway-m1-resept" />
@@ -337,6 +315,33 @@
           <reference value="http://decor.nictiz.nl/fhir/ValueSet/2.16.840.1.113883.2.4.3.11.60.40.2.9.5.4--2015-04-01T00:00:00" />
         </valueSetReference>
       </binding>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.asNeededCodeableConcept" />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Resept.ReseptDokLegemiddel.Resept.Forskrivning.Bruk" />
+      </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.asNeededCodeableConcept.coding" />
+      <binding>
+        <strength value="required" />
+        <valueSetReference>
+          <reference value="https://simplifier.net/api/fhir/ValueSet/f552702d-e769-4c4b-9fa5-0512c9ffe66b" />
+        </valueSetReference>
+      </binding>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Resept.ReseptDokLegemiddel.Resept.Forskrivning.Bruk" />
+      </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.asNeededCodeableConcept.text" />
+      <max value="0" />
     </element>
     <element>
       <path value="MedicationStatement.dosage.route" />
