@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-21T10:21:29.576+01:00" />
+    <lastUpdated value="2017-02-21T11:03:08.132+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -47,6 +47,17 @@
         <identity value="norway-m1-resept" />
         <map value="Resept.Forskrivningsdato" />
       </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.extension" />
+      <name value="treatmentStart" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://simplifier.net/api/fhir/StructureDefinition/cae89416-4483-4f12-8f23-690f28ee4d20" />
+      </type>
+      <mustSupport value="true" />
     </element>
     <element>
       <path value="MedicationStatement.status.modifierExtension" />
@@ -390,26 +401,63 @@
       </binding>
     </element>
     <element>
-      <path value="MedicationStatement.dosage.rateRange" />
+      <path value="MedicationStatement.dosage.rate[x]" />
+      <slicing>
+        <discriminator value="@type" />
+        <rules value="openAtEnd" />
+      </slicing>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.rate[x]" />
+      <name value="ratio" />
       <type>
-        <code value="Range" />
+        <code value="Ratio" />
       </type>
     </element>
     <element>
-      <path value="MedicationStatement.dosage.rateRange.low" />
-      <name value="SimpleQuantity" />
+      <path value="MedicationStatement.dosage.rate[x].numerator" />
       <binding>
         <strength value="required" />
+        <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST." />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/7a86c026-005b-489c-86d5-c68dcf7c08c9" />
         </valueSetReference>
       </binding>
     </element>
     <element>
-      <path value="MedicationStatement.dosage.rateRange.high" />
+      <path value="MedicationStatement.dosage.rate[x].denominator" />
+      <binding>
+        <strength value="required" />
+        <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet." />
+        <valueSetReference>
+          <reference value="https://simplifier.net/api/fhir/ValueSet/91336a25-1f89-4f12-a185-08a6d06a1af5" />
+        </valueSetReference>
+      </binding>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.rate[x]" />
+      <name value="range" />
+      <type>
+        <code value="Range" />
+      </type>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.rate[x].low" />
       <name value="SimpleQuantity" />
       <binding>
         <strength value="required" />
+        <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST." />
+        <valueSetReference>
+          <reference value="https://simplifier.net/api/fhir/ValueSet/7a86c026-005b-489c-86d5-c68dcf7c08c9" />
+        </valueSetReference>
+      </binding>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.rate[x].high" />
+      <name value="SimpleQuantity" />
+      <binding>
+        <strength value="required" />
+        <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST." />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/7a86c026-005b-489c-86d5-c68dcf7c08c9" />
         </valueSetReference>

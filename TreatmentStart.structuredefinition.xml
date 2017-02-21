@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="treatment-start" />
   <meta>
-    <lastUpdated value="2017-02-21T10:28:28.315+01:00" />
+    <lastUpdated value="2017-02-21T10:58:36.333+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -25,6 +25,7 @@
   <differential>
     <element>
       <path value="Extension" />
+      <isModifier value="true" />
     </element>
     <element>
       <path value="Extension.url" />
@@ -37,7 +38,6 @@
       <type>
         <code value="dateTime" />
       </type>
-      <mustSupport value="true" />
     </element>
   </differential>
 </StructureDefinition>
