@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-21T11:03:08.132+01:00" />
+    <lastUpdated value="2017-02-21T11:15:09.409+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -56,6 +56,17 @@
       <type>
         <code value="Extension" />
         <profile value="https://simplifier.net/api/fhir/StructureDefinition/cae89416-4483-4f12-8f23-690f28ee4d20" />
+      </type>
+      <mustSupport value="true" />
+    </element>
+    <element>
+      <path value="MedicationStatement.extension" />
+      <name value="importExportDate" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://simplifier.net/api/fhir/StructureDefinition/d8977c31-b304-41f9-aae2-4b2164bd35ee" />
       </type>
       <mustSupport value="true" />
     </element>
