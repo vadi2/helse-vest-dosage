@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-21T11:15:09.409+01:00" />
+    <lastUpdated value="2017-02-21T13:38:56.999+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -41,7 +41,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://simplifier.net/api/fhir/StructureDefinition/c441e13d-acd5-4895-86df-c0c3729d3d2c" />
+        <profile value="http://nictiz.nl/fhir/StructureDefinition/mp9-authored-on" />
       </type>
       <mapping>
         <identity value="norway-m1-resept" />
@@ -55,7 +55,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://simplifier.net/api/fhir/StructureDefinition/cae89416-4483-4f12-8f23-690f28ee4d20" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/treatment-start" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -66,7 +66,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://simplifier.net/api/fhir/StructureDefinition/d8977c31-b304-41f9-aae2-4b2164bd35ee" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/import-export-date" />
       </type>
       <mustSupport value="true" />
     </element>
