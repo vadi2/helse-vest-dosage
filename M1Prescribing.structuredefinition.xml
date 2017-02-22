@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-22T16:35:49.961+01:00" />
+    <lastUpdated value="2017-02-22T17:40:26.391+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -122,6 +122,7 @@
     </element>
     <element>
       <path value="MedicationStatement.reasonForUse[x]" />
+      <alias value="Bruksomrade" />
       <binding>
         <strength value="required" />
         <valueSetReference>
@@ -161,6 +162,7 @@
       <path value="MedicationStatement.note" />
       <short value="Important information about the usage of the medication." />
       <definition value="Important information about the usage of the medication." />
+      <alias value="Merknad" />
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Resept.EkspAnm.Merknad" />
