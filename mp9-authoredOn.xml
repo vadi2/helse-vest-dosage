@@ -1,0 +1,36 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="c441e13d-acd5-4895-86df-c0c3729d3d2c" />
+  <meta>
+    <versionId value="5" />
+    <lastUpdated value="2017-02-20T08:42:17.716+00:00" />
+  </meta>
+  <url value="http://nictiz.nl/fhir/StructureDefinition/mp9-authored-on" />
+  <name value="MP9 Authored On" />
+  <status value="draft" />
+  <publisher value="Nictiz" />
+  <description value="The date/time when the Medication Dispense or Statement was authored." />
+  <copyright value="CC0" />
+  <kind value="datatype" />
+  <constrainedType value="Extension" />
+  <abstract value="false" />
+  <contextType value="resource" />
+  <context value="MedicationDispense" />
+  <context value="MedicationStatement" />
+  <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <differential>
+    <element>
+      <path value="Extension" />
+    </element>
+    <element>
+      <path value="Extension.url" />
+      <representation value="xmlAttr" />
+      <fixedUri value="http://nictiz.nl/fhir/StructureDefinition/mp9-authored-on" />
+    </element>
+    <element>
+      <path value="Extension.valueDateTime" />
+      <type>
+        <code value="dateTime" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

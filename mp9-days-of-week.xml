@@ -1,0 +1,35 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="7eeb0f71-2eb4-43e9-877f-4aa43a08564f" />
+  <meta>
+    <versionId value="4" />
+    <lastUpdated value="2016-12-12T16:23:33.694+00:00" />
+  </meta>
+  <url value="http://nictiz.nl/fhir/StructureDefinition/mp9-day-of-week" />
+  <name value="MP9 Day Of Week" />
+  <status value="draft" />
+  <publisher value="Nictiz" />
+  <description value="If one or more days of week is provided, then the dosage only has to be taken on the specified day(s)." />
+  <copyright value="CC0" />
+  <kind value="datatype" />
+  <constrainedType value="Extension" />
+  <abstract value="false" />
+  <contextType value="datatype" />
+  <context value="Timing.repeat" />
+  <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <differential>
+    <element>
+      <path value="Extension" />
+    </element>
+    <element>
+      <path value="Extension.url" />
+      <representation value="xmlAttr" />
+      <fixedUri value="http://nictiz.nl/fhir/StructureDefinition/mp9-day-of-week" />
+    </element>
+    <element>
+      <path value="Extension.valueCoding" />
+      <type>
+        <code value="Coding" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>
