@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-22T17:45:22.066+01:00" />
+    <lastUpdated value="2017-02-23T09:24:06.364+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -80,7 +80,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <description value="Angir bruk av et legemiddel, f.eks. om det benyttes fast eller gis ved behov." />
+        <description value="Angir bruk av et legemiddel, f.eks. om det benyttes fast eller gis ved behov (OID=9101)." />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/f552702d-e769-4c4b-9fa5-0512c9ffe66b" />
         </valueSetReference>
@@ -124,6 +124,7 @@
       <alias value="Bruksomrade" />
       <binding>
         <strength value="required" />
+        <description value="Angir bruksområde for legemiddel. Det overføres til M1 og blir med på utskrift på apoteketikett. Brukes i FEST og Eresept (OID=7488)." />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/c877187c-f362-4425-827b-db2192001969" />
         </valueSetReference>
@@ -301,7 +302,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet." />
+        <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet (OID=9088)." />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/91336a25-1f89-4f12-a185-08a6d06a1af5" />
         </valueSetReference>
@@ -389,6 +390,7 @@
       <path value="MedicationStatement.dosage.route.coding" />
       <binding>
         <strength value="required" />
+        <description value="Administrasjonsvei (OID=7477)." />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/7ab290d7-7e42-4ec2-a693-75440b0ea038" />
         </valueSetReference>
@@ -407,7 +409,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <description value="Enhet som skal inngå i doseringstekst som sendes i M1 og inngår på apotek-etiketten. Kodeverk til bruk i M30 fra versjon 2.4, og i M1" />
+        <description value="Enhet som skal inngå i doseringstekst som sendes i M1 og inngår på apotek-etiketten. Kodeverk til bruk i M30 fra versjon 2.4, og i M1 (OID=7480)." />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/7b326ba1-4fae-406f-a50a-35de49e172b1" />
         </valueSetReference>
@@ -429,23 +431,33 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.rate[x].numerator" />
+      <alias value="Volum" />
       <binding>
         <strength value="required" />
-        <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST." />
+        <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST (OID=9090)." />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/7a86c026-005b-489c-86d5-c68dcf7c08c9" />
         </valueSetReference>
       </binding>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.DoseFastTidspunkt.Dose.Infusjonshastighet.Volum" />
+      </mapping>
     </element>
     <element>
       <path value="MedicationStatement.dosage.rate[x].denominator" />
+      <alias value="Tidsenhet" />
       <binding>
         <strength value="required" />
-        <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet." />
+        <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet (OID=9088)." />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/91336a25-1f89-4f12-a185-08a6d06a1af5" />
         </valueSetReference>
       </binding>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.DoseFastTidspunkt.Dose.Infusjonshastighet.Tidsenhet" />
+      </mapping>
     </element>
     <element>
       <path value="MedicationStatement.dosage.rate[x]" />
@@ -457,24 +469,34 @@
     <element>
       <path value="MedicationStatement.dosage.rate[x].low" />
       <name value="SimpleQuantity" />
+      <alias value="Volum" />
       <binding>
         <strength value="required" />
-        <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST." />
+        <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST (OID=9090)." />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/7a86c026-005b-489c-86d5-c68dcf7c08c9" />
         </valueSetReference>
       </binding>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.DoseFastTidspunkt.Dose.Infusjonshastighet.Volum" />
+      </mapping>
     </element>
     <element>
       <path value="MedicationStatement.dosage.rate[x].high" />
       <name value="SimpleQuantity" />
+      <alias value="Volum" />
       <binding>
         <strength value="required" />
-        <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST." />
+        <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST (OID=9090)." />
         <valueSetReference>
           <reference value="https://simplifier.net/api/fhir/ValueSet/7a86c026-005b-489c-86d5-c68dcf7c08c9" />
         </valueSetReference>
       </binding>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.DoseFastTidspunkt.Dose.Infusjonshastighet.Volum" />
+      </mapping>
     </element>
   </differential>
 </StructureDefinition>
