@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-23T09:24:06.364+01:00" />
+    <lastUpdated value="2017-02-23T10:52:48.986+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -38,6 +38,7 @@
       <name value="authoredOn" />
       <definition value="Dato for forskrivning." />
       <alias value="authoredOn" />
+      <alias value="Forskrivningsdato" />
       <min value="1" />
       <max value="1" />
       <type>
@@ -172,7 +173,7 @@
       <path value="MedicationStatement.medicationReference" />
       <type>
         <code value="Reference" />
-        <profile value="https://simplifier.net/api/fhir/StructureDefinition/aebd4436-a488-4aab-ba1f-372ec300abbb" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/m1-medication" />
       </type>
     </element>
     <element>
@@ -221,7 +222,7 @@
       </type>
       <mapping>
         <identity value="norway-m1-resept" />
-        <map value="Doseringsregel.Merknad" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.Doseringsregel.Merknad" />
       </mapping>
     </element>
     <element>
@@ -252,11 +253,16 @@
       <path value="MedicationStatement.dosage.extension" />
       <name value="shortDosageText" />
       <alias value="shortDosageText" />
+      <alias value="Kortdose" />
       <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/short-dosage-text" />
       </type>
+      <mapping>
+        <identity value="norway-m1-resept" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Kortdose" />
+      </mapping>
     </element>
     <element>
       <path value="MedicationStatement.dosage.text" />
@@ -359,7 +365,7 @@
       <alias value="FasteUkedager" />
       <type>
         <code value="Extension" />
-        <profile value="https://simplifier.net/api/fhir/StructureDefinition/7eeb0f71-2eb4-43e9-877f-4aa43a08564f" />
+        <profile value="http://nictiz.nl/fhir/StructureDefinition/mp9-day-of-week" />
       </type>
       <binding>
         <strength value="required" />
