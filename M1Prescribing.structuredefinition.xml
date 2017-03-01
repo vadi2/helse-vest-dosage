@@ -25,6 +25,12 @@
       <path value="MedicationStatement" />
       <short value="M1 Prescribing profile." />
       <definition value="A prescription as defined by Forskrivning in the eResept M1 Norwegian project." />
+      <constraint>
+        <key value="m1prescribing" />
+        <severity value="error" />
+        <human value="Reason not taken must be filled if wasNotTaken is true" />
+        <xpath value="f:wasNotTaken/@value=false() or exists(f:wasNotTaken)" />
+      </constraint>
     </element>
     <element>
       <path value="MedicationStatement.extension" />
