@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-02-23T15:12:38.884+01:00" />
+    <lastUpdated value="2017-03-01T08:26:32.963+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -116,12 +116,9 @@
       <mustSupport value="true" />
     </element>
     <element>
-      <path value="MedicationStatement.status.modifierExtension.value[x]" />
+      <path value="MedicationStatement.status.modifierExtension.valueCode" />
       <binding>
         <strength value="required" />
-        <valueSetReference>
-          <reference value="http://hl7.org/fhir/medication-order-status" />
-        </valueSetReference>
       </binding>
     </element>
     <element>
