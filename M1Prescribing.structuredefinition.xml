@@ -163,7 +163,7 @@
       <alias value="Starttidspunkt" />
       <mapping>
         <identity value="norway-m1-resept" />
-        <map value="Dosering.Starttidspunkt" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.Starttidspunkt" />
       </mapping>
     </element>
     <element>
@@ -172,7 +172,7 @@
       <alias value="Sluttidspunkt" />
       <mapping>
         <identity value="norway-m1-resept" />
-        <map value="Dosering.Sluttidspunkt" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.Sluttidspunkt" />
       </mapping>
     </element>
     <element>
@@ -313,7 +313,7 @@
       </type>
       <mapping>
         <identity value="norway-m1-resept" />
-        <map value="DoseFastTidspunkt.GisEksakt" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.DoseFastTidspunkt.GisEksakt" />
       </mapping>
     </element>
     <element>
@@ -362,7 +362,7 @@
       </type>
       <mapping>
         <identity value="norway-m1-resept" />
-        <map value="DoseFastTidspunkt.Klokkeslett" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.DoseFastTidspunkt.Klokkeslett" />
       </mapping>
     </element>
     <element>
@@ -379,7 +379,7 @@
       </type>
       <mapping>
         <identity value="norway-m1-resept" />
-        <map value="DoseFastTidspunkt.Tidsomrade" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.DoseFastTidspunkt.Tidsomrade" />
       </mapping>
     </element>
     <element>
