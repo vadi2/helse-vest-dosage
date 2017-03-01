@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-01T08:26:32.963+01:00" />
+    <lastUpdated value="2017-03-01T08:35:49.659+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -90,6 +90,21 @@
         <identity value="norway-m1-resept" />
         <map value="Resept.ReseptDokLegemiddel.Resept.Forskrivning.Bruk" />
       </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.informationSource" />
+      <type>
+        <code value="Reference" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Patient" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/noPractitioner" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+      </type>
     </element>
     <element>
       <path value="MedicationStatement.status" />
