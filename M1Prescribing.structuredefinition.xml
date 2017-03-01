@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-01T08:35:49.659+01:00" />
+    <lastUpdated value="2017-03-01T14:10:59.233+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -85,6 +85,7 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/drug-use-type" />
       </type>
+      <mustSupport value="true" />
       <binding>
         <strength value="required" />
         <description value="Angir bruk av et legemiddel, f.eks. om det benyttes fast eller gis ved behov (OID=9101)." />
@@ -143,8 +144,13 @@
       </binding>
     </element>
     <element>
+      <path value="MedicationStatement.wasNotTaken" />
+      <mustSupport value="true" />
+    </element>
+    <element>
       <path value="MedicationStatement.reasonForUse[x]" />
       <alias value="Bruksomrade" />
+      <mustSupport value="true" />
       <binding>
         <strength value="required" />
         <description value="Angir bruksområde for legemiddel. Det overføres til M1 og blir med på utskrift på apoteketikett. Brukes i FEST og Eresept (OID=7488)." />
@@ -162,6 +168,7 @@
       <type>
         <code value="Period" />
       </type>
+      <mustSupport value="true" />
     </element>
     <element>
       <path value="MedicationStatement.effectivePeriod.start" />
@@ -186,6 +193,7 @@
       <short value="Important information about the usage of the medication." />
       <definition value="Important information about the usage of the medication." />
       <alias value="Merknad" />
+      <mustSupport value="true" />
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Resept.EkspAnm.Merknad" />
@@ -197,6 +205,7 @@
         <code value="Reference" />
         <profile value="http://hl7.no/fhir/StructureDefinition/m1-medication" />
       </type>
+      <mustSupport value="true" />
     </element>
     <element>
       <path value="MedicationStatement.dosage" />
@@ -281,6 +290,7 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/short-dosage-text" />
       </type>
+      <mustSupport value="true" />
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Resept.ReseptDokLegemiddel.Forskrivning.Kortdose" />
@@ -289,6 +299,7 @@
     <element>
       <path value="MedicationStatement.dosage.text" />
       <alias value="Merknad" />
+      <mustSupport value="true" />
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.Doseringsregel.Merknad" />
@@ -415,8 +426,13 @@
       <max value="0" />
     </element>
     <element>
+      <path value="MedicationStatement.dosage.site[x]" />
+      <mustSupport value="true" />
+    </element>
+    <element>
       <path value="MedicationStatement.dosage.route" />
       <alias value="Administrasjonsvei" />
+      <mustSupport value="true" />
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Resept.ReseptDokLegemiddel.Forskrivning.typeLegemiddel.AdministreringLegemiddel.Administrasjonsvei" />
@@ -457,6 +473,7 @@
         <discriminator value="@type" />
         <rules value="openAtEnd" />
       </slicing>
+      <mustSupport value="true" />
     </element>
     <element>
       <path value="MedicationStatement.dosage.rate[x]" />
