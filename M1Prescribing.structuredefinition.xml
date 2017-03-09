@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-09T13:21:11.253+01:00" />
+    <lastUpdated value="2017-03-09T13:35:04.551+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -51,6 +51,7 @@
         <code value="Extension" />
         <profile value="http://nictiz.nl/fhir/StructureDefinition/mp9-authored-on" />
       </type>
+      <mustSupport value="true" />
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Resept.Forskrivningsdato" />
@@ -92,10 +93,12 @@
         <code value="Reference" />
         <profile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
       </type>
+      <mustSupport value="true" />
     </element>
     <element>
       <path value="MedicationStatement.status" />
       <requirements value=" " />
+      <mustSupport value="true" />
     </element>
     <element>
       <path value="MedicationStatement.status.modifierExtension" />
@@ -125,6 +128,10 @@
     </element>
     <element>
       <path value="MedicationStatement.wasNotTaken" />
+      <mustSupport value="true" />
+    </element>
+    <element>
+      <path value="MedicationStatement.reasonNotTaken" />
       <mustSupport value="true" />
     </element>
     <element>
@@ -215,6 +222,7 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/calculation-basis" />
       </type>
+      <mustSupport value="true" />
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.Doseringsregel.DoseresEtter" />
@@ -231,6 +239,7 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/calculation-basis-note" />
       </type>
+      <mustSupport value="true" />
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.Doseringsregel.Merknad" />
@@ -247,6 +256,7 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/days-administered-amount" />
       </type>
+      <mustSupport value="true" />
     </element>
     <element>
       <path value="MedicationStatement.dosage.extension" />
@@ -259,6 +269,7 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/days-not-administered-amount" />
       </type>
+      <mustSupport value="true" />
     </element>
     <element>
       <path value="MedicationStatement.dosage.extension" />
@@ -308,6 +319,7 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/timing-exact" />
       </type>
+      <mustSupport value="true" />
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.DoseFastTidspunkt.GisEksakt" />
@@ -323,6 +335,7 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/timing-interval" />
       </type>
+      <mustSupport value="true" />
       <binding>
         <strength value="required" />
         <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet (OID=9088)." />
@@ -357,6 +370,7 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/time-of-day" />
       </type>
+      <mustSupport value="true" />
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.DoseFastTidspunkt.Klokkeslett" />
@@ -374,6 +388,7 @@
         <code value="Extension" />
         <profile value="http://hl7.no/fhir/StructureDefinition/timeperiod" />
       </type>
+      <mustSupport value="true" />
       <mapping>
         <identity value="norway-m1-resept" />
         <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.DoseFastTidspunkt.Tidsomrade" />
@@ -388,6 +403,7 @@
         <code value="Extension" />
         <profile value="http://nictiz.nl/fhir/StructureDefinition/mp9-day-of-week" />
       </type>
+      <mustSupport value="true" />
       <binding>
         <strength value="required" />
         <description value="Days of the week" />
@@ -439,6 +455,7 @@
         <code value="Quantity" />
         <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity" />
       </type>
+      <mustSupport value="true" />
       <binding>
         <strength value="required" />
         <description value="Enhet som skal inngå i doseringstekst som sendes i M1 og inngår på apotek-etiketten. Kodeverk til bruk i M30 fra versjon 2.4, og i M1 (OID=7480)." />
