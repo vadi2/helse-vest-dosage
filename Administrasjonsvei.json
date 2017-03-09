@@ -290,7 +290,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Administrasjonsvei</h2><tt>http://hl7.no/fhir/ValueSet/administrasjonsvei</tt></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Administrasjonsvei</h2><tt>http://hl7.no/fhir/ValueSet/administrasjonsvei</tt><p>A list of possible routes.</p></div>"
   },
   "identifier": {
     "value": "urn:oid:2.16.578.1.12.4.1.1.7477",
@@ -298,5 +298,6 @@
   },
   "experimental": false,
   "publisher": "HL7 Norge",
-  "date": "2017-02-20"
+  "date": "2017-02-20",
+  "description": "A list of possible routes."
 }
