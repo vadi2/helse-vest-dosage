@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="m1-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-09T13:20:22.894+01:00" />
+    <lastUpdated value="2017-03-09T13:21:11.253+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -55,16 +55,6 @@
         <identity value="norway-m1-resept" />
         <map value="Resept.Forskrivningsdato" />
       </mapping>
-    </element>
-    <element>
-      <path value="MedicationStatement.extension" />
-      <name value="importExportDate" />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/import-export-date" />
-      </type>
-      <mustSupport value="true" />
     </element>
     <element>
       <path value="MedicationStatement.extension" />
