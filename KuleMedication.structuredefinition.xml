@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="m1-medication" />
+  <id value="kule-medication" />
   <meta>
     <lastUpdated value="2017-02-20T13:52:33.804+01:00" />
   </meta>
-  <url value="http://hl7.no/fhir/StructureDefinition/m1-medication" />
-  <name value="M1 Medication" />
+  <url value="http://hl7.no/fhir/StructureDefinition/kule-medication" />
+  <name value="KULE Medication" />
   <status value="draft" />
   <experimental value="false" />
   <publisher value="HL7 Norge" />
   <date value="2017-02-20T13:28:02.1831186+01:00" />
-  <description value="A medication defined for the eResept M1 Norwegian project." />
+  <description value="A medication as defined by KULE Helse Vest Norwegian project project, based on the national standard M1 eResept standard." />
   <kind value="resource" />
   <constrainedType value="Medication" />
   <abstract value="false" />

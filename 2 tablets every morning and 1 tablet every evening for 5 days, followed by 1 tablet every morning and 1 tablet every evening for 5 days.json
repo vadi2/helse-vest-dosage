@@ -19,7 +19,7 @@
             "id": "2-tablets-every-morning-and-1-tablet-every-evening-for-5-days-13",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/m1-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
                ]
             },
             "effectivePeriod": {
@@ -89,7 +89,7 @@
             "id": "1-tablet-every-morning-and-1-tablet-every-evening-for-5-days-23",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/m1-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
                ]
             },
             "effectivePeriod": {
@@ -159,7 +159,7 @@
             "id": "1-tablet-every-morning-33",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/m1-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
                ]
             },
             "effectivePeriod": {
