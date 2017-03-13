@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "url": "http://hl7.no/fhir/ValueSet/coded-dosage-timing",
   "name": "Coded dosage timing",
-  "description": "ValueSet for the coded dosage timings used by LIB data from FM (Forskrivningsmodulen/Prescription Module) and Kjernejournal systems in the Helse Vest Norway",
+  "description": "Free-text dosage codes used by LIB data from FM (Forskrivningsmodulen/Prescription Module) and Kjernejournal systems in the Helse Vest Norway",
   "status": "draft",
   "codeSystem": {
     "system": "http://hl7.no/fhir/CodeSystem/coded-dosage-timing",
