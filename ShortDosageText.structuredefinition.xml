@@ -2,14 +2,19 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="short-dosage" />
   <meta>
-    <lastUpdated value="2017-03-13T11:59:07.137+01:00" />
+    <lastUpdated value="2017-03-13T13:16:35.636+01:00" />
   </meta>
+  <text>
+    <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
+  <p>An extension for capturing the Resept.ReseptDokLegemiddel.Forskrivning.Kortdose dosage timing code from the Norwegian M1 eResept model.</p>
+</div></text>
   <url value="http://hl7.no/fhir/StructureDefinition/short-dosage" />
   <name value="Short dosage" />
   <status value="draft" />
   <experimental value="false" />
   <publisher value="HL7 Norge" />
   <date value="2017-02-20T14:49:15.6665934+01:00" />
+  <description value="Binding to short dosage codes as used by Resept.ReseptDokLegemiddel.Forskrivning.Kortdose from the Norwegian M1 eResept model." />
   <requirements value="The need to record Resept.ReseptDokLegemiddel.Forskrivning.Kortdose from the Norwegian M1 eResept model which is a coded way of expressing dosage." />
   <fhirVersion value="1.0.2" />
   <kind value="datatype" />
