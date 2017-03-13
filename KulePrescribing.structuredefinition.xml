@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-09T13:43:47.225+01:00" />
+    <lastUpdated value="2017-03-13T11:44:43.758+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -101,7 +101,7 @@
         <map value="Resept.Instituert.Helseperson" />
       </mapping>
       <mapping>
-        <identity value="norway-kule-resept" />
+        <identity value="norway-kule-resept-TODO" />
         <map value="Resept.Instituert.Organisasjon" />
       </mapping>
     </element>
