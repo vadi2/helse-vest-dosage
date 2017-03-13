@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
-  "id": "blah",
   "url": "http://hl7.no/fhir/ValueSet/free-text-dosage-timing",
   "name": "Free-text dosage timing",
+  "description": "ValueSet for the free-text dosage codes used by LIB data from FM (Forskrivningsmodulen/Prescription Module) and Kjernejournal systems in the Helse Vest Norway",
   "status": "draft",
   "codeSystem": {
     "system": "http://hl7.no/fhir/CodeSystem/free-text-dosage-timing",
