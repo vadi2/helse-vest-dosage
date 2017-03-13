@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-13T11:44:43.758+01:00" />
+    <lastUpdated value="2017-03-13T13:07:05.608+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -289,7 +289,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/short-dosage-text" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/short-dosage" />
       </type>
       <mustSupport value="true" />
       <mapping>
