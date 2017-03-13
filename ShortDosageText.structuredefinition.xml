@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="short-dosage" />
   <meta>
-    <lastUpdated value="2017-03-13T13:16:35.636+01:00" />
+    <lastUpdated value="2017-03-13T13:19:22.474+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -38,9 +38,9 @@
       </type>
       <binding>
         <strength value="preferred" />
-        <description value="Free-text dosage codes used by LIB data from FM (Forskrivningsmodulen/Prescription Module) and Kjernejournal systems in the Helse Vest Norway" />
+        <description value="Dosage timing codes used by LIB data from FM (Forskrivningsmodulen/Prescription Module) and Kjernejournal systems in the Helse Vest Norway" />
         <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/ac8c4fbf-a456-40df-bceb-58db78a9b68d" />
+          <reference value="https://simplifier.net/api/fhir/ValueSet/061bd2de-72d3-4c2f-b8cf-56db09fadad1" />
         </valueSetReference>
       </binding>
     </element>
