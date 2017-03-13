@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-13T13:08:16.683+01:00" />
+    <lastUpdated value="2017-03-13T13:11:15.031+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -292,6 +292,12 @@
         <profile value="http://hl7.no/fhir/StructureDefinition/short-dosage" />
       </type>
       <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSetReference>
+          <reference value="https://simplifier.net/api/fhir/ValueSet/ac8c4fbf-a456-40df-bceb-58db78a9b68d" />
+        </valueSetReference>
+      </binding>
       <mapping>
         <identity value="norway-kule-resept" />
         <map value="Resept.ReseptDokLegemiddel.Forskrivning.Kortdose" />
