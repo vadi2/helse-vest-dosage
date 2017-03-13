@@ -1,11 +1,11 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://hl7.no/fhir/ValueSet/free-text-dosage-timing",
-  "name": "Free-text dosage timing",
-  "description": "ValueSet for the free-text dosage codes used by LIB data from FM (Forskrivningsmodulen/Prescription Module) and Kjernejournal systems in the Helse Vest Norway",
+  "url": "http://hl7.no/fhir/ValueSet/coded-dosage-timing",
+  "name": "Coded dosage timing",
+  "description": "ValueSet for the coded dosage timings used by LIB data from FM (Forskrivningsmodulen/Prescription Module) and Kjernejournal systems in the Helse Vest Norway",
   "status": "draft",
   "codeSystem": {
-    "system": "http://hl7.no/fhir/CodeSystem/free-text-dosage-timing",
+    "system": "http://hl7.no/fhir/CodeSystem/coded-dosage-timing",
     "concept": [
       {
         "code": "1",
@@ -2116,13 +2116,13 @@
   "compose": {
     "include": [
       {
-        "system": "http://hl7.no/fhir/CodeSystem/free-text-dosage-timing"
+        "system": "http://hl7.no/fhir/CodeSystem/coded-dosage-timing"
       }
     ]
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Free-text dosage timing</h2><tt>http://hl7.no/fhir/ValueSet/free-text-dosage-timing</tt></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Coded dosage timing</h2><tt>http://hl7.no/fhir/ValueSet/coded-dosage-timing</tt></div>"
   },
   "identifier": {
     "value": "TODO",
