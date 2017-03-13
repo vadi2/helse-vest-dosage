@@ -1,2118 +1,2122 @@
 {
   "resourceType": "ValueSet",
+  "id": "blah",
   "url": "http://hl7.no/fhir/ValueSet/free-text-dosage-timing",
   "name": "Free-text dosage timing",
   "status": "draft",
+  "codeSystem": {
+    "system": "http://hl7.no/fhir/CodeSystem/free-text-dosage-timing",
+    "concept": [
+      {
+        "code": "1",
+        "display": "0,5 <doser> ved sengetid"
+      },
+      {
+        "code": "2",
+        "display": "1 <dose> ved sengetid"
+      },
+      {
+        "code": "3",
+        "display": "2 <doser> ved sengetid"
+      },
+      {
+        "code": "4",
+        "display": "2,5 <doser> 1/2-1 time før sengetid"
+      },
+      {
+        "code": "5",
+        "display": "3 <doser> 1/2-1 time før sengetid"
+      },
+      {
+        "code": "6",
+        "display": "4 <doser> som engangsdose"
+      },
+      {
+        "code": "7",
+        "display": "5 <doser> 1/2-1 time før sengetid"
+      },
+      {
+        "code": "8",
+        "display": "10 <doser> før sengetid"
+      },
+      {
+        "code": "9",
+        "display": "1-2 <doser> ved sengetid"
+      },
+      {
+        "code": "10",
+        "display": "0,25 <doser> morgen 0,25 <doser> midt på dagen 0,5 <doser> kveld"
+      },
+      {
+        "code": "11",
+        "display": "0,3 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "12",
+        "display": "0,35 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "13",
+        "display": "0,5 <doser> 1 gang daglig"
+      },
+      {
+        "code": "14",
+        "display": "0,5 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "15",
+        "display": "0,5 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "16",
+        "display": "0,5 <doser> morgen 0,5 <doser> midt på dagen 1 <doser> kveld"
+      },
+      {
+        "code": "17",
+        "display": "0,5 <doser> morgen"
+      },
+      {
+        "code": "18",
+        "display": "0,5 <doser> morgen 0,5 <doser> kveld"
+      },
+      {
+        "code": "19",
+        "display": "0,6 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "20",
+        "display": "0,75 <doser> morgen 0,75 <doser> midt på dagen 1,5 <doser> kveld"
+      },
+      {
+        "code": "21",
+        "display": "1 <dose> kveld"
+      },
+      {
+        "code": "22",
+        "display": "1 <dose> i ett nesebor om kvelden"
+      },
+      {
+        "code": "23",
+        "display": "1 <dose> i hvert nesebor om kvelden"
+      },
+      {
+        "code": "24",
+        "display": "1 <dose> i hvert øye om kvelden"
+      },
+      {
+        "code": "25",
+        "display": "1 <dose> i høyre øye om kvelden"
+      },
+      {
+        "code": "26",
+        "display": "1 <dose> i venstre øye om kvelden"
+      },
+      {
+        "code": "27",
+        "display": "Legges i nedre øyelokksrand om kvelden"
+      },
+      {
+        "code": "28",
+        "display": "4 <doser> kveld"
+      },
+      {
+        "code": "29",
+        "display": "Påsmøres om kvelden"
+      },
+      {
+        "code": "30",
+        "display": "Påsmøres i tynt lag om kvelden"
+      },
+      {
+        "code": "31",
+        "display": "1 <dose> innføres i skjeden hver kveld i 10 dager"
+      },
+      {
+        "code": "32",
+        "display": "1 <dose> innføres dypt i skjeden hver kveld i 3 dager"
+      },
+      {
+        "code": "33",
+        "display": "1 <dose> innføres dypt i skjeden hver kveld i 6 dager"
+      },
+      {
+        "code": "34",
+        "display": "1 <dose> innføres i skjeden hver kveld i 7 dager"
+      },
+      {
+        "code": "35",
+        "display": "2 <doser> kveld"
+      },
+      {
+        "code": "36",
+        "display": "2 <doser> i hvert nesebor om kvelden"
+      },
+      {
+        "code": "37",
+        "display": "2 <doser> innføres dypt i skjeden hver kveld i 3 dager"
+      },
+      {
+        "code": "38",
+        "display": "2,5 <doser> kveld"
+      },
+      {
+        "code": "39",
+        "display": "3 <doser> kveld"
+      },
+      {
+        "code": "40",
+        "display": "5 <doser> kveld"
+      },
+      {
+        "code": "41",
+        "display": "1 <dose> annenhver dag"
+      },
+      {
+        "code": "42",
+        "display": "Masseres inn i smertefullt hudområde 2-3 ganger daglig"
+      },
+      {
+        "code": "43",
+        "display": "1 <dose> daglig Start 1-2 dager før innreise til malaria-sonen, fortsett i 7 dager etter utreise fra sonen"
+      },
+      {
+        "code": "44",
+        "display": "1 <dose> innføres i skjeden 2 ganger i uken"
+      },
+      {
+        "code": "45",
+        "display": "1 <dose> annenhver dag, inntil totalt 5 ganger"
+      },
+      {
+        "code": "46",
+        "display": "1 <dose> innføres i skjeden annenhver dag som avtalt"
+      },
+      {
+        "code": "47",
+        "display": "1 <dose> annenhver måned"
+      },
+      {
+        "code": "48",
+        "display": "1 <dose> annenhver uke"
+      },
+      {
+        "code": "49",
+        "display": "1 <dose> bak øret 5-6 timer før avreise"
+      },
+      {
+        "code": "52",
+        "display": "1 <dose> 3 dager i uken annenhver dag"
+      },
+      {
+        "code": "53",
+        "display": "1 <dose> daglig 5 dager i uken"
+      },
+      {
+        "code": "54",
+        "display": "1 <dose> daglig unntatt lørdager og søndager"
+      },
+      {
+        "code": "55",
+        "display": "1 <dose> daglig unntatt onsdager og søndager"
+      },
+      {
+        "code": "56",
+        "display": "1 <dose> hver 12. time"
+      },
+      {
+        "code": "57",
+        "display": "1 <dose> hver 3. måned"
+      },
+      {
+        "code": "58",
+        "display": "1 <dose> hver 3. uke"
+      },
+      {
+        "code": "59",
+        "display": "1 <dose> hver 4. uke"
+      },
+      {
+        "code": "60",
+        "display": "1 <dose> hver 4.-5. time"
+      },
+      {
+        "code": "61",
+        "display": "1 <dose> hver 4. time slik legen har bestemt"
+      },
+      {
+        "code": "62",
+        "display": "1 <dose> hver uke"
+      },
+      {
+        "code": "63",
+        "display": "1 <dose> hver uke på fast ukedag"
+      },
+      {
+        "code": "64",
+        "display": "1 <dose> i ett nesebor ved anfall. Ny dose ved behov etter minst 2 timer"
+      },
+      {
+        "code": "65",
+        "display": "1 <dose> i ett nesebor 5 min. før diegivning eller pumping"
+      },
+      {
+        "code": "66",
+        "display": "1 <dose> i hvert øye annenhver time"
+      },
+      {
+        "code": "67",
+        "display": "1 <dose> i hvert øye hver 4. time"
+      },
+      {
+        "code": "68",
+        "display": "1 <dose> i hvert øye hver 5. time"
+      },
+      {
+        "code": "69",
+        "display": "1 <dose> i hvert øye hver 6. time"
+      },
+      {
+        "code": "70",
+        "display": "1 <dose> i hvert øye hver time"
+      },
+      {
+        "code": "71",
+        "display": "1 <dose> i høyre øye annenhver time"
+      },
+      {
+        "code": "72",
+        "display": "1 <dose> i høyre øye hver 4. time"
+      },
+      {
+        "code": "73",
+        "display": "1 <dose> i høyre øye hver 5. time"
+      },
+      {
+        "code": "74",
+        "display": "1 <dose> i høyre øye hver 6. time"
+      },
+      {
+        "code": "75",
+        "display": "1 <dose> i venstre øye annenhver time"
+      },
+      {
+        "code": "76",
+        "display": "1 <dose> i venstre øye hver 4. time"
+      },
+      {
+        "code": "77",
+        "display": "1 <dose> i venstre øye hver 5. time"
+      },
+      {
+        "code": "78",
+        "display": "1 <dose> i venstre øye hver 6. time"
+      },
+      {
+        "code": "79",
+        "display": "1 <dose> inntil 3 ganger daglig"
+      },
+      {
+        "code": "80",
+        "display": "Masseres inn i betent hudområde inntil 3 ganger daglig"
+      },
+      {
+        "code": "81",
+        "display": "Masseres inn i smertefullt hudområde inntil 3 ganger daglig"
+      },
+      {
+        "code": "82",
+        "display": "1 <dose> inntil 4 ganger daglig"
+      },
+      {
+        "code": "83",
+        "display": "1 <dose> i hvert øye inntil 4 ganger daglig"
+      },
+      {
+        "code": "84",
+        "display": "1 <dose> inntil 5 ganger daglig"
+      },
+      {
+        "code": "85",
+        "display": "1 <dose> innføres i endetarmen inntil 6 ganger daglig"
+      },
+      {
+        "code": "86",
+        "display": "1 <dose> på huden"
+      },
+      {
+        "code": "87",
+        "display": "1 <dose> hver uke i 4 uker"
+      },
+      {
+        "code": "88",
+        "display": "1 <dose> ved anfall inntil 3 ganger daglig"
+      },
+      {
+        "code": "89",
+        "display": "1 <dose> ved anfall og eventuelt 1 <dose> etter minst 2 timer"
+      },
+      {
+        "code": "90",
+        "display": "1 <dose> ved anfall som avtalt med legen"
+      },
+      {
+        "code": "91",
+        "display": "1 <dose> ved begynnende anfall. Ny <dose> ved behov etter minst 2 timer. Maks 3 pr døgn"
+      },
+      {
+        "code": "92",
+        "display": "1 <dose> ved begynnende anfall. Ny <dose> ved behov etter minst 2 timer. Maks 6 pr døgn"
+      },
+      {
+        "code": "93",
+        "display": "1 <dose> daglig"
+      },
+      {
+        "code": "95",
+        "display": "1 <dose> 1 gang daglig i 11 uker"
+      },
+      {
+        "code": "96",
+        "display": "1 <dose> i ett nesebor 1 gang daglig"
+      },
+      {
+        "code": "97",
+        "display": "1 <dose> i hvert nesebor 1 gang daglig"
+      },
+      {
+        "code": "98",
+        "display": "1 <dose> i hvert øye 1 gang daglig"
+      },
+      {
+        "code": "99",
+        "display": "1 <dose> i høyre øye 1 gang daglig"
+      },
+      {
+        "code": "100",
+        "display": "1 <dose> i venstre øye 1 gang daglig"
+      },
+      {
+        "code": "103",
+        "display": "1 <dose> på huden daglig"
+      },
+      {
+        "code": "104",
+        "display": "Påføres angrepet område 1 gang daglig"
+      },
+      {
+        "code": "105",
+        "display": "Påføres i tynt lag 1 gang daglig"
+      },
+      {
+        "code": "106",
+        "display": "Påsmøres 1 gang daglig"
+      },
+      {
+        "code": "107",
+        "display": "Påsmøres angrepet område 1 gang daglig"
+      },
+      {
+        "code": "108",
+        "display": "Påsmøres i tynt lag 1 gang daglig"
+      },
+      {
+        "code": "109",
+        "display": "1 <dose> 1 gang daglig i 10 dager"
+      },
+      {
+        "code": "110",
+        "display": "1 <dose> 1 gang daglig i 14 dager"
+      },
+      {
+        "code": "111",
+        "display": "1 <dose> daglig i 14 dager deretter 2 <doser> daglig i 14 dager"
+      },
+      {
+        "code": "112",
+        "display": "1 <dose> 1 gang daglig i 21 dager deretter 1 ukes pause"
+      },
+      {
+        "code": "113",
+        "display": "1 <dose> innføres i skjeden daglig i 21 dager deretter 1 <dose> i skjeden 2 ganger i uken"
+      },
+      {
+        "code": "114",
+        "display": "1 <dose> 1 gang daglig i 21 dager fra første mens. dag, deretter 1 ukes pause"
+      },
+      {
+        "code": "115",
+        "display": "1 <dose> 1 gang daglig i 3 dager"
+      },
+      {
+        "code": "116",
+        "display": "1 <dose> 1 gang daglig i 5 dager"
+      },
+      {
+        "code": "117",
+        "display": "1 <dose> 1 gang daglig i 6 dager deretter 1 <dose> 2 ganger daglig"
+      },
+      {
+        "code": "118",
+        "display": "1 <dose> 1 gang daglig i 1 uke deretter 2 <doser> 1 gang daglig"
+      },
+      {
+        "code": "119",
+        "display": "Påføres 1 gang daglig i 7 dager"
+      },
+      {
+        "code": "120",
+        "display": "Påsmøres 1 gang daglig i 7 dager"
+      },
+      {
+        "code": "121",
+        "display": "1 <dose> innføres i endetarmen 1-2 ganger daglig"
+      },
+      {
+        "code": "122",
+        "display": "Påføres 1-2 ganger daglig i 1-2 uker"
+      },
+      {
+        "code": "123",
+        "display": "Påføres 1-2 ganger daglig i 2-4 uker"
+      },
+      {
+        "code": "124",
+        "display": "Påsmøres 1-2 ganger daglig i 3-4 uker"
+      },
+      {
+        "code": "125",
+        "display": "Påføres 1-2 ganger daglig"
+      },
+      {
+        "code": "126",
+        "display": "Påsmøres 1-2 ganger daglig"
+      },
+      {
+        "code": "127",
+        "display": "Påsmøres i tynt lag 1-2 ganger daglig"
+      },
+      {
+        "code": "128",
+        "display": "Påsmøres tynt angrepet område 1-2 ganger daglig."
+      },
+      {
+        "code": "129",
+        "display": "1 <dose> 1-3 ganger daglig i inntil 4 dager"
+      },
+      {
+        "code": "130",
+        "display": "1 <dose> 2 ganger daglig"
+      },
+      {
+        "code": "131",
+        "display": "Gnis inn dråpevis 2 ganger daglig"
+      },
+      {
+        "code": "132",
+        "display": "Påsmøres 2 ganger daglig i 3-4 uker"
+      },
+      {
+        "code": "133",
+        "display": "1 <dose> i ett nesebor 2 ganger daglig"
+      },
+      {
+        "code": "134",
+        "display": "1 <dose> i hvert nesebor 2 ganger daglig"
+      },
+      {
+        "code": "135",
+        "display": "1 <dose> i hvert øre 2 ganger daglig i 3-4 dager deretter 1 <dose> i hvert øre 1 gang daglig"
+      },
+      {
+        "code": "136",
+        "display": "1 <dose> i hvert øye 2 ganger daglig"
+      },
+      {
+        "code": "137",
+        "display": "1 <dose> i høyre øye 2 ganger daglig"
+      },
+      {
+        "code": "138",
+        "display": "1 <dose> i venstre øye 2 ganger daglig"
+      },
+      {
+        "code": "139",
+        "display": "1 <dose> i øret 2 ganger daglig i 3-4 dager deretter 1 <dose> i øret 1 gang daglig"
+      },
+      {
+        "code": "141",
+        "display": "Legges i nedre øyelokksrand 2 ganger daglig"
+      },
+      {
+        "code": "142",
+        "display": "Påføres i tynt lag 2 ganger daglig"
+      },
+      {
+        "code": "143",
+        "display": "Påsmøres 2 ganger daglig"
+      },
+      {
+        "code": "144",
+        "display": "Påsmøres angrepet område 2 ganger daglig"
+      },
+      {
+        "code": "145",
+        "display": "Påsmøres i tynt lag 2 ganger daglig"
+      },
+      {
+        "code": "146",
+        "display": "Påsmøres glans penis 2 ganger daglig i 14 dager"
+      },
+      {
+        "code": "147",
+        "display": "Påsmøres 2 ganger daglig i 14 dager"
+      },
+      {
+        "code": "148",
+        "display": "Pensles på 2 ganger daglig i 3 påfølgende dager"
+      },
+      {
+        "code": "150",
+        "display": "1 <dose> 2 ganger daglig i 5 dager"
+      },
+      {
+        "code": "151",
+        "display": "Påsmøres i tynt lag 2 ganger daglig i 5 dager"
+      },
+      {
+        "code": "152",
+        "display": "1 <dose> 2 ganger daglig i 7 dager"
+      },
+      {
+        "code": "153",
+        "display": "Påføres 2 ganger daglig i 7 dager"
+      },
+      {
+        "code": "154",
+        "display": "1 <dose> 2-3 ganger daglig"
+      },
+      {
+        "code": "155",
+        "display": "Masseres inn i betent hudområde 2-3 ganger daglig"
+      },
+      {
+        "code": "156",
+        "display": "Påsmøres 2-3 ganger daglig"
+      },
+      {
+        "code": "157",
+        "display": "Påsmøres i tynt lag 2-3 ganger daglig"
+      },
+      {
+        "code": "158",
+        "display": "1 <dose> i hvert nesebor 2-4 ganger daglig"
+      },
+      {
+        "code": "159",
+        "display": "Påsmøres 2-4 ganger daglig som avtalt med legen"
+      },
+      {
+        "code": "160",
+        "display": "1 <dose> 3 ganger daglig"
+      },
+      {
+        "code": "161",
+        "display": "1 <dose> 3 ganger daglig fra 3 dager før ventet menstruasjon"
+      },
+      {
+        "code": "162",
+        "display": "1 <dose> i hvert nesebor 3 ganger daglig"
+      },
+      {
+        "code": "163",
+        "display": "1 <dose> i hvert øye 3 ganger daglig"
+      },
+      {
+        "code": "164",
+        "display": "1 <dose> i høyre øye 3 ganger daglig"
+      },
+      {
+        "code": "165",
+        "display": "1 <dose> i venstre øye 3 ganger daglig"
+      },
+      {
+        "code": "167",
+        "display": "Legges i nedre øyelokksrand 3 ganger daglig"
+      },
+      {
+        "code": "168",
+        "display": "Påsmøres 3 ganger daglig"
+      },
+      {
+        "code": "169",
+        "display": "Påsmøres i tynt lag 3 ganger daglig"
+      },
+      {
+        "code": "170",
+        "display": "1 <dose> 3 ganger daglig i 10 dager"
+      },
+      {
+        "code": "171",
+        "display": "1 <dose> 3 ganger daglig i 7 dager"
+      },
+      {
+        "code": "172",
+        "display": "1 <dose> 3-4 ganger daglig"
+      },
+      {
+        "code": "173",
+        "display": "Påsmøres 3-4 ganger daglig"
+      },
+      {
+        "code": "174",
+        "display": "1 <dose> 4 ganger daglig"
+      },
+      {
+        "code": "175",
+        "display": "1 <dose> i hvert nesebor 4 ganger daglig"
+      },
+      {
+        "code": "176",
+        "display": "1 <dose> i hvert øye 4 ganger daglig"
+      },
+      {
+        "code": "177",
+        "display": "1 <dose> i høyre øye 4 ganger daglig"
+      },
+      {
+        "code": "178",
+        "display": "1 <dose> i venstre øye 4 ganger daglig"
+      },
+      {
+        "code": "179",
+        "display": "3 <doser> 1 gang daglig Start 1-2 dager før innreise til malaria-sonen, fortsett i 7 dager etter utreise fra sonen"
+      },
+      {
+        "code": "180",
+        "display": "Legges i nedre øyelokksrand 4 ganger daglig"
+      },
+      {
+        "code": "181",
+        "display": "1 <dose> 5 ganger daglig"
+      },
+      {
+        "code": "182",
+        "display": "Legges i nedre øyelokksrand 5 ganger daglig"
+      },
+      {
+        "code": "183",
+        "display": "Påsmøres 5 ganger daglig"
+      },
+      {
+        "code": "184",
+        "display": "Påsmøres angrepet område 5 ganger daglig"
+      },
+      {
+        "code": "185",
+        "display": "Påsmøres 5 ganger daglig i 5 dager"
+      },
+      {
+        "code": "186",
+        "display": "1 <dose> 6 ganger daglig"
+      },
+      {
+        "code": "188",
+        "display": "1,25 <doser> 1 gang daglig"
+      },
+      {
+        "code": "189",
+        "display": "1,25 <doser> morgen 1,25 <doser> midt på dagen 1,25 <doser> kveld"
+      },
+      {
+        "code": "190",
+        "display": "1,5 <doser> 1 gang daglig"
+      },
+      {
+        "code": "191",
+        "display": "1,5 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "192",
+        "display": "1,5 <doser> 4 ganger daglig"
+      },
+      {
+        "code": "193",
+        "display": "1,8 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "194",
+        "display": "1,5 <doser> morgen 1,5 <doser> midt på dagen 3 <doser> kveld"
+      },
+      {
+        "code": "195",
+        "display": "1 <dose> morgen"
+      },
+      {
+        "code": "196",
+        "display": "1 <dose> i hvert nesebor morgen"
+      },
+      {
+        "code": "197",
+        "display": "1 <dose> i hvert øye morgen"
+      },
+      {
+        "code": "198",
+        "display": "1 <dose> i høyre øye morgen"
+      },
+      {
+        "code": "199",
+        "display": "1 <dose> i venstre øye morgen"
+      },
+      {
+        "code": "200",
+        "display": "Påsmøres i tynt lag om morgenen"
+      },
+      {
+        "code": "201",
+        "display": "1 <dose> morgen 1 <dose> kveld"
+      },
+      {
+        "code": "202",
+        "display": "1 <dose> morgen 1 <dose> kveld i 3 dager"
+      },
+      {
+        "code": "203",
+        "display": "Gnis inn i hodebunnen morgen og kveld"
+      },
+      {
+        "code": "204",
+        "display": "Gnis inn i huden morgen og kveld"
+      },
+      {
+        "code": "205",
+        "display": "1 <dose> i hvert nesebor morgen og kveld"
+      },
+      {
+        "code": "206",
+        "display": "1 <dose> i hvert øye morgen og kveld"
+      },
+      {
+        "code": "209",
+        "display": "Påsmøres morgen og kveld"
+      },
+      {
+        "code": "210",
+        "display": "Påsmøres i tynt lag morgen og kveld"
+      },
+      {
+        "code": "211",
+        "display": "Påsmøres tynt angrepet område morgen og kveld."
+      },
+      {
+        "code": "212",
+        "display": "1 <dose> i hvert øye morgen og kveld i 7 dager"
+      },
+      {
+        "code": "213",
+        "display": "1 <dose> morgen 1 <dose> ettermiddag"
+      },
+      {
+        "code": "214",
+        "display": "1 <dose> morgen 2 <doser> kveld"
+      },
+      {
+        "code": "215",
+        "display": "1 <dose> morgen 1 <dose> midt på dagen"
+      },
+      {
+        "code": "216",
+        "display": "1 <dose> morgen 1 <dose> midt på dagen 1 <dose> kveld"
+      },
+      {
+        "code": "217",
+        "display": "1 <dose> morgen 1 <dose> formiddag 1 <dose> ettermiddag 1 <dose> kveld"
+      },
+      {
+        "code": "218",
+        "display": "1 <dose> morgen 1 <dose> midt på dagen og 2 <doser> kveld"
+      },
+      {
+        "code": "219",
+        "display": "10 <doser> inntil 3 ganger daglig"
+      },
+      {
+        "code": "220",
+        "display": "10 <doser> 1 gang daglig"
+      },
+      {
+        "code": "221",
+        "display": "10 <doser> i en dose første dag, så 5 <doser> daglig"
+      },
+      {
+        "code": "222",
+        "display": "10 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "223",
+        "display": "10 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "224",
+        "display": "10 <doser> 5 ganger daglig"
+      },
+      {
+        "code": "225",
+        "display": "10 <doser> morgen"
+      },
+      {
+        "code": "226",
+        "display": "10 <doser> hver morgen i 3 dager"
+      },
+      {
+        "code": "227",
+        "display": "10 <doser> morgen 10 <doser> kveld"
+      },
+      {
+        "code": "228",
+        "display": "10 <doser> morgen 10 <doser> kveld i 3 dager"
+      },
+      {
+        "code": "229",
+        "display": "10 <doser> morgen 10 <doser> formiddag 10 <doser> ettermiddag 10 <doser> kveld"
+      },
+      {
+        "code": "230",
+        "display": "10 <doser> morgen 10 <doser> midt på dagen 20 <doser> kveld"
+      },
+      {
+        "code": "231",
+        "display": "1-2 <doser> i hvert øye hver 4. time"
+      },
+      {
+        "code": "232",
+        "display": "1-2 <doser> i hvert øye ved behov"
+      },
+      {
+        "code": "233",
+        "display": "1-2 <doser> inntil 3 ganger daglig"
+      },
+      {
+        "code": "234",
+        "display": "1-2 <doser> inntil 4 ganger daglig"
+      },
+      {
+        "code": "235",
+        "display": "1-2 <doser> ved behov inntil 4 ganger daglig"
+      },
+      {
+        "code": "236",
+        "display": "1-2 <doser> i hvert nesebor 1 gang daglig"
+      },
+      {
+        "code": "237",
+        "display": "1-2 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "239",
+        "display": "1-2 <doser> i hvert øye 2 ganger daglig"
+      },
+      {
+        "code": "240",
+        "display": "1-2 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "241",
+        "display": "1-2 <doser> i øret 3 ganger daglig"
+      },
+      {
+        "code": "242",
+        "display": "1-2 <doser> i øyet 3 ganger daglig"
+      },
+      {
+        "code": "243",
+        "display": "1-2 <doser> 3-4 ganger daglig"
+      },
+      {
+        "code": "244",
+        "display": "1-2 <doser> 4 ganger daglig"
+      },
+      {
+        "code": "245",
+        "display": "1-2 <doser> i hvert øye 4 ganger daglig"
+      },
+      {
+        "code": "246",
+        "display": "1-2 <doser> i øret 4 ganger daglig"
+      },
+      {
+        "code": "247",
+        "display": "1-2 <doser> i øyet 4 ganger daglig"
+      },
+      {
+        "code": "249",
+        "display": "12,5 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "250",
+        "display": "1-2 <doser> morgen 1-2 <doser> kveld"
+      },
+      {
+        "code": "251",
+        "display": "13 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "252",
+        "display": "15 <doser> 1 gang daglig"
+      },
+      {
+        "code": "253",
+        "display": "15 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "254",
+        "display": "15 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "255",
+        "display": "15 <doser> morgen"
+      },
+      {
+        "code": "256",
+        "display": "15 <doser> morgen 15 <doser> kveld"
+      },
+      {
+        "code": "257",
+        "display": "17,5 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "258",
+        "display": "1 <dose> første dag deretter 1/2 <dose> daglig i 4 dager"
+      },
+      {
+        "code": "259",
+        "display": "1 <dose> så raskt som mulig, men ikke senere enn 120 timer etter ubeskyttet samleie eller prevensjonssvikt"
+      },
+      {
+        "code": "260",
+        "display": "2 <doser> hver 4.-5. time"
+      },
+      {
+        "code": "261",
+        "display": "2 <doser> hver 4. time slik legen har bestemt"
+      },
+      {
+        "code": "262",
+        "display": "2 <doser> i uken på fast ukedag Start 1 uke før avreise"
+      },
+      {
+        "code": "263",
+        "display": "2 <doser> inntil 4 ganger daglig"
+      },
+      {
+        "code": "264",
+        "display": "2 <doser> til måltidene"
+      },
+      {
+        "code": "265",
+        "display": "2 <doser> ved anfall som avtalt med legen"
+      },
+      {
+        "code": "266",
+        "display": "2 <doser> daglig"
+      },
+      {
+        "code": "268",
+        "display": "2 <doser> i hvert nesebor 1 gang daglig"
+      },
+      {
+        "code": "269",
+        "display": "2 <doser> på huden 1 gang daglig"
+      },
+      {
+        "code": "270",
+        "display": "2 <doser> påføres huden i tynt lag hver dag"
+      },
+      {
+        "code": "271",
+        "display": "2 <doser> 1 gang daglig i 14 dager"
+      },
+      {
+        "code": "273",
+        "display": "2 <doser> 1 gang daglig i 3 dager"
+      },
+      {
+        "code": "274",
+        "display": "2 <doser> daglig i 5 dager"
+      },
+      {
+        "code": "275",
+        "display": "2 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "276",
+        "display": "2 <doser> daglig de første 2 dager deretter 1 <dose> daglig"
+      },
+      {
+        "code": "277",
+        "display": "2 <doser> i hvert nesebor 2 ganger daglig"
+      },
+      {
+        "code": "278",
+        "display": "2 <doser> 2 ganger daglig i 21 dager"
+      },
+      {
+        "code": "279",
+        "display": "2 <doser> 2 ganger daglig i 5 dager"
+      },
+      {
+        "code": "280",
+        "display": "2 <doser> 2-3 ganger daglig"
+      },
+      {
+        "code": "281",
+        "display": "2 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "282",
+        "display": "2 <doser> i øret 3 ganger daglig"
+      },
+      {
+        "code": "283",
+        "display": "2 <doser> 3-4 ganger daglig"
+      },
+      {
+        "code": "284",
+        "display": "2 <doser> 4 ganger daglig"
+      },
+      {
+        "code": "285",
+        "display": "2,5 <doser> morgen 2,5 <doser> kveld"
+      },
+      {
+        "code": "286",
+        "display": "2,5 <doser> 1 gang daglig"
+      },
+      {
+        "code": "287",
+        "display": "2,5 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "288",
+        "display": "2,5 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "289",
+        "display": "2,5 <doser> 4 ganger daglig"
+      },
+      {
+        "code": "290",
+        "display": "2,5 <doser> 5 ganger daglig"
+      },
+      {
+        "code": "292",
+        "display": "2,5 <doser> morgen 2,5 <doser> midt på dagen 2,5 <doser> kveld"
+      },
+      {
+        "code": "293",
+        "display": "2,5 <doser> morgen 2,5 <doser> formiddag 2,5 <doser> ettermiddag 2,5 <doser> kveld"
+      },
+      {
+        "code": "294",
+        "display": "2,5 <doser> morgen 2,5 <doser> midt på dagen 5 <doser> kveld"
+      },
+      {
+        "code": "295",
+        "display": "2 <doser> morgen"
+      },
+      {
+        "code": "296",
+        "display": "2 <doser> i hvert nesebor morgen"
+      },
+      {
+        "code": "297",
+        "display": "2 <doser> morgen 1 <dose> kveld"
+      },
+      {
+        "code": "298",
+        "display": "2 <doser> morgen 2 <doser> kveld"
+      },
+      {
+        "code": "299",
+        "display": "2 <doser> morgen 2 <doser> kveld i 3 dager"
+      },
+      {
+        "code": "300",
+        "display": "2 <doser> i hvert nesebor morgen og kveld"
+      },
+      {
+        "code": "301",
+        "display": "2 <doser> morgen 3 <doser> kveld"
+      },
+      {
+        "code": "302",
+        "display": "2 <doser> morgen 1 <dose> midt på dagen 1 <dose> kveld"
+      },
+      {
+        "code": "303",
+        "display": "2 <doser> morgen 2 <doser> midt på dagen"
+      },
+      {
+        "code": "304",
+        "display": "2 <doser> morgen 2 <doser> midt på dagen 2 <doser> kveld"
+      },
+      {
+        "code": "305",
+        "display": "2 <doser> morgen 2 <doser> formiddag 2 <doser> ettermiddag 2 <doser> kveld"
+      },
+      {
+        "code": "306",
+        "display": "20 <doser> 1 gang daglig"
+      },
+      {
+        "code": "307",
+        "display": "20 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "308",
+        "display": "20 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "309",
+        "display": "22,5 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "310",
+        "display": "2-3 <doser> i øret 3 ganger daglig"
+      },
+      {
+        "code": "311",
+        "display": "2-4 <doser> i øret 3 ganger daglig"
+      },
+      {
+        "code": "312",
+        "display": "3 <doser> 1 gang daglig"
+      },
+      {
+        "code": "313",
+        "display": "3 <doser> 1 gang daglig i 3 dager"
+      },
+      {
+        "code": "314",
+        "display": "3 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "315",
+        "display": "3 <doser> i ørene 2 ganger daglig"
+      },
+      {
+        "code": "316",
+        "display": "3 <doser> i øret 2 ganger daglig"
+      },
+      {
+        "code": "317",
+        "display": "3 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "318",
+        "display": "3 <doser> i øret 3 ganger daglig"
+      },
+      {
+        "code": "319",
+        "display": "3,75 <doser> morgen 3,75 <doser> midt på dagen 3,75 <doser> kveld"
+      },
+      {
+        "code": "320",
+        "display": "3 <doser> morgen"
+      },
+      {
+        "code": "321",
+        "display": "3 <doser> morgen 3 <doser> kveld"
+      },
+      {
+        "code": "322",
+        "display": "3 <doser> morgen 3 <doser> midt på dagen 3 <doser> kveld"
+      },
+      {
+        "code": "323",
+        "display": "4 <doser> 1 gang daglig"
+      },
+      {
+        "code": "324",
+        "display": "4 <doser> 1 gang daglig i 3 dager"
+      },
+      {
+        "code": "325",
+        "display": "4 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "326",
+        "display": "4 <doser> i ørene 2 ganger daglig"
+      },
+      {
+        "code": "327",
+        "display": "4 <doser> i øret 2 ganger daglig"
+      },
+      {
+        "code": "328",
+        "display": "4 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "329",
+        "display": "4,5 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "330",
+        "display": "4 <doser> morgen"
+      },
+      {
+        "code": "331",
+        "display": "4 <doser> morgen 4 <doser> kveld"
+      },
+      {
+        "code": "332",
+        "display": "4 <doser> morgen 4 <doser> midt på dagen 4 <doser> kveld"
+      },
+      {
+        "code": "333",
+        "display": "40 <doser> 1 gang daglig"
+      },
+      {
+        "code": "334",
+        "display": "5 <doser> 1 gang daglig"
+      },
+      {
+        "code": "335",
+        "display": "5 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "336",
+        "display": "5 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "337",
+        "display": "5 <doser> 3 ganger daglig i 7 dager"
+      },
+      {
+        "code": "338",
+        "display": "5 <doser> 4 ganger daglig"
+      },
+      {
+        "code": "339",
+        "display": "5 <doser> morgen 5 <doser> kveld"
+      },
+      {
+        "code": "340",
+        "display": "5 <doser> morgen 5 <doser> kveld i 3 dager"
+      },
+      {
+        "code": "341",
+        "display": "5 <doser> morgen 5 <doser> midt på dagen 10 <doser> kveld"
+      },
+      {
+        "code": "342",
+        "display": "5 <doser> morgen 5 <doser> midt på dagen 5 <doser> kveld"
+      },
+      {
+        "code": "343",
+        "display": "5 <doser> morgen 5 <doser> formiddag 5 <doser> ettermiddag 5 <doser> kveld"
+      },
+      {
+        "code": "344",
+        "display": "6 <doser> 1 gang daglig"
+      },
+      {
+        "code": "345",
+        "display": "6 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "346",
+        "display": "6 <doser> 3 ganger daglig i 10-14 dager"
+      },
+      {
+        "code": "347",
+        "display": "7 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "348",
+        "display": "7,5 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "349",
+        "display": "7,5 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "350",
+        "display": "7,5 <doser> morgen 7,5 <doser> kveld"
+      },
+      {
+        "code": "351",
+        "display": "7,5 <doser> morgen 7,5 <doser> midt på dagen 15 <doser> kveld"
+      },
+      {
+        "code": "352",
+        "display": "7 <doser> morgen"
+      },
+      {
+        "code": "353",
+        "display": "Bør brukes 2-3 ganger i uken"
+      },
+      {
+        "code": "354",
+        "display": "1 <dose> påføres intra-analt hver 12. time"
+      },
+      {
+        "code": "355",
+        "display": "1 <dose> 3 ganger daglig første dag, deretter 1 <dose> 2 ganger daglig"
+      },
+      {
+        "code": "356",
+        "display": "Inntil 4 <doser> 2 ganger daglig"
+      },
+      {
+        "code": "357",
+        "display": "1 <dose> festes på huden høyst 1 gang daglig. Plasteret bør være festet på huden i minst 4 timer og høyst 12 timer."
+      },
+      {
+        "code": "358",
+        "display": "Plasteret skiftes en fast dag hver uke"
+      },
+      {
+        "code": "359",
+        "display": "Plasteret skiftes to faste dager hver uke"
+      },
+      {
+        "code": "360",
+        "display": "Påføres 1-2 ganger ukentlig på angrepet negl"
+      },
+      {
+        "code": "361",
+        "display": "Påføres annenhver time i våken tid av døgnet i 4 dager"
+      },
+      {
+        "code": "362",
+        "display": "Påføres i tynt lag"
+      },
+      {
+        "code": "363",
+        "display": "Påsmøres flere ganger daglig"
+      },
+      {
+        "code": "364",
+        "display": "Påsmøres flere ganger daglig som avtalt med lege"
+      },
+      {
+        "code": "365",
+        "display": "Påsmøres i tynt lag hver annen dag"
+      },
+      {
+        "code": "366",
+        "display": "Påsmøres i tynt lag 3 kvelder i uken"
+      },
+      {
+        "code": "367",
+        "display": "Påsmøres i tynt lag 2 kvelder i uken"
+      },
+      {
+        "code": "368",
+        "display": "Settes inn i livmorhulen av lege innen 7 dager etter påbegynt menstruasjon."
+      },
+      {
+        "code": "369",
+        "display": "Settes inn i skjeden.Tas ut etter 3 uker. Ny ring settes inn etter 1 uke."
+      },
+      {
+        "code": "370",
+        "display": "Skal plasseres i munnen mot kinnet og flyttes rundt i munnen langs kinnet på begge sider."
+      },
+      {
+        "code": "373",
+        "display": "1 <dose> hver kveld"
+      },
+      {
+        "code": "374",
+        "display": "1 <dose> fortynnes med 2 ml saltvann og inhaleres 4 ganger daglig"
+      },
+      {
+        "code": "375",
+        "display": "1 <dose> fortynnes med 2 ml saltvann og inhaleres inntil 4 ganger daglig"
+      },
+      {
+        "code": "376",
+        "display": "5 <doser> som engangsdose"
+      },
+      {
+        "code": "377",
+        "display": "50 <doser> som engangsdose"
+      },
+      {
+        "code": "378",
+        "display": "5 <doser> daglig"
+      },
+      {
+        "code": "379",
+        "display": "2 <doser> 1 gang daglig"
+      },
+      {
+        "code": "380",
+        "display": "50 <doser> i en dose 1.dag og 3.dag"
+      },
+      {
+        "code": "381",
+        "display": "3 <doser> daglig"
+      },
+      {
+        "code": "5323",
+        "display": "4 <doser> daglig"
+      },
+      {
+        "code": "5324",
+        "display": "4 <doser> ved sengetid"
+      },
+      {
+        "code": "5325",
+        "display": "1-2 <doser> under tungen uten samtidig innånding"
+      },
+      {
+        "code": "5326",
+        "display": "2 <doser> som engangsdose"
+      },
+      {
+        "code": "5328",
+        "display": "1 <dose> som engangsdose"
+      },
+      {
+        "code": "5329",
+        "display": "1 <dose> legges under tungen ved anfall"
+      },
+      {
+        "code": "5330",
+        "display": "1 <dose> under tungen uten samtidig innånding"
+      },
+      {
+        "code": "5331",
+        "display": "1 <dose> festes på huden 1 time før inngrep"
+      },
+      {
+        "code": "5332",
+        "display": "1 <dose> 1-2 timer før sengetid"
+      },
+      {
+        "code": "5333",
+        "display": "1 <dose> 2-4 timer før sengetid"
+      },
+      {
+        "code": "5335",
+        "display": "2 <doser> 1-2 timer før sengetid"
+      },
+      {
+        "code": "5336",
+        "display": "0,5 <doser> 1/2-1 time før sengetid"
+      },
+      {
+        "code": "5337",
+        "display": "2 <doser> 1/2-1 time før sengetid"
+      },
+      {
+        "code": "5338",
+        "display": "1 <dose> 1/2-1 time før sengetid"
+      },
+      {
+        "code": "5339",
+        "display": "1 <dose> tas omtrent1 time før seksuell aktivitet"
+      },
+      {
+        "code": "5340",
+        "display": "1 <dose> festes på huden 2 timer før inngrep"
+      },
+      {
+        "code": "5341",
+        "display": "1 <dose> innføres i skjeden daglig i 14 dager, deretter 2 ganger i uken"
+      },
+      {
+        "code": "5342",
+        "display": "2 <doser> daglig. Røres ut i 30 ml vann og svelges"
+      },
+      {
+        "code": "5343",
+        "display": "1 <dose> daglig. Røres ut i 15 ml vann og svelges"
+      },
+      {
+        "code": "5344",
+        "display": "1 <dose> settes subkutant hver 12. uke"
+      },
+      {
+        "code": "5345",
+        "display": "3 <doser> ved sengetid"
+      },
+      {
+        "code": "5346",
+        "display": "2 <doser> 1 gang daglig. Start 1-2 dager før innreise til malaria-sonen, fortsett i 7 dager etter utreise fra sonen"
+      },
+      {
+        "code": "5347",
+        "display": "1 <dose> innføres i skjeden ved sengetid i 5 dager"
+      },
+      {
+        "code": "5348",
+        "display": "1 <dose> hver måned på samme dato"
+      },
+      {
+        "code": "5349",
+        "display": "1 <dose> festes på huden 30 min før inngrep"
+      },
+      {
+        "code": "5350",
+        "display": "2 <doser> festes på huden 30 min før inngrep"
+      },
+      {
+        "code": "5351",
+        "display": "3 <doser> festes på huden 30 min før inngrep"
+      },
+      {
+        "code": "5352",
+        "display": "4 <doser> festes på huden 30 min før inngrep"
+      },
+      {
+        "code": "5353",
+        "display": "30 <doser> en gang daglig"
+      },
+      {
+        "code": "5354",
+        "display": "30 <doser> morgen"
+      },
+      {
+        "code": "5355",
+        "display": "30 <doser> kveld"
+      },
+      {
+        "code": "5356",
+        "display": "4 <doser> i hvert nesebor morgen"
+      },
+      {
+        "code": "5357",
+        "display": "1 <dose> innføres i skjeden 3 ganger daglig i 30 dager"
+      },
+      {
+        "code": "5358",
+        "display": "2 <doser> første dag deretter 1 <dose> daglig"
+      },
+      {
+        "code": "5359",
+        "display": "1 <dose> ved sengetid, 1 <dose> i løpet av natten"
+      },
+      {
+        "code": "5360",
+        "display": "1 <dose> ved sengetid, 1 <dose> morgen"
+      },
+      {
+        "code": "5361",
+        "display": "1 <dose> i hvert øye hver 2. time i 2-3 dager, deretter hver 4.-6. time"
+      },
+      {
+        "code": "5362",
+        "display": "1-2 <doser> i hvert øye hver 1.-2. time i 2-3 dager, deretter hver 4.-6. time"
+      },
+      {
+        "code": "5363",
+        "display": "Pensles på vortene 2 ganger daglig i 3 påfølgende dager Behandlingen kan gjentas etter 1 uke"
+      },
+      {
+        "code": "5364",
+        "display": "Pensles på vortene 2 ganger daglig i 3 dager, så 4 dagers opphold. Behandlingen kan gjentas 3 ganger"
+      },
+      {
+        "code": "5365",
+        "display": "2 <doser> tas med minst 1 ukes pause mellom hver dose, se bruksanvisning. Effekt oppnås 1 uke etter siste dose."
+      },
+      {
+        "code": "5366",
+        "display": "1 <dose> tas ifølge bruksanvisningen"
+      },
+      {
+        "code": "5367",
+        "display": "1 <dose> daglig fra første menstruasjonsdag"
+      },
+      {
+        "code": "5368",
+        "display": "1 <dose> daglig fra femte menstruasjonsdag"
+      },
+      {
+        "code": "5369",
+        "display": "1 <dose> 1 hver uke i 4-6 uker"
+      },
+      {
+        "code": "5370",
+        "display": "Påsmøres tynt rene og tørre angrepne områder 2 ganger daglig med minst 8 timers mellomrom"
+      },
+      {
+        "code": "5372",
+        "display": "Startdose: 1 <dose> daglig i 2 dager, deretter 2 <doser> 1 gang daglig"
+      },
+      {
+        "code": "5373",
+        "display": "Startdose: 0,5 <dose> daglig i 2 dager, deretter 1 <dose> daglig"
+      },
+      {
+        "code": "5374",
+        "display": "1 <dose> 1 gang daglig i 7 dager"
+      },
+      {
+        "code": "5375",
+        "display": "2 <doser> 1 gang daglig i 10 dager"
+      },
+      {
+        "code": "5376",
+        "display": "1 <dose> 1 gang daglig ved behov"
+      },
+      {
+        "code": "5377",
+        "display": "2 <doser> 1 gang daglig i 14 dager deretter kalsium daglig i 11 uker"
+      },
+      {
+        "code": "5378",
+        "display": "Følg vedlagte bruksanvisning"
+      },
+      {
+        "code": "5379",
+        "display": "1 <dose> settes subkutant 3 ganger i uken"
+      },
+      {
+        "code": "5380",
+        "display": "1 <dose> hver uke"
+      },
+      {
+        "code": "5381",
+        "display": "2 <doser> rett før måltidene"
+      },
+      {
+        "code": "5382",
+        "display": "1 <dose> rett før måltidene"
+      },
+      {
+        "code": "5383",
+        "display": "1 <dose> til måltidene"
+      },
+      {
+        "code": "5384",
+        "display": "3 <doser> til måltidene"
+      },
+      {
+        "code": "5386",
+        "display": "1-2 <doser> ved anfall som avtalt med legen"
+      },
+      {
+        "code": "5387",
+        "display": "4 <doser> i en dose 1. dag og 3. dag"
+      },
+      {
+        "code": "5388",
+        "display": "5 <doser> i en dose 1. dag og 3. dag"
+      },
+      {
+        "code": "5389",
+        "display": "Legg et tykt lag på huden en time før inngrep. Tildekkes"
+      },
+      {
+        "code": "5390",
+        "display": "20 <doser> første dag deretter 10 <doser> daglig"
+      },
+      {
+        "code": "5391",
+        "display": "12 <doser> første dag deretter 6 <doser> daglig"
+      },
+      {
+        "code": "5392",
+        "display": "4 <doser> første dag deretter 2 <doser> daglig"
+      },
+      {
+        "code": "5393",
+        "display": "8 <doser> første dag deretter 4 <doser> daglig"
+      },
+      {
+        "code": "5394",
+        "display": "2 <doser> i første dose deretter 1 <dose> 3 ganger daglig"
+      },
+      {
+        "code": "5395",
+        "display": "Brukes nøyaktig slik legen har bestemt"
+      },
+      {
+        "code": "5396",
+        "display": "Brukes ifølge INR-verdi som avtalt med legen"
+      },
+      {
+        "code": "5397",
+        "display": "2 <doser> i første dose deretter 1 <dose> etter hver løs avføring"
+      },
+      {
+        "code": "5398",
+        "display": "2 <doser> fortynnes med 2 ml saltvann og inhaleres inntil 4 ganger daglig"
+      },
+      {
+        "code": "5399",
+        "display": "1 <dose> på huden hver uke i 3 uker, så 1 ukes pause. Plasteret skiftes på fast ukedag"
+      },
+      {
+        "code": "5400",
+        "display": "0,5 <dose> hver uke"
+      },
+      {
+        "code": "5401",
+        "display": "Innføres dypt i skjeden hver 3. måned"
+      },
+      {
+        "code": "5402",
+        "display": "1 <dose> innføres dypt i skjeden om kvelden"
+      },
+      {
+        "code": "5403",
+        "display": "1 <dose> innføres i skjeden daglig i 10 dager"
+      },
+      {
+        "code": "5404",
+        "display": "1 <dose> innføres i skjeden daglig fra eggløsning"
+      },
+      {
+        "code": "5405",
+        "display": "1 <dose> innføres i skjeden daglig"
+      },
+      {
+        "code": "5407",
+        "display": "1 <dose> i ett nesebor morgen, 1 <dose> i det andre neseboret kveld"
+      },
+      {
+        "code": "5408",
+        "display": "2 <doser> innføres i endetarmen 2 ganger daglig"
+      },
+      {
+        "code": "5409",
+        "display": "2 <doser> morgen 2 <doser> kveld Innføres i endetarmen"
+      },
+      {
+        "code": "5410",
+        "display": "1 <dose> innføres i endetarmen 2 ganger daglig"
+      },
+      {
+        "code": "5411",
+        "display": "1 <dose> innføres i endetarmen 3 ganger daglig"
+      },
+      {
+        "code": "5412",
+        "display": "1 <dose> innføres i endetarmen 4 ganger daglig"
+      },
+      {
+        "code": "5413",
+        "display": "1 <dose> innføres i endetarmen inntil 3 ganger daglig"
+      },
+      {
+        "code": "5414",
+        "display": "1 <dose> innføres i endetarmen inntil 4 ganger daglig"
+      },
+      {
+        "code": "5415",
+        "display": "1-2 <doser> innføres i endetarmen 3 ganger daglig"
+      },
+      {
+        "code": "5416",
+        "display": "1-2 <doser> innføres i endetarmen 4 ganger daglig"
+      },
+      {
+        "code": "5417",
+        "display": "1 <dose> innføres i endetarmen daglig"
+      },
+      {
+        "code": "5418",
+        "display": "1 <dose> innføres i endetarmen ved sengetid"
+      },
+      {
+        "code": "5419",
+        "display": "1 <dose> i endetarmen ved anfall som avtalt med legen"
+      },
+      {
+        "code": "5420",
+        "display": "8 <doser> morgen 8 <doser> midt på dagen 8 <doser> kveld"
+      },
+      {
+        "code": "5421",
+        "display": "10 <doser> morgen 10 <doser> midt på dagen 10 <doser> kveld"
+      },
+      {
+        "code": "5422",
+        "display": "1,5 <doser> morgen 1,5 <doser> midt på dagen 1,5 <doser> kveld"
+      },
+      {
+        "code": "5423",
+        "display": "1,25 <doser> morgen 1,25 <doser> kveld"
+      },
+      {
+        "code": "5424",
+        "display": "1,25 <doser> morgen 1,25 <doser> formiddag 1,25 <doser> ettermiddag 1,25 <doser> kveld"
+      },
+      {
+        "code": "5425",
+        "display": "2,25 <doser> morgen 2,25 <doser> formiddag 2,25 <doser> ettermiddag 2,25 <doser> kveld"
+      },
+      {
+        "code": "5426",
+        "display": "12,5 <doser> morgen 12,5 <doser> kveld"
+      },
+      {
+        "code": "5427",
+        "display": "7,5 <doser> morgen 7,5 <doser> formiddag 7,5 <doser> ettermiddag 7,5 <doser> kveld"
+      },
+      {
+        "code": "5428",
+        "display": "20 <doser> morgen 20 <doser> kveld"
+      },
+      {
+        "code": "5429",
+        "display": "0,5 <doser> morgen 0,5 <doser> formiddag 0,5 <doser> ettermiddag 0,5 <doser> kveld"
+      },
+      {
+        "code": "5430",
+        "display": "1,5 <doser> morgen 1,5 <doser> formiddag 1,5 <doser> ettermiddag 1,5 <doser> kveld"
+      },
+      {
+        "code": "5431",
+        "display": "6 <doser> morgen 6 <doser> kveld"
+      },
+      {
+        "code": "5432",
+        "display": "3 <doser> morgen 3 <doser> formiddag 3 <doser> ettermiddag 3 <doser> kveld"
+      },
+      {
+        "code": "5433",
+        "display": "Settes inn i livmorhulen av lege"
+      },
+      {
+        "code": "5434",
+        "display": "3,75 <doser> morgen 3,75 <doser> kveld"
+      },
+      {
+        "code": "5435",
+        "display": "Påsmøres hver 4. time i våken tid av døgnet"
+      },
+      {
+        "code": "5436",
+        "display": "Påsmøres i tynt lag 5 kvelder i uken"
+      },
+      {
+        "code": "5437",
+        "display": "Påsmøres i tynt lag 2-3 ganger i uken"
+      },
+      {
+        "code": "5438",
+        "display": "1-2 <doser> i endetarmen ved anfall som avtalt med legen"
+      },
+      {
+        "code": "5439",
+        "display": "1 <dose> innføres i endetarmen 3-4 ganger daglig"
+      },
+      {
+        "code": "5440",
+        "display": "1 <dose> morgen og 1 <dose> kveld Innføres i endetarmen"
+      },
+      {
+        "code": "5441",
+        "display": "1 <dose> morgen 1 <dose> midt på dagen 1 <dose> kveld Innføres i endetarmen"
+      },
+      {
+        "code": "5442",
+        "display": "0,5 <doser> innføres i endetarmen 3 ganger daglig"
+      },
+      {
+        "code": "5444",
+        "display": "1 <dose> 3 ganger daglig med 8 timers mellomrom"
+      },
+      {
+        "code": "5445",
+        "display": "5 <doser> første dag deretter 2,5 <doser> daglig i 13 dager"
+      },
+      {
+        "code": "5446",
+        "display": "1 <dose> 5 ganger daglig i 7 dager"
+      },
+      {
+        "code": "5447",
+        "display": "3 <doser> morgen 4 <doser> kveld"
+      },
+      {
+        "code": "5448",
+        "display": "2 <doser> hver 8. time"
+      },
+      {
+        "code": "5449",
+        "display": "2 <doser> morgen 1 <dose> midt på dagen 2 <doser> kveld"
+      },
+      {
+        "code": "5450",
+        "display": "3 <doser> morgen 2 <doser> midt på dagen 2 <doser> kveld"
+      },
+      {
+        "code": "5451",
+        "display": "24 <doser> 1 gang daglig"
+      },
+      {
+        "code": "5452",
+        "display": "1 <dose> i ett nesebor 4 ganger daglig"
+      },
+      {
+        "code": "5453",
+        "display": "1 <dose> settes subkutant hver måned"
+      },
+      {
+        "code": "5455",
+        "display": "1 <dose> settes subkutant hver 6. måned"
+      },
+      {
+        "code": "5456",
+        "display": "1 <dose> settes subkutant hver 3. måned"
+      },
+      {
+        "code": "5457",
+        "display": "1 <dose> settes subkutant 2 ganger i uken"
+      },
+      {
+        "code": "5458",
+        "display": "1 <dose> hver 8. uke"
+      },
+      {
+        "code": "5459",
+        "display": "3 <doser> hver uke på fast ukedag"
+      },
+      {
+        "code": "5460",
+        "display": "4 <doser> hver uke på fast ukedag"
+      },
+      {
+        "code": "5461",
+        "display": "5 <doser> hver uke på fast ukedag"
+      },
+      {
+        "code": "5462",
+        "display": "6 <doser> hver uke på fast ukedag"
+      },
+      {
+        "code": "5463",
+        "display": "1 <dose> 2 ganger daglig i 10 dager"
+      },
+      {
+        "code": "5464",
+        "display": "1 <dose> morgen 1 <dose> kveld i 10 dager"
+      },
+      {
+        "code": "5465",
+        "display": "1 <dose> daglig i 3 dager"
+      },
+      {
+        "code": "5466",
+        "display": "2 <doser> 6 ganger daglig"
+      },
+      {
+        "code": "5467",
+        "display": "5 <doser> inntil 4 ganger i døgnet"
+      },
+      {
+        "code": "5468",
+        "display": "10 <doser> inntil 4 ganger i døgnet"
+      },
+      {
+        "code": "5471",
+        "display": "2,5 <doser> inntil 3 ganger daglig"
+      },
+      {
+        "code": "5472",
+        "display": "7,5 <doser> inntil 3 ganger daglig"
+      },
+      {
+        "code": "5473",
+        "display": "15 <doser> inntil 3 ganger daglig"
+      },
+      {
+        "code": "5474",
+        "display": "5 <doser> inntil 3 ganger daglig"
+      },
+      {
+        "code": "5475",
+        "display": "1 <dose> settes subkutant 1 gang i uken"
+      },
+      {
+        "code": "5477",
+        "display": "5 <doser> morgen"
+      },
+      {
+        "code": "5478",
+        "display": "6 <doser> morgen"
+      },
+      {
+        "code": "5479",
+        "display": "8 <doser> morgen"
+      },
+      {
+        "code": "5480",
+        "display": "9 <doser> morgen"
+      },
+      {
+        "code": "5481",
+        "display": "2 <dose> inntil 5 ganger daglig"
+      },
+      {
+        "code": "5482",
+        "display": "2,5 <doser> inntil 4 ganger daglig"
+      },
+      {
+        "code": "5483",
+        "display": "2,5 - 5 <doser> inntil 4 ganger daglig"
+      },
+      {
+        "code": "5484",
+        "display": "5 <doser> inntil 4 ganger daglig"
+      },
+      {
+        "code": "5485",
+        "display": "4-6 <doser> i høyre øre hver 8. time"
+      },
+      {
+        "code": "5486",
+        "display": "4-6 <doser> i venstre øre hver 8. time"
+      },
+      {
+        "code": "5488",
+        "display": "4-6 <doser> i begge ører hver 8. time"
+      },
+      {
+        "code": "5489",
+        "display": "1 <dose> 4-6 ganger daglig"
+      },
+      {
+        "code": "5490",
+        "display": "8 <doser> daglig"
+      },
+      {
+        "code": "5491",
+        "display": "1-2 <doser> i øyet"
+      },
+      {
+        "code": "5492",
+        "display": "1 <dose> i hvert øye ved behov"
+      },
+      {
+        "code": "5493",
+        "display": "1-2 <doser> ved behov"
+      },
+      {
+        "code": "5494",
+        "display": "1 <dose> 4 ganger daglig første dag, deretter 1 <dose> 2 ganger daglig til minst 2 dager etter symptomfrihet"
+      },
+      {
+        "code": "5495",
+        "display": "1,25 <doser> 3 ganger daglig"
+      },
+      {
+        "code": "5496",
+        "display": "Påføres tynt på berørt område 3 ganger daglig"
+      }
+    ]
+  },
   "compose": {
     "include": [
       {
-        "system": "http://snomed.info/sct",
-        "concept": [
-          {
-            "code": "1",
-            "display": "0,5 <doser> ved sengetid"
-          },
-          {
-            "code": "2",
-            "display": "1 <dose> ved sengetid"
-          },
-          {
-            "code": "3",
-            "display": "2 <doser> ved sengetid"
-          },
-          {
-            "code": "4",
-            "display": "2,5 <doser> 1/2-1 time før sengetid"
-          },
-          {
-            "code": "5",
-            "display": "3 <doser> 1/2-1 time før sengetid"
-          },
-          {
-            "code": "6",
-            "display": "4 <doser> som engangsdose"
-          },
-          {
-            "code": "7",
-            "display": "5 <doser> 1/2-1 time før sengetid"
-          },
-          {
-            "code": "8",
-            "display": "10 <doser> før sengetid"
-          },
-          {
-            "code": "9",
-            "display": "1-2 <doser> ved sengetid"
-          },
-          {
-            "code": "10",
-            "display": "0,25 <doser> morgen 0,25 <doser> midt på dagen 0,5 <doser> kveld"
-          },
-          {
-            "code": "11",
-            "display": "0,3 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "12",
-            "display": "0,35 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "13",
-            "display": "0,5 <doser> 1 gang daglig"
-          },
-          {
-            "code": "14",
-            "display": "0,5 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "15",
-            "display": "0,5 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "16",
-            "display": "0,5 <doser> morgen 0,5 <doser> midt på dagen 1 <doser> kveld"
-          },
-          {
-            "code": "17",
-            "display": "0,5 <doser> morgen"
-          },
-          {
-            "code": "18",
-            "display": "0,5 <doser> morgen 0,5 <doser> kveld"
-          },
-          {
-            "code": "19",
-            "display": "0,6 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "20",
-            "display": "0,75 <doser> morgen 0,75 <doser> midt på dagen 1,5 <doser> kveld"
-          },
-          {
-            "code": "21",
-            "display": "1 <dose> kveld"
-          },
-          {
-            "code": "22",
-            "display": "1 <dose> i ett nesebor om kvelden"
-          },
-          {
-            "code": "23",
-            "display": "1 <dose> i hvert nesebor om kvelden"
-          },
-          {
-            "code": "24",
-            "display": "1 <dose> i hvert øye om kvelden"
-          },
-          {
-            "code": "25",
-            "display": "1 <dose> i høyre øye om kvelden"
-          },
-          {
-            "code": "26",
-            "display": "1 <dose> i venstre øye om kvelden"
-          },
-          {
-            "code": "27",
-            "display": "Legges i nedre øyelokksrand om kvelden"
-          },
-          {
-            "code": "28",
-            "display": "4 <doser> kveld"
-          },
-          {
-            "code": "29",
-            "display": "Påsmøres om kvelden"
-          },
-          {
-            "code": "30",
-            "display": "Påsmøres i tynt lag om kvelden"
-          },
-          {
-            "code": "31",
-            "display": "1 <dose> innføres i skjeden hver kveld i 10 dager"
-          },
-          {
-            "code": "32",
-            "display": "1 <dose> innføres dypt i skjeden hver kveld i 3 dager"
-          },
-          {
-            "code": "33",
-            "display": "1 <dose> innføres dypt i skjeden hver kveld i 6 dager"
-          },
-          {
-            "code": "34",
-            "display": "1 <dose> innføres i skjeden hver kveld i 7 dager"
-          },
-          {
-            "code": "35",
-            "display": "2 <doser> kveld"
-          },
-          {
-            "code": "36",
-            "display": "2 <doser> i hvert nesebor om kvelden"
-          },
-          {
-            "code": "37",
-            "display": "2 <doser> innføres dypt i skjeden hver kveld i 3 dager"
-          },
-          {
-            "code": "38",
-            "display": "2,5 <doser> kveld"
-          },
-          {
-            "code": "39",
-            "display": "3 <doser> kveld"
-          },
-          {
-            "code": "40",
-            "display": "5 <doser> kveld"
-          },
-          {
-            "code": "41",
-            "display": "1 <dose> annenhver dag"
-          },
-          {
-            "code": "42",
-            "display": "Masseres inn i smertefullt hudområde 2-3 ganger daglig"
-          },
-          {
-            "code": "43",
-            "display": "1 <dose> daglig Start 1-2 dager før innreise til malaria-sonen, fortsett i 7 dager etter utreise fra sonen"
-          },
-          {
-            "code": "44",
-            "display": "1 <dose> innføres i skjeden 2 ganger i uken"
-          },
-          {
-            "code": "45",
-            "display": "1 <dose> annenhver dag, inntil totalt 5 ganger"
-          },
-          {
-            "code": "46",
-            "display": "1 <dose> innføres i skjeden annenhver dag som avtalt"
-          },
-          {
-            "code": "47",
-            "display": "1 <dose> annenhver måned"
-          },
-          {
-            "code": "48",
-            "display": "1 <dose> annenhver uke"
-          },
-          {
-            "code": "49",
-            "display": "1 <dose> bak øret 5-6 timer før avreise"
-          },
-          {
-            "code": "52",
-            "display": "1 <dose> 3 dager i uken annenhver dag"
-          },
-          {
-            "code": "53",
-            "display": "1 <dose> daglig 5 dager i uken"
-          },
-          {
-            "code": "54",
-            "display": "1 <dose> daglig unntatt lørdager og søndager"
-          },
-          {
-            "code": "55",
-            "display": "1 <dose> daglig unntatt onsdager og søndager"
-          },
-          {
-            "code": "56",
-            "display": "1 <dose> hver 12. time"
-          },
-          {
-            "code": "57",
-            "display": "1 <dose> hver 3. måned"
-          },
-          {
-            "code": "58",
-            "display": "1 <dose> hver 3. uke"
-          },
-          {
-            "code": "59",
-            "display": "1 <dose> hver 4. uke"
-          },
-          {
-            "code": "60",
-            "display": "1 <dose> hver 4.-5. time"
-          },
-          {
-            "code": "61",
-            "display": "1 <dose> hver 4. time slik legen har bestemt"
-          },
-          {
-            "code": "62",
-            "display": "1 <dose> hver uke"
-          },
-          {
-            "code": "63",
-            "display": "1 <dose> hver uke på fast ukedag"
-          },
-          {
-            "code": "64",
-            "display": "1 <dose> i ett nesebor ved anfall. Ny dose ved behov etter minst 2 timer"
-          },
-          {
-            "code": "65",
-            "display": "1 <dose> i ett nesebor 5 min. før diegivning eller pumping"
-          },
-          {
-            "code": "66",
-            "display": "1 <dose> i hvert øye annenhver time"
-          },
-          {
-            "code": "67",
-            "display": "1 <dose> i hvert øye hver 4. time"
-          },
-          {
-            "code": "68",
-            "display": "1 <dose> i hvert øye hver 5. time"
-          },
-          {
-            "code": "69",
-            "display": "1 <dose> i hvert øye hver 6. time"
-          },
-          {
-            "code": "70",
-            "display": "1 <dose> i hvert øye hver time"
-          },
-          {
-            "code": "71",
-            "display": "1 <dose> i høyre øye annenhver time"
-          },
-          {
-            "code": "72",
-            "display": "1 <dose> i høyre øye hver 4. time"
-          },
-          {
-            "code": "73",
-            "display": "1 <dose> i høyre øye hver 5. time"
-          },
-          {
-            "code": "74",
-            "display": "1 <dose> i høyre øye hver 6. time"
-          },
-          {
-            "code": "75",
-            "display": "1 <dose> i venstre øye annenhver time"
-          },
-          {
-            "code": "76",
-            "display": "1 <dose> i venstre øye hver 4. time"
-          },
-          {
-            "code": "77",
-            "display": "1 <dose> i venstre øye hver 5. time"
-          },
-          {
-            "code": "78",
-            "display": "1 <dose> i venstre øye hver 6. time"
-          },
-          {
-            "code": "79",
-            "display": "1 <dose> inntil 3 ganger daglig"
-          },
-          {
-            "code": "80",
-            "display": "Masseres inn i betent hudområde inntil 3 ganger daglig"
-          },
-          {
-            "code": "81",
-            "display": "Masseres inn i smertefullt hudområde inntil 3 ganger daglig"
-          },
-          {
-            "code": "82",
-            "display": "1 <dose> inntil 4 ganger daglig"
-          },
-          {
-            "code": "83",
-            "display": "1 <dose> i hvert øye inntil 4 ganger daglig"
-          },
-          {
-            "code": "84",
-            "display": "1 <dose> inntil 5 ganger daglig"
-          },
-          {
-            "code": "85",
-            "display": "1 <dose> innføres i endetarmen inntil 6 ganger daglig"
-          },
-          {
-            "code": "86",
-            "display": "1 <dose> på huden"
-          },
-          {
-            "code": "87",
-            "display": "1 <dose> hver uke i 4 uker"
-          },
-          {
-            "code": "88",
-            "display": "1 <dose> ved anfall inntil 3 ganger daglig"
-          },
-          {
-            "code": "89",
-            "display": "1 <dose> ved anfall og eventuelt 1 <dose> etter minst 2 timer"
-          },
-          {
-            "code": "90",
-            "display": "1 <dose> ved anfall som avtalt med legen"
-          },
-          {
-            "code": "91",
-            "display": "1 <dose> ved begynnende anfall. Ny <dose> ved behov etter minst 2 timer. Maks 3 pr døgn"
-          },
-          {
-            "code": "92",
-            "display": "1 <dose> ved begynnende anfall. Ny <dose> ved behov etter minst 2 timer. Maks 6 pr døgn"
-          },
-          {
-            "code": "93",
-            "display": "1 <dose> daglig"
-          },
-          {
-            "code": "95",
-            "display": "1 <dose> 1 gang daglig i 11 uker"
-          },
-          {
-            "code": "96",
-            "display": "1 <dose> i ett nesebor 1 gang daglig"
-          },
-          {
-            "code": "97",
-            "display": "1 <dose> i hvert nesebor 1 gang daglig"
-          },
-          {
-            "code": "98",
-            "display": "1 <dose> i hvert øye 1 gang daglig"
-          },
-          {
-            "code": "99",
-            "display": "1 <dose> i høyre øye 1 gang daglig"
-          },
-          {
-            "code": "100",
-            "display": "1 <dose> i venstre øye 1 gang daglig"
-          },
-          {
-            "code": "103",
-            "display": "1 <dose> på huden daglig"
-          },
-          {
-            "code": "104",
-            "display": "Påføres angrepet område 1 gang daglig"
-          },
-          {
-            "code": "105",
-            "display": "Påføres i tynt lag 1 gang daglig"
-          },
-          {
-            "code": "106",
-            "display": "Påsmøres 1 gang daglig"
-          },
-          {
-            "code": "107",
-            "display": "Påsmøres angrepet område 1 gang daglig"
-          },
-          {
-            "code": "108",
-            "display": "Påsmøres i tynt lag 1 gang daglig"
-          },
-          {
-            "code": "109",
-            "display": "1 <dose> 1 gang daglig i 10 dager"
-          },
-          {
-            "code": "110",
-            "display": "1 <dose> 1 gang daglig i 14 dager"
-          },
-          {
-            "code": "111",
-            "display": "1 <dose> daglig i 14 dager deretter 2 <doser> daglig i 14 dager"
-          },
-          {
-            "code": "112",
-            "display": "1 <dose> 1 gang daglig i 21 dager deretter 1 ukes pause"
-          },
-          {
-            "code": "113",
-            "display": "1 <dose> innføres i skjeden daglig i 21 dager deretter 1 <dose> i skjeden 2 ganger i uken"
-          },
-          {
-            "code": "114",
-            "display": "1 <dose> 1 gang daglig i 21 dager fra første mens. dag, deretter 1 ukes pause"
-          },
-          {
-            "code": "115",
-            "display": "1 <dose> 1 gang daglig i 3 dager"
-          },
-          {
-            "code": "116",
-            "display": "1 <dose> 1 gang daglig i 5 dager"
-          },
-          {
-            "code": "117",
-            "display": "1 <dose> 1 gang daglig i 6 dager deretter 1 <dose> 2 ganger daglig"
-          },
-          {
-            "code": "118",
-            "display": "1 <dose> 1 gang daglig i 1 uke deretter 2 <doser> 1 gang daglig"
-          },
-          {
-            "code": "119",
-            "display": "Påføres 1 gang daglig i 7 dager"
-          },
-          {
-            "code": "120",
-            "display": "Påsmøres 1 gang daglig i 7 dager"
-          },
-          {
-            "code": "121",
-            "display": "1 <dose> innføres i endetarmen 1-2 ganger daglig"
-          },
-          {
-            "code": "122",
-            "display": "Påføres 1-2 ganger daglig i 1-2 uker"
-          },
-          {
-            "code": "123",
-            "display": "Påføres 1-2 ganger daglig i 2-4 uker"
-          },
-          {
-            "code": "124",
-            "display": "Påsmøres 1-2 ganger daglig i 3-4 uker"
-          },
-          {
-            "code": "125",
-            "display": "Påføres 1-2 ganger daglig"
-          },
-          {
-            "code": "126",
-            "display": "Påsmøres 1-2 ganger daglig"
-          },
-          {
-            "code": "127",
-            "display": "Påsmøres i tynt lag 1-2 ganger daglig"
-          },
-          {
-            "code": "128",
-            "display": "Påsmøres tynt angrepet område 1-2 ganger daglig."
-          },
-          {
-            "code": "129",
-            "display": "1 <dose> 1-3 ganger daglig i inntil 4 dager"
-          },
-          {
-            "code": "130",
-            "display": "1 <dose> 2 ganger daglig"
-          },
-          {
-            "code": "131",
-            "display": "Gnis inn dråpevis 2 ganger daglig"
-          },
-          {
-            "code": "132",
-            "display": "Påsmøres 2 ganger daglig i 3-4 uker"
-          },
-          {
-            "code": "133",
-            "display": "1 <dose> i ett nesebor 2 ganger daglig"
-          },
-          {
-            "code": "134",
-            "display": "1 <dose> i hvert nesebor 2 ganger daglig"
-          },
-          {
-            "code": "135",
-            "display": "1 <dose> i hvert øre 2 ganger daglig i 3-4 dager deretter 1 <dose> i hvert øre 1 gang daglig"
-          },
-          {
-            "code": "136",
-            "display": "1 <dose> i hvert øye 2 ganger daglig"
-          },
-          {
-            "code": "137",
-            "display": "1 <dose> i høyre øye 2 ganger daglig"
-          },
-          {
-            "code": "138",
-            "display": "1 <dose> i venstre øye 2 ganger daglig"
-          },
-          {
-            "code": "139",
-            "display": "1 <dose> i øret 2 ganger daglig i 3-4 dager deretter 1 <dose> i øret 1 gang daglig"
-          },
-          {
-            "code": "141",
-            "display": "Legges i nedre øyelokksrand 2 ganger daglig"
-          },
-          {
-            "code": "142",
-            "display": "Påføres i tynt lag 2 ganger daglig"
-          },
-          {
-            "code": "143",
-            "display": "Påsmøres 2 ganger daglig"
-          },
-          {
-            "code": "144",
-            "display": "Påsmøres angrepet område 2 ganger daglig"
-          },
-          {
-            "code": "145",
-            "display": "Påsmøres i tynt lag 2 ganger daglig"
-          },
-          {
-            "code": "146",
-            "display": "Påsmøres glans penis 2 ganger daglig i 14 dager"
-          },
-          {
-            "code": "147",
-            "display": "Påsmøres 2 ganger daglig i 14 dager"
-          },
-          {
-            "code": "148",
-            "display": "Pensles på 2 ganger daglig i 3 påfølgende dager"
-          },
-          {
-            "code": "150",
-            "display": "1 <dose> 2 ganger daglig i 5 dager"
-          },
-          {
-            "code": "151",
-            "display": "Påsmøres i tynt lag 2 ganger daglig i 5 dager"
-          },
-          {
-            "code": "152",
-            "display": "1 <dose> 2 ganger daglig i 7 dager"
-          },
-          {
-            "code": "153",
-            "display": "Påføres 2 ganger daglig i 7 dager"
-          },
-          {
-            "code": "154",
-            "display": "1 <dose> 2-3 ganger daglig"
-          },
-          {
-            "code": "155",
-            "display": "Masseres inn i betent hudområde 2-3 ganger daglig"
-          },
-          {
-            "code": "156",
-            "display": "Påsmøres 2-3 ganger daglig"
-          },
-          {
-            "code": "157",
-            "display": "Påsmøres i tynt lag 2-3 ganger daglig"
-          },
-          {
-            "code": "158",
-            "display": "1 <dose> i hvert nesebor 2-4 ganger daglig"
-          },
-          {
-            "code": "159",
-            "display": "Påsmøres 2-4 ganger daglig som avtalt med legen"
-          },
-          {
-            "code": "160",
-            "display": "1 <dose> 3 ganger daglig"
-          },
-          {
-            "code": "161",
-            "display": "1 <dose> 3 ganger daglig fra 3 dager før ventet menstruasjon"
-          },
-          {
-            "code": "162",
-            "display": "1 <dose> i hvert nesebor 3 ganger daglig"
-          },
-          {
-            "code": "163",
-            "display": "1 <dose> i hvert øye 3 ganger daglig"
-          },
-          {
-            "code": "164",
-            "display": "1 <dose> i høyre øye 3 ganger daglig"
-          },
-          {
-            "code": "165",
-            "display": "1 <dose> i venstre øye 3 ganger daglig"
-          },
-          {
-            "code": "167",
-            "display": "Legges i nedre øyelokksrand 3 ganger daglig"
-          },
-          {
-            "code": "168",
-            "display": "Påsmøres 3 ganger daglig"
-          },
-          {
-            "code": "169",
-            "display": "Påsmøres i tynt lag 3 ganger daglig"
-          },
-          {
-            "code": "170",
-            "display": "1 <dose> 3 ganger daglig i 10 dager"
-          },
-          {
-            "code": "171",
-            "display": "1 <dose> 3 ganger daglig i 7 dager"
-          },
-          {
-            "code": "172",
-            "display": "1 <dose> 3-4 ganger daglig"
-          },
-          {
-            "code": "173",
-            "display": "Påsmøres 3-4 ganger daglig"
-          },
-          {
-            "code": "174",
-            "display": "1 <dose> 4 ganger daglig"
-          },
-          {
-            "code": "175",
-            "display": "1 <dose> i hvert nesebor 4 ganger daglig"
-          },
-          {
-            "code": "176",
-            "display": "1 <dose> i hvert øye 4 ganger daglig"
-          },
-          {
-            "code": "177",
-            "display": "1 <dose> i høyre øye 4 ganger daglig"
-          },
-          {
-            "code": "178",
-            "display": "1 <dose> i venstre øye 4 ganger daglig"
-          },
-          {
-            "code": "179",
-            "display": "3 <doser> 1 gang daglig Start 1-2 dager før innreise til malaria-sonen, fortsett i 7 dager etter utreise fra sonen"
-          },
-          {
-            "code": "180",
-            "display": "Legges i nedre øyelokksrand 4 ganger daglig"
-          },
-          {
-            "code": "181",
-            "display": "1 <dose> 5 ganger daglig"
-          },
-          {
-            "code": "182",
-            "display": "Legges i nedre øyelokksrand 5 ganger daglig"
-          },
-          {
-            "code": "183",
-            "display": "Påsmøres 5 ganger daglig"
-          },
-          {
-            "code": "184",
-            "display": "Påsmøres angrepet område 5 ganger daglig"
-          },
-          {
-            "code": "185",
-            "display": "Påsmøres 5 ganger daglig i 5 dager"
-          },
-          {
-            "code": "186",
-            "display": "1 <dose> 6 ganger daglig"
-          },
-          {
-            "code": "188",
-            "display": "1,25 <doser> 1 gang daglig"
-          },
-          {
-            "code": "189",
-            "display": "1,25 <doser> morgen 1,25 <doser> midt på dagen 1,25 <doser> kveld"
-          },
-          {
-            "code": "190",
-            "display": "1,5 <doser> 1 gang daglig"
-          },
-          {
-            "code": "191",
-            "display": "1,5 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "192",
-            "display": "1,5 <doser> 4 ganger daglig"
-          },
-          {
-            "code": "193",
-            "display": "1,8 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "194",
-            "display": "1,5 <doser> morgen 1,5 <doser> midt på dagen 3 <doser> kveld"
-          },
-          {
-            "code": "195",
-            "display": "1 <dose> morgen"
-          },
-          {
-            "code": "196",
-            "display": "1 <dose> i hvert nesebor morgen"
-          },
-          {
-            "code": "197",
-            "display": "1 <dose> i hvert øye morgen"
-          },
-          {
-            "code": "198",
-            "display": "1 <dose> i høyre øye morgen"
-          },
-          {
-            "code": "199",
-            "display": "1 <dose> i venstre øye morgen"
-          },
-          {
-            "code": "200",
-            "display": "Påsmøres i tynt lag om morgenen"
-          },
-          {
-            "code": "201",
-            "display": "1 <dose> morgen 1 <dose> kveld"
-          },
-          {
-            "code": "202",
-            "display": "1 <dose> morgen 1 <dose> kveld i 3 dager"
-          },
-          {
-            "code": "203",
-            "display": "Gnis inn i hodebunnen morgen og kveld"
-          },
-          {
-            "code": "204",
-            "display": "Gnis inn i huden morgen og kveld"
-          },
-          {
-            "code": "205",
-            "display": "1 <dose> i hvert nesebor morgen og kveld"
-          },
-          {
-            "code": "206",
-            "display": "1 <dose> i hvert øye morgen og kveld"
-          },
-          {
-            "code": "209",
-            "display": "Påsmøres morgen og kveld"
-          },
-          {
-            "code": "210",
-            "display": "Påsmøres i tynt lag morgen og kveld"
-          },
-          {
-            "code": "211",
-            "display": "Påsmøres tynt angrepet område morgen og kveld."
-          },
-          {
-            "code": "212",
-            "display": "1 <dose> i hvert øye morgen og kveld i 7 dager"
-          },
-          {
-            "code": "213",
-            "display": "1 <dose> morgen 1 <dose> ettermiddag"
-          },
-          {
-            "code": "214",
-            "display": "1 <dose> morgen 2 <doser> kveld"
-          },
-          {
-            "code": "215",
-            "display": "1 <dose> morgen 1 <dose> midt på dagen"
-          },
-          {
-            "code": "216",
-            "display": "1 <dose> morgen 1 <dose> midt på dagen 1 <dose> kveld"
-          },
-          {
-            "code": "217",
-            "display": "1 <dose> morgen 1 <dose> formiddag 1 <dose> ettermiddag 1 <dose> kveld"
-          },
-          {
-            "code": "218",
-            "display": "1 <dose> morgen 1 <dose> midt på dagen og 2 <doser> kveld"
-          },
-          {
-            "code": "219",
-            "display": "10 <doser> inntil 3 ganger daglig"
-          },
-          {
-            "code": "220",
-            "display": "10 <doser> 1 gang daglig"
-          },
-          {
-            "code": "221",
-            "display": "10 <doser> i en dose første dag, så 5 <doser> daglig"
-          },
-          {
-            "code": "222",
-            "display": "10 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "223",
-            "display": "10 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "224",
-            "display": "10 <doser> 5 ganger daglig"
-          },
-          {
-            "code": "225",
-            "display": "10 <doser> morgen"
-          },
-          {
-            "code": "226",
-            "display": "10 <doser> hver morgen i 3 dager"
-          },
-          {
-            "code": "227",
-            "display": "10 <doser> morgen 10 <doser> kveld"
-          },
-          {
-            "code": "228",
-            "display": "10 <doser> morgen 10 <doser> kveld i 3 dager"
-          },
-          {
-            "code": "229",
-            "display": "10 <doser> morgen 10 <doser> formiddag 10 <doser> ettermiddag 10 <doser> kveld"
-          },
-          {
-            "code": "230",
-            "display": "10 <doser> morgen 10 <doser> midt på dagen 20 <doser> kveld"
-          },
-          {
-            "code": "231",
-            "display": "1-2 <doser> i hvert øye hver 4. time"
-          },
-          {
-            "code": "232",
-            "display": "1-2 <doser> i hvert øye ved behov"
-          },
-          {
-            "code": "233",
-            "display": "1-2 <doser> inntil 3 ganger daglig"
-          },
-          {
-            "code": "234",
-            "display": "1-2 <doser> inntil 4 ganger daglig"
-          },
-          {
-            "code": "235",
-            "display": "1-2 <doser> ved behov inntil 4 ganger daglig"
-          },
-          {
-            "code": "236",
-            "display": "1-2 <doser> i hvert nesebor 1 gang daglig"
-          },
-          {
-            "code": "237",
-            "display": "1-2 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "239",
-            "display": "1-2 <doser> i hvert øye 2 ganger daglig"
-          },
-          {
-            "code": "240",
-            "display": "1-2 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "241",
-            "display": "1-2 <doser> i øret 3 ganger daglig"
-          },
-          {
-            "code": "242",
-            "display": "1-2 <doser> i øyet 3 ganger daglig"
-          },
-          {
-            "code": "243",
-            "display": "1-2 <doser> 3-4 ganger daglig"
-          },
-          {
-            "code": "244",
-            "display": "1-2 <doser> 4 ganger daglig"
-          },
-          {
-            "code": "245",
-            "display": "1-2 <doser> i hvert øye 4 ganger daglig"
-          },
-          {
-            "code": "246",
-            "display": "1-2 <doser> i øret 4 ganger daglig"
-          },
-          {
-            "code": "247",
-            "display": "1-2 <doser> i øyet 4 ganger daglig"
-          },
-          {
-            "code": "249",
-            "display": "12,5 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "250",
-            "display": "1-2 <doser> morgen 1-2 <doser> kveld"
-          },
-          {
-            "code": "251",
-            "display": "13 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "252",
-            "display": "15 <doser> 1 gang daglig"
-          },
-          {
-            "code": "253",
-            "display": "15 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "254",
-            "display": "15 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "255",
-            "display": "15 <doser> morgen"
-          },
-          {
-            "code": "256",
-            "display": "15 <doser> morgen 15 <doser> kveld"
-          },
-          {
-            "code": "257",
-            "display": "17,5 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "258",
-            "display": "1 <dose> første dag deretter 1/2 <dose> daglig i 4 dager"
-          },
-          {
-            "code": "259",
-            "display": "1 <dose> så raskt som mulig, men ikke senere enn 120 timer etter ubeskyttet samleie eller prevensjonssvikt"
-          },
-          {
-            "code": "260",
-            "display": "2 <doser> hver 4.-5. time"
-          },
-          {
-            "code": "261",
-            "display": "2 <doser> hver 4. time slik legen har bestemt"
-          },
-          {
-            "code": "262",
-            "display": "2 <doser> i uken på fast ukedag Start 1 uke før avreise"
-          },
-          {
-            "code": "263",
-            "display": "2 <doser> inntil 4 ganger daglig"
-          },
-          {
-            "code": "264",
-            "display": "2 <doser> til måltidene"
-          },
-          {
-            "code": "265",
-            "display": "2 <doser> ved anfall som avtalt med legen"
-          },
-          {
-            "code": "266",
-            "display": "2 <doser> daglig"
-          },
-          {
-            "code": "268",
-            "display": "2 <doser> i hvert nesebor 1 gang daglig"
-          },
-          {
-            "code": "269",
-            "display": "2 <doser> på huden 1 gang daglig"
-          },
-          {
-            "code": "270",
-            "display": "2 <doser> påføres huden i tynt lag hver dag"
-          },
-          {
-            "code": "271",
-            "display": "2 <doser> 1 gang daglig i 14 dager"
-          },
-          {
-            "code": "273",
-            "display": "2 <doser> 1 gang daglig i 3 dager"
-          },
-          {
-            "code": "274",
-            "display": "2 <doser> daglig i 5 dager"
-          },
-          {
-            "code": "275",
-            "display": "2 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "276",
-            "display": "2 <doser> daglig de første 2 dager deretter 1 <dose> daglig"
-          },
-          {
-            "code": "277",
-            "display": "2 <doser> i hvert nesebor 2 ganger daglig"
-          },
-          {
-            "code": "278",
-            "display": "2 <doser> 2 ganger daglig i 21 dager"
-          },
-          {
-            "code": "279",
-            "display": "2 <doser> 2 ganger daglig i 5 dager"
-          },
-          {
-            "code": "280",
-            "display": "2 <doser> 2-3 ganger daglig"
-          },
-          {
-            "code": "281",
-            "display": "2 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "282",
-            "display": "2 <doser> i øret 3 ganger daglig"
-          },
-          {
-            "code": "283",
-            "display": "2 <doser> 3-4 ganger daglig"
-          },
-          {
-            "code": "284",
-            "display": "2 <doser> 4 ganger daglig"
-          },
-          {
-            "code": "285",
-            "display": "2,5 <doser> morgen 2,5 <doser> kveld"
-          },
-          {
-            "code": "286",
-            "display": "2,5 <doser> 1 gang daglig"
-          },
-          {
-            "code": "287",
-            "display": "2,5 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "288",
-            "display": "2,5 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "289",
-            "display": "2,5 <doser> 4 ganger daglig"
-          },
-          {
-            "code": "290",
-            "display": "2,5 <doser> 5 ganger daglig"
-          },
-          {
-            "code": "292",
-            "display": "2,5 <doser> morgen 2,5 <doser> midt på dagen 2,5 <doser> kveld"
-          },
-          {
-            "code": "293",
-            "display": "2,5 <doser> morgen 2,5 <doser> formiddag 2,5 <doser> ettermiddag 2,5 <doser> kveld"
-          },
-          {
-            "code": "294",
-            "display": "2,5 <doser> morgen 2,5 <doser> midt på dagen 5 <doser> kveld"
-          },
-          {
-            "code": "295",
-            "display": "2 <doser> morgen"
-          },
-          {
-            "code": "296",
-            "display": "2 <doser> i hvert nesebor morgen"
-          },
-          {
-            "code": "297",
-            "display": "2 <doser> morgen 1 <dose> kveld"
-          },
-          {
-            "code": "298",
-            "display": "2 <doser> morgen 2 <doser> kveld"
-          },
-          {
-            "code": "299",
-            "display": "2 <doser> morgen 2 <doser> kveld i 3 dager"
-          },
-          {
-            "code": "300",
-            "display": "2 <doser> i hvert nesebor morgen og kveld"
-          },
-          {
-            "code": "301",
-            "display": "2 <doser> morgen 3 <doser> kveld"
-          },
-          {
-            "code": "302",
-            "display": "2 <doser> morgen 1 <dose> midt på dagen 1 <dose> kveld"
-          },
-          {
-            "code": "303",
-            "display": "2 <doser> morgen 2 <doser> midt på dagen"
-          },
-          {
-            "code": "304",
-            "display": "2 <doser> morgen 2 <doser> midt på dagen 2 <doser> kveld"
-          },
-          {
-            "code": "305",
-            "display": "2 <doser> morgen 2 <doser> formiddag 2 <doser> ettermiddag 2 <doser> kveld"
-          },
-          {
-            "code": "306",
-            "display": "20 <doser> 1 gang daglig"
-          },
-          {
-            "code": "307",
-            "display": "20 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "308",
-            "display": "20 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "309",
-            "display": "22,5 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "310",
-            "display": "2-3 <doser> i øret 3 ganger daglig"
-          },
-          {
-            "code": "311",
-            "display": "2-4 <doser> i øret 3 ganger daglig"
-          },
-          {
-            "code": "312",
-            "display": "3 <doser> 1 gang daglig"
-          },
-          {
-            "code": "313",
-            "display": "3 <doser> 1 gang daglig i 3 dager"
-          },
-          {
-            "code": "314",
-            "display": "3 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "315",
-            "display": "3 <doser> i ørene 2 ganger daglig"
-          },
-          {
-            "code": "316",
-            "display": "3 <doser> i øret 2 ganger daglig"
-          },
-          {
-            "code": "317",
-            "display": "3 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "318",
-            "display": "3 <doser> i øret 3 ganger daglig"
-          },
-          {
-            "code": "319",
-            "display": "3,75 <doser> morgen 3,75 <doser> midt på dagen 3,75 <doser> kveld"
-          },
-          {
-            "code": "320",
-            "display": "3 <doser> morgen"
-          },
-          {
-            "code": "321",
-            "display": "3 <doser> morgen 3 <doser> kveld"
-          },
-          {
-            "code": "322",
-            "display": "3 <doser> morgen 3 <doser> midt på dagen 3 <doser> kveld"
-          },
-          {
-            "code": "323",
-            "display": "4 <doser> 1 gang daglig"
-          },
-          {
-            "code": "324",
-            "display": "4 <doser> 1 gang daglig i 3 dager"
-          },
-          {
-            "code": "325",
-            "display": "4 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "326",
-            "display": "4 <doser> i ørene 2 ganger daglig"
-          },
-          {
-            "code": "327",
-            "display": "4 <doser> i øret 2 ganger daglig"
-          },
-          {
-            "code": "328",
-            "display": "4 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "329",
-            "display": "4,5 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "330",
-            "display": "4 <doser> morgen"
-          },
-          {
-            "code": "331",
-            "display": "4 <doser> morgen 4 <doser> kveld"
-          },
-          {
-            "code": "332",
-            "display": "4 <doser> morgen 4 <doser> midt på dagen 4 <doser> kveld"
-          },
-          {
-            "code": "333",
-            "display": "40 <doser> 1 gang daglig"
-          },
-          {
-            "code": "334",
-            "display": "5 <doser> 1 gang daglig"
-          },
-          {
-            "code": "335",
-            "display": "5 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "336",
-            "display": "5 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "337",
-            "display": "5 <doser> 3 ganger daglig i 7 dager"
-          },
-          {
-            "code": "338",
-            "display": "5 <doser> 4 ganger daglig"
-          },
-          {
-            "code": "339",
-            "display": "5 <doser> morgen 5 <doser> kveld"
-          },
-          {
-            "code": "340",
-            "display": "5 <doser> morgen 5 <doser> kveld i 3 dager"
-          },
-          {
-            "code": "341",
-            "display": "5 <doser> morgen 5 <doser> midt på dagen 10 <doser> kveld"
-          },
-          {
-            "code": "342",
-            "display": "5 <doser> morgen 5 <doser> midt på dagen 5 <doser> kveld"
-          },
-          {
-            "code": "343",
-            "display": "5 <doser> morgen 5 <doser> formiddag 5 <doser> ettermiddag 5 <doser> kveld"
-          },
-          {
-            "code": "344",
-            "display": "6 <doser> 1 gang daglig"
-          },
-          {
-            "code": "345",
-            "display": "6 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "346",
-            "display": "6 <doser> 3 ganger daglig i 10-14 dager"
-          },
-          {
-            "code": "347",
-            "display": "7 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "348",
-            "display": "7,5 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "349",
-            "display": "7,5 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "350",
-            "display": "7,5 <doser> morgen 7,5 <doser> kveld"
-          },
-          {
-            "code": "351",
-            "display": "7,5 <doser> morgen 7,5 <doser> midt på dagen 15 <doser> kveld"
-          },
-          {
-            "code": "352",
-            "display": "7 <doser> morgen"
-          },
-          {
-            "code": "353",
-            "display": "Bør brukes 2-3 ganger i uken"
-          },
-          {
-            "code": "354",
-            "display": "1 <dose> påføres intra-analt hver 12. time"
-          },
-          {
-            "code": "355",
-            "display": "1 <dose> 3 ganger daglig første dag, deretter 1 <dose> 2 ganger daglig"
-          },
-          {
-            "code": "356",
-            "display": "Inntil 4 <doser> 2 ganger daglig"
-          },
-          {
-            "code": "357",
-            "display": "1 <dose> festes på huden høyst 1 gang daglig. Plasteret bør være festet på huden i minst 4 timer og høyst 12 timer."
-          },
-          {
-            "code": "358",
-            "display": "Plasteret skiftes en fast dag hver uke"
-          },
-          {
-            "code": "359",
-            "display": "Plasteret skiftes to faste dager hver uke"
-          },
-          {
-            "code": "360",
-            "display": "Påføres 1-2 ganger ukentlig på angrepet negl"
-          },
-          {
-            "code": "361",
-            "display": "Påføres annenhver time i våken tid av døgnet i 4 dager"
-          },
-          {
-            "code": "362",
-            "display": "Påføres i tynt lag"
-          },
-          {
-            "code": "363",
-            "display": "Påsmøres flere ganger daglig"
-          },
-          {
-            "code": "364",
-            "display": "Påsmøres flere ganger daglig som avtalt med lege"
-          },
-          {
-            "code": "365",
-            "display": "Påsmøres i tynt lag hver annen dag"
-          },
-          {
-            "code": "366",
-            "display": "Påsmøres i tynt lag 3 kvelder i uken"
-          },
-          {
-            "code": "367",
-            "display": "Påsmøres i tynt lag 2 kvelder i uken"
-          },
-          {
-            "code": "368",
-            "display": "Settes inn i livmorhulen av lege innen 7 dager etter påbegynt menstruasjon."
-          },
-          {
-            "code": "369",
-            "display": "Settes inn i skjeden.Tas ut etter 3 uker. Ny ring settes inn etter 1 uke."
-          },
-          {
-            "code": "370",
-            "display": "Skal plasseres i munnen mot kinnet og flyttes rundt i munnen langs kinnet på begge sider."
-          },
-          {
-            "code": "373",
-            "display": "1 <dose> hver kveld"
-          },
-          {
-            "code": "374",
-            "display": "1 <dose> fortynnes med 2 ml saltvann og inhaleres 4 ganger daglig"
-          },
-          {
-            "code": "375",
-            "display": "1 <dose> fortynnes med 2 ml saltvann og inhaleres inntil 4 ganger daglig"
-          },
-          {
-            "code": "376",
-            "display": "5 <doser> som engangsdose"
-          },
-          {
-            "code": "377",
-            "display": "50 <doser> som engangsdose"
-          },
-          {
-            "code": "378",
-            "display": "5 <doser> daglig"
-          },
-          {
-            "code": "379",
-            "display": "2 <doser> 1 gang daglig"
-          },
-          {
-            "code": "380",
-            "display": "50 <doser> i en dose 1.dag og 3.dag"
-          },
-          {
-            "code": "381",
-            "display": "3 <doser> daglig"
-          },
-          {
-            "code": "5323",
-            "display": "4 <doser> daglig"
-          },
-          {
-            "code": "5324",
-            "display": "4 <doser> ved sengetid"
-          },
-          {
-            "code": "5325",
-            "display": "1-2 <doser> under tungen uten samtidig innånding"
-          },
-          {
-            "code": "5326",
-            "display": "2 <doser> som engangsdose"
-          },
-          {
-            "code": "5328",
-            "display": "1 <dose> som engangsdose"
-          },
-          {
-            "code": "5329",
-            "display": "1 <dose> legges under tungen ved anfall"
-          },
-          {
-            "code": "5330",
-            "display": "1 <dose> under tungen uten samtidig innånding"
-          },
-          {
-            "code": "5331",
-            "display": "1 <dose> festes på huden 1 time før inngrep"
-          },
-          {
-            "code": "5332",
-            "display": "1 <dose> 1-2 timer før sengetid"
-          },
-          {
-            "code": "5333",
-            "display": "1 <dose> 2-4 timer før sengetid"
-          },
-          {
-            "code": "5335",
-            "display": "2 <doser> 1-2 timer før sengetid"
-          },
-          {
-            "code": "5336",
-            "display": "0,5 <doser> 1/2-1 time før sengetid"
-          },
-          {
-            "code": "5337",
-            "display": "2 <doser> 1/2-1 time før sengetid"
-          },
-          {
-            "code": "5338",
-            "display": "1 <dose> 1/2-1 time før sengetid"
-          },
-          {
-            "code": "5339",
-            "display": "1 <dose> tas omtrent1 time før seksuell aktivitet"
-          },
-          {
-            "code": "5340",
-            "display": "1 <dose> festes på huden 2 timer før inngrep"
-          },
-          {
-            "code": "5341",
-            "display": "1 <dose> innføres i skjeden daglig i 14 dager, deretter 2 ganger i uken"
-          },
-          {
-            "code": "5342",
-            "display": "2 <doser> daglig. Røres ut i 30 ml vann og svelges"
-          },
-          {
-            "code": "5343",
-            "display": "1 <dose> daglig. Røres ut i 15 ml vann og svelges"
-          },
-          {
-            "code": "5344",
-            "display": "1 <dose> settes subkutant hver 12. uke"
-          },
-          {
-            "code": "5345",
-            "display": "3 <doser> ved sengetid"
-          },
-          {
-            "code": "5346",
-            "display": "2 <doser> 1 gang daglig. Start 1-2 dager før innreise til malaria-sonen, fortsett i 7 dager etter utreise fra sonen"
-          },
-          {
-            "code": "5347",
-            "display": "1 <dose> innføres i skjeden ved sengetid i 5 dager"
-          },
-          {
-            "code": "5348",
-            "display": "1 <dose> hver måned på samme dato"
-          },
-          {
-            "code": "5349",
-            "display": "1 <dose> festes på huden 30 min før inngrep"
-          },
-          {
-            "code": "5350",
-            "display": "2 <doser> festes på huden 30 min før inngrep"
-          },
-          {
-            "code": "5351",
-            "display": "3 <doser> festes på huden 30 min før inngrep"
-          },
-          {
-            "code": "5352",
-            "display": "4 <doser> festes på huden 30 min før inngrep"
-          },
-          {
-            "code": "5353",
-            "display": "30 <doser> en gang daglig"
-          },
-          {
-            "code": "5354",
-            "display": "30 <doser> morgen"
-          },
-          {
-            "code": "5355",
-            "display": "30 <doser> kveld"
-          },
-          {
-            "code": "5356",
-            "display": "4 <doser> i hvert nesebor morgen"
-          },
-          {
-            "code": "5357",
-            "display": "1 <dose> innføres i skjeden 3 ganger daglig i 30 dager"
-          },
-          {
-            "code": "5358",
-            "display": "2 <doser> første dag deretter 1 <dose> daglig"
-          },
-          {
-            "code": "5359",
-            "display": "1 <dose> ved sengetid, 1 <dose> i løpet av natten"
-          },
-          {
-            "code": "5360",
-            "display": "1 <dose> ved sengetid, 1 <dose> morgen"
-          },
-          {
-            "code": "5361",
-            "display": "1 <dose> i hvert øye hver 2. time i 2-3 dager, deretter hver 4.-6. time"
-          },
-          {
-            "code": "5362",
-            "display": "1-2 <doser> i hvert øye hver 1.-2. time i 2-3 dager, deretter hver 4.-6. time"
-          },
-          {
-            "code": "5363",
-            "display": "Pensles på vortene 2 ganger daglig i 3 påfølgende dager Behandlingen kan gjentas etter 1 uke"
-          },
-          {
-            "code": "5364",
-            "display": "Pensles på vortene 2 ganger daglig i 3 dager, så 4 dagers opphold. Behandlingen kan gjentas 3 ganger"
-          },
-          {
-            "code": "5365",
-            "display": "2 <doser> tas med minst 1 ukes pause mellom hver dose, se bruksanvisning. Effekt oppnås 1 uke etter siste dose."
-          },
-          {
-            "code": "5366",
-            "display": "1 <dose> tas ifølge bruksanvisningen"
-          },
-          {
-            "code": "5367",
-            "display": "1 <dose> daglig fra første menstruasjonsdag"
-          },
-          {
-            "code": "5368",
-            "display": "1 <dose> daglig fra femte menstruasjonsdag"
-          },
-          {
-            "code": "5369",
-            "display": "1 <dose> 1 hver uke i 4-6 uker"
-          },
-          {
-            "code": "5370",
-            "display": "Påsmøres tynt rene og tørre angrepne områder 2 ganger daglig med minst 8 timers mellomrom"
-          },
-          {
-            "code": "5372",
-            "display": "Startdose: 1 <dose> daglig i 2 dager, deretter 2 <doser> 1 gang daglig"
-          },
-          {
-            "code": "5373",
-            "display": "Startdose: 0,5 <dose> daglig i 2 dager, deretter 1 <dose> daglig"
-          },
-          {
-            "code": "5374",
-            "display": "1 <dose> 1 gang daglig i 7 dager"
-          },
-          {
-            "code": "5375",
-            "display": "2 <doser> 1 gang daglig i 10 dager"
-          },
-          {
-            "code": "5376",
-            "display": "1 <dose> 1 gang daglig ved behov"
-          },
-          {
-            "code": "5377",
-            "display": "2 <doser> 1 gang daglig i 14 dager deretter kalsium daglig i 11 uker"
-          },
-          {
-            "code": "5378",
-            "display": "Følg vedlagte bruksanvisning"
-          },
-          {
-            "code": "5379",
-            "display": "1 <dose> settes subkutant 3 ganger i uken"
-          },
-          {
-            "code": "5380",
-            "display": "1 <dose> hver uke"
-          },
-          {
-            "code": "5381",
-            "display": "2 <doser> rett før måltidene"
-          },
-          {
-            "code": "5382",
-            "display": "1 <dose> rett før måltidene"
-          },
-          {
-            "code": "5383",
-            "display": "1 <dose> til måltidene"
-          },
-          {
-            "code": "5384",
-            "display": "3 <doser> til måltidene"
-          },
-          {
-            "code": "5386",
-            "display": "1-2 <doser> ved anfall som avtalt med legen"
-          },
-          {
-            "code": "5387",
-            "display": "4 <doser> i en dose 1. dag og 3. dag"
-          },
-          {
-            "code": "5388",
-            "display": "5 <doser> i en dose 1. dag og 3. dag"
-          },
-          {
-            "code": "5389",
-            "display": "Legg et tykt lag på huden en time før inngrep. Tildekkes"
-          },
-          {
-            "code": "5390",
-            "display": "20 <doser> første dag deretter 10 <doser> daglig"
-          },
-          {
-            "code": "5391",
-            "display": "12 <doser> første dag deretter 6 <doser> daglig"
-          },
-          {
-            "code": "5392",
-            "display": "4 <doser> første dag deretter 2 <doser> daglig"
-          },
-          {
-            "code": "5393",
-            "display": "8 <doser> første dag deretter 4 <doser> daglig"
-          },
-          {
-            "code": "5394",
-            "display": "2 <doser> i første dose deretter 1 <dose> 3 ganger daglig"
-          },
-          {
-            "code": "5395",
-            "display": "Brukes nøyaktig slik legen har bestemt"
-          },
-          {
-            "code": "5396",
-            "display": "Brukes ifølge INR-verdi som avtalt med legen"
-          },
-          {
-            "code": "5397",
-            "display": "2 <doser> i første dose deretter 1 <dose> etter hver løs avføring"
-          },
-          {
-            "code": "5398",
-            "display": "2 <doser> fortynnes med 2 ml saltvann og inhaleres inntil 4 ganger daglig"
-          },
-          {
-            "code": "5399",
-            "display": "1 <dose> på huden hver uke i 3 uker, så 1 ukes pause. Plasteret skiftes på fast ukedag"
-          },
-          {
-            "code": "5400",
-            "display": "0,5 <dose> hver uke"
-          },
-          {
-            "code": "5401",
-            "display": "Innføres dypt i skjeden hver 3. måned"
-          },
-          {
-            "code": "5402",
-            "display": "1 <dose> innføres dypt i skjeden om kvelden"
-          },
-          {
-            "code": "5403",
-            "display": "1 <dose> innføres i skjeden daglig i 10 dager"
-          },
-          {
-            "code": "5404",
-            "display": "1 <dose> innføres i skjeden daglig fra eggløsning"
-          },
-          {
-            "code": "5405",
-            "display": "1 <dose> innføres i skjeden daglig"
-          },
-          {
-            "code": "5407",
-            "display": "1 <dose> i ett nesebor morgen, 1 <dose> i det andre neseboret kveld"
-          },
-          {
-            "code": "5408",
-            "display": "2 <doser> innføres i endetarmen 2 ganger daglig"
-          },
-          {
-            "code": "5409",
-            "display": "2 <doser> morgen 2 <doser> kveld Innføres i endetarmen"
-          },
-          {
-            "code": "5410",
-            "display": "1 <dose> innføres i endetarmen 2 ganger daglig"
-          },
-          {
-            "code": "5411",
-            "display": "1 <dose> innføres i endetarmen 3 ganger daglig"
-          },
-          {
-            "code": "5412",
-            "display": "1 <dose> innføres i endetarmen 4 ganger daglig"
-          },
-          {
-            "code": "5413",
-            "display": "1 <dose> innføres i endetarmen inntil 3 ganger daglig"
-          },
-          {
-            "code": "5414",
-            "display": "1 <dose> innføres i endetarmen inntil 4 ganger daglig"
-          },
-          {
-            "code": "5415",
-            "display": "1-2 <doser> innføres i endetarmen 3 ganger daglig"
-          },
-          {
-            "code": "5416",
-            "display": "1-2 <doser> innføres i endetarmen 4 ganger daglig"
-          },
-          {
-            "code": "5417",
-            "display": "1 <dose> innføres i endetarmen daglig"
-          },
-          {
-            "code": "5418",
-            "display": "1 <dose> innføres i endetarmen ved sengetid"
-          },
-          {
-            "code": "5419",
-            "display": "1 <dose> i endetarmen ved anfall som avtalt med legen"
-          },
-          {
-            "code": "5420",
-            "display": "8 <doser> morgen 8 <doser> midt på dagen 8 <doser> kveld"
-          },
-          {
-            "code": "5421",
-            "display": "10 <doser> morgen 10 <doser> midt på dagen 10 <doser> kveld"
-          },
-          {
-            "code": "5422",
-            "display": "1,5 <doser> morgen 1,5 <doser> midt på dagen 1,5 <doser> kveld"
-          },
-          {
-            "code": "5423",
-            "display": "1,25 <doser> morgen 1,25 <doser> kveld"
-          },
-          {
-            "code": "5424",
-            "display": "1,25 <doser> morgen 1,25 <doser> formiddag 1,25 <doser> ettermiddag 1,25 <doser> kveld"
-          },
-          {
-            "code": "5425",
-            "display": "2,25 <doser> morgen 2,25 <doser> formiddag 2,25 <doser> ettermiddag 2,25 <doser> kveld"
-          },
-          {
-            "code": "5426",
-            "display": "12,5 <doser> morgen 12,5 <doser> kveld"
-          },
-          {
-            "code": "5427",
-            "display": "7,5 <doser> morgen 7,5 <doser> formiddag 7,5 <doser> ettermiddag 7,5 <doser> kveld"
-          },
-          {
-            "code": "5428",
-            "display": "20 <doser> morgen 20 <doser> kveld"
-          },
-          {
-            "code": "5429",
-            "display": "0,5 <doser> morgen 0,5 <doser> formiddag 0,5 <doser> ettermiddag 0,5 <doser> kveld"
-          },
-          {
-            "code": "5430",
-            "display": "1,5 <doser> morgen 1,5 <doser> formiddag 1,5 <doser> ettermiddag 1,5 <doser> kveld"
-          },
-          {
-            "code": "5431",
-            "display": "6 <doser> morgen 6 <doser> kveld"
-          },
-          {
-            "code": "5432",
-            "display": "3 <doser> morgen 3 <doser> formiddag 3 <doser> ettermiddag 3 <doser> kveld"
-          },
-          {
-            "code": "5433",
-            "display": "Settes inn i livmorhulen av lege"
-          },
-          {
-            "code": "5434",
-            "display": "3,75 <doser> morgen 3,75 <doser> kveld"
-          },
-          {
-            "code": "5435",
-            "display": "Påsmøres hver 4. time i våken tid av døgnet"
-          },
-          {
-            "code": "5436",
-            "display": "Påsmøres i tynt lag 5 kvelder i uken"
-          },
-          {
-            "code": "5437",
-            "display": "Påsmøres i tynt lag 2-3 ganger i uken"
-          },
-          {
-            "code": "5438",
-            "display": "1-2 <doser> i endetarmen ved anfall som avtalt med legen"
-          },
-          {
-            "code": "5439",
-            "display": "1 <dose> innføres i endetarmen 3-4 ganger daglig"
-          },
-          {
-            "code": "5440",
-            "display": "1 <dose> morgen og 1 <dose> kveld Innføres i endetarmen"
-          },
-          {
-            "code": "5441",
-            "display": "1 <dose> morgen 1 <dose> midt på dagen 1 <dose> kveld Innføres i endetarmen"
-          },
-          {
-            "code": "5442",
-            "display": "0,5 <doser> innføres i endetarmen 3 ganger daglig"
-          },
-          {
-            "code": "5444",
-            "display": "1 <dose> 3 ganger daglig med 8 timers mellomrom"
-          },
-          {
-            "code": "5445",
-            "display": "5 <doser> første dag deretter 2,5 <doser> daglig i 13 dager"
-          },
-          {
-            "code": "5446",
-            "display": "1 <dose> 5 ganger daglig i 7 dager"
-          },
-          {
-            "code": "5447",
-            "display": "3 <doser> morgen 4 <doser> kveld"
-          },
-          {
-            "code": "5448",
-            "display": "2 <doser> hver 8. time"
-          },
-          {
-            "code": "5449",
-            "display": "2 <doser> morgen 1 <dose> midt på dagen 2 <doser> kveld"
-          },
-          {
-            "code": "5450",
-            "display": "3 <doser> morgen 2 <doser> midt på dagen 2 <doser> kveld"
-          },
-          {
-            "code": "5451",
-            "display": "24 <doser> 1 gang daglig"
-          },
-          {
-            "code": "5452",
-            "display": "1 <dose> i ett nesebor 4 ganger daglig"
-          },
-          {
-            "code": "5453",
-            "display": "1 <dose> settes subkutant hver måned"
-          },
-          {
-            "code": "5455",
-            "display": "1 <dose> settes subkutant hver 6. måned"
-          },
-          {
-            "code": "5456",
-            "display": "1 <dose> settes subkutant hver 3. måned"
-          },
-          {
-            "code": "5457",
-            "display": "1 <dose> settes subkutant 2 ganger i uken"
-          },
-          {
-            "code": "5458",
-            "display": "1 <dose> hver 8. uke"
-          },
-          {
-            "code": "5459",
-            "display": "3 <doser> hver uke på fast ukedag"
-          },
-          {
-            "code": "5460",
-            "display": "4 <doser> hver uke på fast ukedag"
-          },
-          {
-            "code": "5461",
-            "display": "5 <doser> hver uke på fast ukedag"
-          },
-          {
-            "code": "5462",
-            "display": "6 <doser> hver uke på fast ukedag"
-          },
-          {
-            "code": "5463",
-            "display": "1 <dose> 2 ganger daglig i 10 dager"
-          },
-          {
-            "code": "5464",
-            "display": "1 <dose> morgen 1 <dose> kveld i 10 dager"
-          },
-          {
-            "code": "5465",
-            "display": "1 <dose> daglig i 3 dager"
-          },
-          {
-            "code": "5466",
-            "display": "2 <doser> 6 ganger daglig"
-          },
-          {
-            "code": "5467",
-            "display": "5 <doser> inntil 4 ganger i døgnet"
-          },
-          {
-            "code": "5468",
-            "display": "10 <doser> inntil 4 ganger i døgnet"
-          },
-          {
-            "code": "5471",
-            "display": "2,5 <doser> inntil 3 ganger daglig"
-          },
-          {
-            "code": "5472",
-            "display": "7,5 <doser> inntil 3 ganger daglig"
-          },
-          {
-            "code": "5473",
-            "display": "15 <doser> inntil 3 ganger daglig"
-          },
-          {
-            "code": "5474",
-            "display": "5 <doser> inntil 3 ganger daglig"
-          },
-          {
-            "code": "5475",
-            "display": "1 <dose> settes subkutant 1 gang i uken"
-          },
-          {
-            "code": "5477",
-            "display": "5 <doser> morgen"
-          },
-          {
-            "code": "5478",
-            "display": "6 <doser> morgen"
-          },
-          {
-            "code": "5479",
-            "display": "8 <doser> morgen"
-          },
-          {
-            "code": "5480",
-            "display": "9 <doser> morgen"
-          },
-          {
-            "code": "5481",
-            "display": "2 <dose> inntil 5 ganger daglig"
-          },
-          {
-            "code": "5482",
-            "display": "2,5 <doser> inntil 4 ganger daglig"
-          },
-          {
-            "code": "5483",
-            "display": "2,5 - 5 <doser> inntil 4 ganger daglig"
-          },
-          {
-            "code": "5484",
-            "display": "5 <doser> inntil 4 ganger daglig"
-          },
-          {
-            "code": "5485",
-            "display": "4-6 <doser> i høyre øre hver 8. time"
-          },
-          {
-            "code": "5486",
-            "display": "4-6 <doser> i venstre øre hver 8. time"
-          },
-          {
-            "code": "5488",
-            "display": "4-6 <doser> i begge ører hver 8. time"
-          },
-          {
-            "code": "5489",
-            "display": "1 <dose> 4-6 ganger daglig"
-          },
-          {
-            "code": "5490",
-            "display": "8 <doser> daglig"
-          },
-          {
-            "code": "5491",
-            "display": "1-2 <doser> i øyet"
-          },
-          {
-            "code": "5492",
-            "display": "1 <dose> i hvert øye ved behov"
-          },
-          {
-            "code": "5493",
-            "display": "1-2 <doser> ved behov"
-          },
-          {
-            "code": "5494",
-            "display": "1 <dose> 4 ganger daglig første dag, deretter 1 <dose> 2 ganger daglig til minst 2 dager etter symptomfrihet"
-          },
-          {
-            "code": "5495",
-            "display": "1,25 <doser> 3 ganger daglig"
-          },
-          {
-            "code": "5496",
-            "display": "Påføres tynt på berørt område 3 ganger daglig"
-          }
-        ]
+        "system": "http://hl7.no/fhir/CodeSystem/free-text-dosage-timing"
       }
     ]
   },
