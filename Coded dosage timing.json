@@ -57,7 +57,7 @@
           },
           {
             "code": "13",
-            "display": "0,5 <doser> 1 gang daglig (8:00)"
+            "display": "0,5 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "14",
@@ -73,7 +73,7 @@
           },
           {
             "code": "17",
-            "display": "0,5 <doser> morgen (8:00)"
+            "display": "0,5 <doser> morgen (08:00)"
           },
           {
             "code": "18",
@@ -113,7 +113,7 @@
           },
           {
             "code": "27",
-            "display": "Legges i nedre øyelokksrand om kvelden (20:00)"
+            "display": "Legges i nedre øyelokksrand om kvelden (20:00) "
           },
           {
             "code": "28",
@@ -145,7 +145,7 @@
           },
           {
             "code": "35",
-            "display": "2 <doser> kveld (22:00)"
+            "display": "2 <doser> kveld (22:00) "
           },
           {
             "code": "36",
@@ -157,15 +157,15 @@
           },
           {
             "code": "38",
-            "display": "2,5 <doser> kveld (22:00)"
+            "display": "2,5 <doser> kveld (22:00) "
           },
           {
             "code": "39",
-            "display": "3 <doser> kveld (22:00)"
+            "display": "3 <doser> kveld (22:00) "
           },
           {
             "code": "40",
-            "display": "5 <doser> kveld (22:00)"
+            "display": "5 <doser> kveld (22:00) "
           },
           {
             "code": "41",
@@ -177,7 +177,7 @@
           },
           {
             "code": "43",
-            "display": "1 <dose> daglig Start 1-2 dager før innreise til malaria-sonen, fortsett i 7 dager etter utreise fra sonen (8:00)"
+            "display": "1 <dose> daglig Start 1-2 dager før innreise til malaria-sonen, fortsett i 7 dager etter utreise fra sonen (08:00)"
           },
           {
             "code": "44",
@@ -221,7 +221,7 @@
           },
           {
             "code": "56",
-            "display": "1 <dose> hver 12. time (08:00)"
+            "display": "1 <dose> hver 12. time (08:00, 20:00)"
           },
           {
             "code": "57",
@@ -273,7 +273,7 @@
           },
           {
             "code": "69",
-            "display": "1 <dose> i hvert øye hver 6. time (06:00"
+            "display": "1 <dose> i hvert øye hver 6. time (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "70",
@@ -293,7 +293,7 @@
           },
           {
             "code": "74",
-            "display": "1 <dose> i høyre øye hver 6. time (06:00"
+            "display": "1 <dose> i høyre øye hver 6. time (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "75",
@@ -309,7 +309,7 @@
           },
           {
             "code": "78",
-            "display": "1 <dose> i venstre øye hver 6. time (06:00"
+            "display": "1 <dose> i venstre øye hver 6. time (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "79",
@@ -369,63 +369,63 @@
           },
           {
             "code": "93",
-            "display": "1 <dose> daglig (8:00)"
+            "display": "1 <dose> daglig (08:00)"
           },
           {
             "code": "95",
-            "display": "1 <dose> 1 gang daglig i 11 uker (8:00)"
+            "display": "1 <dose> 1 gang daglig i 11 uker (08:00)"
           },
           {
             "code": "96",
-            "display": "1 <dose> i ett nesebor 1 gang daglig (8:00)"
+            "display": "1 <dose> i ett nesebor 1 gang daglig (08:00)"
           },
           {
             "code": "97",
-            "display": "1 <dose> i hvert nesebor 1 gang daglig (8:00)"
+            "display": "1 <dose> i hvert nesebor 1 gang daglig (08:00)"
           },
           {
             "code": "98",
-            "display": "1 <dose> i hvert øye 1 gang daglig (8:00)"
+            "display": "1 <dose> i hvert øye 1 gang daglig (08:00)"
           },
           {
             "code": "99",
-            "display": "1 <dose> i høyre øye 1 gang daglig (8:00)"
+            "display": "1 <dose> i høyre øye 1 gang daglig (08:00)"
           },
           {
             "code": "100",
-            "display": "1 <dose> i venstre øye 1 gang daglig (8:00)"
+            "display": "1 <dose> i venstre øye 1 gang daglig (08:00)"
           },
           {
             "code": "103",
-            "display": "1 <dose> på huden daglig (8:00)"
+            "display": "1 <dose> på huden daglig (08:00)"
           },
           {
             "code": "104",
-            "display": "Påføres angrepet område 1 gang daglig (8:00)"
+            "display": "Påføres angrepet område 1 gang daglig (08:00)"
           },
           {
             "code": "105",
-            "display": "Påføres i tynt lag 1 gang daglig (8:00)"
+            "display": "Påføres i tynt lag 1 gang daglig (08:00)"
           },
           {
             "code": "106",
-            "display": "Påsmøres 1 gang daglig (8:00)"
+            "display": "Påsmøres 1 gang daglig (08:00)"
           },
           {
             "code": "107",
-            "display": "Påsmøres angrepet område 1 gang daglig (8:00)"
+            "display": "Påsmøres angrepet område 1 gang daglig (08:00)"
           },
           {
             "code": "108",
-            "display": "Påsmøres i tynt lag 1 gang daglig (8:00)"
+            "display": "Påsmøres i tynt lag 1 gang daglig (08:00)"
           },
           {
             "code": "109",
-            "display": "1 <dose> 1 gang daglig i 10 dager (8:00)"
+            "display": "1 <dose> 1 gang daglig i 10 dager (08:00)"
           },
           {
             "code": "110",
-            "display": "1 <dose> 1 gang daglig i 14 dager (8:00)"
+            "display": "1 <dose> 1 gang daglig i 14 dager (08:00)"
           },
           {
             "code": "111",
@@ -445,11 +445,11 @@
           },
           {
             "code": "115",
-            "display": "1 <dose> 1 gang daglig i 3 dager (8:00)"
+            "display": "1 <dose> 1 gang daglig i 3 dager (08:00)"
           },
           {
             "code": "116",
-            "display": "1 <dose> 1 gang daglig i 5 dager (8:00)"
+            "display": "1 <dose> 1 gang daglig i 5 dager (08:00)"
           },
           {
             "code": "117",
@@ -461,11 +461,11 @@
           },
           {
             "code": "119",
-            "display": "Påføres 1 gang daglig i 7 dager (8:00)"
+            "display": "Påføres 1 gang daglig i 7 dager (08:00)"
           },
           {
             "code": "120",
-            "display": "Påsmøres 1 gang daglig i 7 dager (8:00)"
+            "display": "Påsmøres 1 gang daglig i 7 dager (08:00)"
           },
           {
             "code": "121",
@@ -505,23 +505,23 @@
           },
           {
             "code": "130",
-            "display": "1 <dose> 2 ganger daglig (08:00)"
+            "display": "1 <dose> 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "131",
-            "display": "Gnis inn dråpevis 2 ganger daglig (08:00)"
+            "display": "Gnis inn dråpevis 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "132",
-            "display": "Påsmøres 2 ganger daglig i 3-4 uker (08:00)"
+            "display": "Påsmøres 2 ganger daglig i 3-4 uker (08:00, 20:00)"
           },
           {
             "code": "133",
-            "display": "1 <dose> i ett nesebor 2 ganger daglig (08:00)"
+            "display": "1 <dose> i ett nesebor 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "134",
-            "display": "1 <dose> i hvert nesebor 2 ganger daglig (08:00)"
+            "display": "1 <dose> i hvert nesebor 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "135",
@@ -529,15 +529,15 @@
           },
           {
             "code": "136",
-            "display": "1 <dose> i hvert øye 2 ganger daglig (08:00)"
+            "display": "1 <dose> i hvert øye 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "137",
-            "display": "1 <dose> i høyre øye 2 ganger daglig (08:00)"
+            "display": "1 <dose> i høyre øye 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "138",
-            "display": "1 <dose> i venstre øye 2 ganger daglig (08:00)"
+            "display": "1 <dose> i venstre øye 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "139",
@@ -545,51 +545,51 @@
           },
           {
             "code": "141",
-            "display": "Legges i nedre øyelokksrand 2 ganger daglig (08:00)"
+            "display": "Legges i nedre øyelokksrand 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "142",
-            "display": "Påføres i tynt lag 2 ganger daglig (08:00)"
+            "display": "Påføres i tynt lag 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "143",
-            "display": "Påsmøres 2 ganger daglig (08:00)"
+            "display": "Påsmøres 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "144",
-            "display": "Påsmøres angrepet område 2 ganger daglig (08:00)"
+            "display": "Påsmøres angrepet område 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "145",
-            "display": "Påsmøres i tynt lag 2 ganger daglig (08:00)"
+            "display": "Påsmøres i tynt lag 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "146",
-            "display": "Påsmøres glans penis 2 ganger daglig i 14 dager (08:00)"
+            "display": "Påsmøres glans penis 2 ganger daglig i 14 dager (08:00, 20:00)"
           },
           {
             "code": "147",
-            "display": "Påsmøres 2 ganger daglig i 14 dager (08:00)"
+            "display": "Påsmøres 2 ganger daglig i 14 dager (08:00, 20:00)"
           },
           {
             "code": "148",
-            "display": "Pensles på 2 ganger daglig i 3 påfølgende dager (08:00)"
+            "display": "Pensles på 2 ganger daglig i 3 påfølgende dager (08:00, 20:00)"
           },
           {
             "code": "150",
-            "display": "1 <dose> 2 ganger daglig i 5 dager (08:00)"
+            "display": "1 <dose> 2 ganger daglig i 5 dager (08:00, 20:00)"
           },
           {
             "code": "151",
-            "display": "Påsmøres i tynt lag 2 ganger daglig i 5 dager (08:00)"
+            "display": "Påsmøres i tynt lag 2 ganger daglig i 5 dager (08:00, 20:00)"
           },
           {
             "code": "152",
-            "display": "1 <dose> 2 ganger daglig i 7 dager (08:00)"
+            "display": "1 <dose> 2 ganger daglig i 7 dager (08:00, 20:00)"
           },
           {
             "code": "153",
-            "display": "Påføres 2 ganger daglig i 7 dager (08:00)"
+            "display": "Påføres 2 ganger daglig i 7 dager (08:00, 20:00)"
           },
           {
             "code": "154",
@@ -617,7 +617,7 @@
           },
           {
             "code": "160",
-            "display": "1 <dose> 3 ganger daglig (08:00)"
+            "display": "1 <dose> 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "161",
@@ -625,39 +625,39 @@
           },
           {
             "code": "162",
-            "display": "1 <dose> i hvert nesebor 3 ganger daglig (08:00)"
+            "display": "1 <dose> i hvert nesebor 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "163",
-            "display": "1 <dose> i hvert øye 3 ganger daglig (08:00)"
+            "display": "1 <dose> i hvert øye 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "164",
-            "display": "1 <dose> i høyre øye 3 ganger daglig (08:00)"
+            "display": "1 <dose> i høyre øye 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "165",
-            "display": "1 <dose> i venstre øye 3 ganger daglig (08:00)"
+            "display": "1 <dose> i venstre øye 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "167",
-            "display": "Legges i nedre øyelokksrand 3 ganger daglig (08:00)"
+            "display": "Legges i nedre øyelokksrand 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "168",
-            "display": "Påsmøres 3 ganger daglig (08:00)"
+            "display": "Påsmøres 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "169",
-            "display": "Påsmøres i tynt lag 3 ganger daglig (08:00)"
+            "display": "Påsmøres i tynt lag 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "170",
-            "display": "1 <dose> 3 ganger daglig i 10 dager (08:00)"
+            "display": "1 <dose> 3 ganger daglig i 10 dager (08:00, 16:00, 22:00)"
           },
           {
             "code": "171",
-            "display": "1 <dose> 3 ganger daglig i 7 dager (08:00)"
+            "display": "1 <dose> 3 ganger daglig i 7 dager (08:00, 16:00, 22:00)"
           },
           {
             "code": "172",
@@ -669,31 +669,31 @@
           },
           {
             "code": "174",
-            "display": "1 <dose> 4 ganger daglig (06:00"
+            "display": "1 <dose> 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "175",
-            "display": "1 <dose> i hvert nesebor 4 ganger daglig (06:00"
+            "display": "1 <dose> i hvert nesebor 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "176",
-            "display": "1 <dose> i hvert øye 4 ganger daglig (06:00"
+            "display": "1 <dose> i hvert øye 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "177",
-            "display": "1 <dose> i høyre øye 4 ganger daglig (06:00"
+            "display": "1 <dose> i høyre øye 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "178",
-            "display": "1 <dose> i venstre øye 4 ganger daglig (06:00"
+            "display": "1 <dose> i venstre øye 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "179",
-            "display": "3 <doser> 1 gang daglig Start 1-2 dager før innreise til malaria-sonen, fortsett i 7 dager etter utreise fra sonen (8:00)"
+            "display": "3 <doser> 1 gang daglig Start 1-2 dager før innreise til malaria-sonen, fortsett i 7 dager etter utreise fra sonen (08:00)"
           },
           {
             "code": "180",
-            "display": "Legges i nedre øyelokksrand 4 ganger daglig (06:00"
+            "display": "Legges i nedre øyelokksrand 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "181",
@@ -721,7 +721,7 @@
           },
           {
             "code": "188",
-            "display": "1,25 <doser> 1 gang daglig (8:00)"
+            "display": "1,25 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "189",
@@ -729,7 +729,7 @@
           },
           {
             "code": "190",
-            "display": "1,5 <doser> 1 gang daglig (8:00)"
+            "display": "1,5 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "191",
@@ -749,91 +749,91 @@
           },
           {
             "code": "195",
-            "display": "1 <dose> morgen (8:00)"
+            "display": "1 <dose> morgen (08:00)"
           },
           {
             "code": "196",
-            "display": "1 <dose> i hvert nesebor morgen (8:00)"
+            "display": "1 <dose> i hvert nesebor morgen (08:00)"
           },
           {
             "code": "197",
-            "display": "1 <dose> i hvert øye morgen (8:00)"
+            "display": "1 <dose> i hvert øye morgen (08:00)"
           },
           {
             "code": "198",
-            "display": "1 <dose> i høyre øye morgen (8:00)"
+            "display": "1 <dose> i høyre øye morgen (08:00)"
           },
           {
             "code": "199",
-            "display": "1 <dose> i venstre øye morgen (8:00)"
+            "display": "1 <dose> i venstre øye morgen (08:00)"
           },
           {
             "code": "200",
-            "display": "Påsmøres i tynt lag om morgenen (8:00)"
+            "display": "Påsmøres i tynt lag om morgenen (08:00)"
           },
           {
             "code": "201",
-            "display": "1 <dose> morgen 1 <dose> kveld (08:00)"
+            "display": "1 <dose> morgen 1 <dose> kveld (08:00, 20:00)"
           },
           {
             "code": "202",
-            "display": "1 <dose> morgen 1 <dose> kveld i 3 dager (08:00)"
+            "display": "1 <dose> morgen 1 <dose> kveld i 3 dager (08:00, 20:00)"
           },
           {
             "code": "203",
-            "display": "Gnis inn i hodebunnen morgen og kveld (08:00)"
+            "display": "Gnis inn i hodebunnen morgen og kveld (08:00, 20:00)"
           },
           {
             "code": "204",
-            "display": "Gnis inn i huden morgen og kveld (08:00)"
+            "display": "Gnis inn i huden morgen og kveld (08:00, 20:00)"
           },
           {
             "code": "205",
-            "display": "1 <dose> i hvert nesebor morgen og kveld (08:00)"
+            "display": "1 <dose> i hvert nesebor morgen og kveld (08:00, 20:00)"
           },
           {
             "code": "206",
-            "display": "1 <dose> i hvert øye morgen og kveld (08:00)"
+            "display": "1 <dose> i hvert øye morgen og kveld (08:00, 20:00)"
           },
           {
             "code": "209",
-            "display": "Påsmøres morgen og kveld (08:00)"
+            "display": "Påsmøres morgen og kveld (08:00, 20:00)"
           },
           {
             "code": "210",
-            "display": "Påsmøres i tynt lag morgen og kveld (08:00)"
+            "display": "Påsmøres i tynt lag morgen og kveld (08:00, 20:00)"
           },
           {
             "code": "211",
-            "display": "Påsmøres tynt angrepet område morgen og kveld."
+            "display": "Påsmøres tynt angrepet område morgen og kveld. (08:00, 20:00)"
           },
           {
             "code": "212",
-            "display": "1 <dose> i hvert øye morgen og kveld i 7 dager (08:00)"
+            "display": "1 <dose> i hvert øye morgen og kveld i 7 dager (08:00, 20:00)"
           },
           {
             "code": "213",
-            "display": "1 <dose> morgen 1 <dose> ettermiddag (08:00)"
+            "display": "1 <dose> morgen 1 <dose> ettermiddag (08:00, 16:00)"
           },
           {
             "code": "214",
-            "display": "1 <dose> morgen 2 <doser> kveld (08:00)"
+            "display": "1 <dose> morgen 2 <doser> kveld (08:00, 20:00)"
           },
           {
             "code": "215",
-            "display": "1 <dose> morgen 1 <dose> midt på dagen (08:00)"
+            "display": "1 <dose> morgen 1 <dose> midt på dagen (08:00, 12:00)"
           },
           {
             "code": "216",
-            "display": "1 <dose> morgen 1 <dose> midt på dagen 1 <dose> kveld (08:00)"
+            "display": "1 <dose> morgen 1 <dose> midt på dagen 1 <dose> kveld (08:00, 16:00, 22:00)"
           },
           {
             "code": "217",
-            "display": "1 <dose> morgen 1 <dose> formiddag 1 <dose> ettermiddag 1 <dose> kveld (06:00"
+            "display": "1 <dose> morgen 1 <dose> formiddag 1 <dose> ettermiddag 1 <dose> kveld (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "218",
-            "display": "1 <dose> morgen 1 <dose> midt på dagen og 2 <doser> kveld (08:00)"
+            "display": "1 <dose> morgen 1 <dose> midt på dagen og 2 <doser> kveld (08:00, 16:00, 22:00)"
           },
           {
             "code": "219",
@@ -841,7 +841,7 @@
           },
           {
             "code": "220",
-            "display": "10 <doser> 1 gang daglig (8:00)"
+            "display": "10 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "221",
@@ -849,11 +849,11 @@
           },
           {
             "code": "222",
-            "display": "10 <doser> 2 ganger daglig (08:00)"
+            "display": "10 <doser> 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "223",
-            "display": "10 <doser> 3 ganger daglig (08:00)"
+            "display": "10 <doser> 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "224",
@@ -861,27 +861,27 @@
           },
           {
             "code": "225",
-            "display": "10 <doser> morgen (8:00)"
+            "display": "10 <doser> morgen (08:00)"
           },
           {
             "code": "226",
-            "display": "10 <doser> hver morgen i 3 dager (8:00)"
+            "display": "10 <doser> hver morgen i 3 dager (08:00)"
           },
           {
             "code": "227",
-            "display": "10 <doser> morgen 10 <doser> kveld (08:00)"
+            "display": "10 <doser> morgen 10 <doser> kveld (08:00, 20:00)"
           },
           {
             "code": "228",
-            "display": "10 <doser> morgen 10 <doser> kveld i 3 dager (08:00)"
+            "display": "10 <doser> morgen 10 <doser> kveld i 3 dager (08:00, 20:00)"
           },
           {
             "code": "229",
-            "display": "10 <doser> morgen 10 <doser> formiddag 10 <doser> ettermiddag 10 <doser> kveld (06:00"
+            "display": "10 <doser> morgen 10 <doser> formiddag 10 <doser> ettermiddag 10 <doser> kveld (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "230",
-            "display": "10 <doser> morgen 10 <doser> midt på dagen 20 <doser> kveld (08:00)"
+            "display": "10 <doser> morgen 10 <doser> midt på dagen 20 <doser> kveld (08:00, 16:00, 22:00)"
           },
           {
             "code": "231",
@@ -905,27 +905,27 @@
           },
           {
             "code": "236",
-            "display": "1-2 <doser> i hvert nesebor 1 gang daglig (8:00)"
+            "display": "1-2 <doser> i hvert nesebor 1 gang daglig (08:00)"
           },
           {
             "code": "237",
-            "display": "1-2 <doser> 2 ganger daglig (08:00)"
+            "display": "1-2 <doser> 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "239",
-            "display": "1-2 <doser> i hvert øye 2 ganger daglig (08:00)"
+            "display": "1-2 <doser> i hvert øye 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "240",
-            "display": "1-2 <doser> 3 ganger daglig (08:00)"
+            "display": "1-2 <doser> 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "241",
-            "display": "1-2 <doser> i øret 3 ganger daglig (08:00)"
+            "display": "1-2 <doser> i øret 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "242",
-            "display": "1-2 <doser> i øyet 3 ganger daglig (08:00)"
+            "display": "1-2 <doser> i øyet 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "243",
@@ -933,19 +933,19 @@
           },
           {
             "code": "244",
-            "display": "1-2 <doser> 4 ganger daglig (06:00"
+            "display": "1-2 <doser> 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "245",
-            "display": "1-2 <doser> i hvert øye 4 ganger daglig (06:00"
+            "display": "1-2 <doser> i hvert øye 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "246",
-            "display": "1-2 <doser> i øret 4 ganger daglig (06:00"
+            "display": "1-2 <doser> i øret 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "247",
-            "display": "1-2 <doser> i øyet 4 ganger daglig (06:00"
+            "display": "1-2 <doser> i øyet 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "249",
@@ -953,31 +953,31 @@
           },
           {
             "code": "250",
-            "display": "1-2 <doser> morgen 1-2 <doser> kveld (08:00)"
+            "display": "1-2 <doser> morgen 1-2 <doser> kveld (08:00, 20:00)"
           },
           {
             "code": "251",
-            "display": "13 <doser> 2 ganger daglig (08:00)"
+            "display": "13 <doser> 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "252",
-            "display": "15 <doser> 1 gang daglig (8:00)"
+            "display": "15 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "253",
-            "display": "15 <doser> 2 ganger daglig (08:00)"
+            "display": "15 <doser> 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "254",
-            "display": "15 <doser> 3 ganger daglig (08:00)"
+            "display": "15 <doser> 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "255",
-            "display": "15 <doser> morgen (8:00)"
+            "display": "15 <doser> morgen (08:00)"
           },
           {
             "code": "256",
-            "display": "15 <doser> morgen 15 <doser> kveld (08:00)"
+            "display": "15 <doser> morgen 15 <doser> kveld (08:00, 20:00)"
           },
           {
             "code": "257",
@@ -1021,31 +1021,31 @@
           },
           {
             "code": "268",
-            "display": "2 <doser> i hvert nesebor 1 gang daglig (8:00)"
+            "display": "2 <doser> i hvert nesebor 1 gang daglig (08:00)"
           },
           {
             "code": "269",
-            "display": "2 <doser> på huden 1 gang daglig (8:00)"
+            "display": "2 <doser> på huden 1 gang daglig (08:00)"
           },
           {
             "code": "270",
-            "display": "2 <doser> påføres huden i tynt lag hver dag (8:00)"
+            "display": "2 <doser> påføres huden i tynt lag hver dag (08:00)"
           },
           {
             "code": "271",
-            "display": "2 <doser> 1 gang daglig i 14 dager (8:00)"
+            "display": "2 <doser> 1 gang daglig i 14 dager (08:00)"
           },
           {
             "code": "273",
-            "display": "2 <doser> 1 gang daglig i 3 dager (8:00)"
+            "display": "2 <doser> 1 gang daglig i 3 dager (08:00)"
           },
           {
             "code": "274",
-            "display": "2 <doser> daglig i 5 dager (8:00)"
+            "display": "2 <doser> daglig i 5 dager (08:00)"
           },
           {
             "code": "275",
-            "display": "2 <doser> 2 ganger daglig (08:00)"
+            "display": "2 <doser> 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "276",
@@ -1053,15 +1053,15 @@
           },
           {
             "code": "277",
-            "display": "2 <doser> i hvert nesebor 2 ganger daglig (08:00)"
+            "display": "2 <doser> i hvert nesebor 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "278",
-            "display": "2 <doser> 2 ganger daglig i 21 dager (08:00)"
+            "display": "2 <doser> 2 ganger daglig i 21 dager (08:00, 20:00)"
           },
           {
             "code": "279",
-            "display": "2 <doser> 2 ganger daglig i 5 dager (08:00)"
+            "display": "2 <doser> 2 ganger daglig i 5 dager (08:00, 20:00)"
           },
           {
             "code": "280",
@@ -1069,11 +1069,11 @@
           },
           {
             "code": "281",
-            "display": "2 <doser> 3 ganger daglig (08:00)"
+            "display": "2 <doser> 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "282",
-            "display": "2 <doser> i øret 3 ganger daglig (08:00)"
+            "display": "2 <doser> i øret 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "283",
@@ -1081,7 +1081,7 @@
           },
           {
             "code": "284",
-            "display": "2 <doser> 4 ganger daglig (06:00"
+            "display": "2 <doser> 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "285",
@@ -1089,7 +1089,7 @@
           },
           {
             "code": "286",
-            "display": "2,5 <doser> 1 gang daglig (8:00)"
+            "display": "2,5 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "287",
@@ -1121,59 +1121,59 @@
           },
           {
             "code": "295",
-            "display": "2 <doser> morgen (8:00)"
+            "display": "2 <doser> morgen (08:00)"
           },
           {
             "code": "296",
-            "display": "2 <doser> i hvert nesebor morgen (8:00)"
+            "display": "2 <doser> i hvert nesebor morgen (08:00)"
           },
           {
             "code": "297",
-            "display": "2 <doser> morgen 1 <dose> kveld (08:00)"
+            "display": "2 <doser> morgen 1 <dose> kveld (08:00, 20:00)"
           },
           {
             "code": "298",
-            "display": "2 <doser> morgen 2 <doser> kveld (08:00)"
+            "display": "2 <doser> morgen 2 <doser> kveld (08:00, 20:00)"
           },
           {
             "code": "299",
-            "display": "2 <doser> morgen 2 <doser> kveld i 3 dager (08:00)"
+            "display": "2 <doser> morgen 2 <doser> kveld i 3 dager (08:00, 20:00)"
           },
           {
             "code": "300",
-            "display": "2 <doser> i hvert nesebor morgen og kveld (08:00)"
+            "display": "2 <doser> i hvert nesebor morgen og kveld (08:00, 20:00)"
           },
           {
             "code": "301",
-            "display": "2 <doser> morgen 3 <doser> kveld (08:00)"
+            "display": "2 <doser> morgen 3 <doser> kveld (08:00, 20:00)"
           },
           {
             "code": "302",
-            "display": "2 <doser> morgen 1 <dose> midt på dagen 1 <dose> kveld (08:00)"
+            "display": "2 <doser> morgen 1 <dose> midt på dagen 1 <dose> kveld (08:00, 16:00, 22:00)"
           },
           {
             "code": "303",
-            "display": "2 <doser> morgen 2 <doser> midt på dagen (08:00)"
+            "display": "2 <doser> morgen 2 <doser> midt på dagen (08:00, 12:00)"
           },
           {
             "code": "304",
-            "display": "2 <doser> morgen 2 <doser> midt på dagen 2 <doser> kveld (08:00)"
+            "display": "2 <doser> morgen 2 <doser> midt på dagen 2 <doser> kveld (08:00, 16:00, 22:00)"
           },
           {
             "code": "305",
-            "display": "2 <doser> morgen 2 <doser> formiddag 2 <doser> ettermiddag 2 <doser> kveld (06:00"
+            "display": "2 <doser> morgen 2 <doser> formiddag 2 <doser> ettermiddag 2 <doser> kveld (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "306",
-            "display": "20 <doser> 1 gang daglig (8:00)"
+            "display": "20 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "307",
-            "display": "20 <doser> 2 ganger daglig (08:00)"
+            "display": "20 <doser> 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "308",
-            "display": "20 <doser> 3 ganger daglig (08:00)"
+            "display": "20 <doser> 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "309",
@@ -1181,39 +1181,39 @@
           },
           {
             "code": "310",
-            "display": "2-3 <doser> i øret 3 ganger daglig (08:00)"
+            "display": "2-3 <doser> i øret 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "311",
-            "display": "2-4 <doser> i øret 3 ganger daglig (08:00)"
+            "display": "2-4 <doser> i øret 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "312",
-            "display": "3 <doser> 1 gang daglig (8:00)"
+            "display": "3 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "313",
-            "display": "3 <doser> 1 gang daglig i 3 dager (8:00)"
+            "display": "3 <doser> 1 gang daglig i 3 dager (08:00)"
           },
           {
             "code": "314",
-            "display": "3 <doser> 2 ganger daglig (08:00)"
+            "display": "3 <doser> 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "315",
-            "display": "3 <doser> i ørene 2 ganger daglig (08:00)"
+            "display": "3 <doser> i ørene 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "316",
-            "display": "3 <doser> i øret 2 ganger daglig (08:00)"
+            "display": "3 <doser> i øret 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "317",
-            "display": "3 <doser> 3 ganger daglig (08:00)"
+            "display": "3 <doser> 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "318",
-            "display": "3 <doser> i øret 3 ganger daglig (08:00)"
+            "display": "3 <doser> i øret 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "319",
@@ -1221,39 +1221,39 @@
           },
           {
             "code": "320",
-            "display": "3 <doser> morgen (8:00)"
+            "display": "3 <doser> morgen (08:00)"
           },
           {
             "code": "321",
-            "display": "3 <doser> morgen 3 <doser> kveld (08:00)"
+            "display": "3 <doser> morgen 3 <doser> kveld (08:00, 20:00)"
           },
           {
             "code": "322",
-            "display": "3 <doser> morgen 3 <doser> midt på dagen 3 <doser> kveld (08:00)"
+            "display": "3 <doser> morgen 3 <doser> midt på dagen 3 <doser> kveld (08:00, 16:00, 22:00)"
           },
           {
             "code": "323",
-            "display": "4 <doser> 1 gang daglig (8:00)"
+            "display": "4 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "324",
-            "display": "4 <doser> 1 gang daglig i 3 dager (8:00)"
+            "display": "4 <doser> 1 gang daglig i 3 dager (08:00)"
           },
           {
             "code": "325",
-            "display": "4 <doser> 2 ganger daglig (08:00)"
+            "display": "4 <doser> 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "326",
-            "display": "4 <doser> i ørene 2 ganger daglig (08:00)"
+            "display": "4 <doser> i ørene 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "327",
-            "display": "4 <doser> i øret 2 ganger daglig (08:00)"
+            "display": "4 <doser> i øret 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "328",
-            "display": "4 <doser> 3 ganger daglig (08:00)"
+            "display": "4 <doser> 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "329",
@@ -1261,75 +1261,75 @@
           },
           {
             "code": "330",
-            "display": "4 <doser> morgen (8:00)"
+            "display": "4 <doser> morgen (08:00)"
           },
           {
             "code": "331",
-            "display": "4 <doser> morgen 4 <doser> kveld (08:00)"
+            "display": "4 <doser> morgen 4 <doser> kveld (08:00, 20:00)"
           },
           {
             "code": "332",
-            "display": "4 <doser> morgen 4 <doser> midt på dagen 4 <doser> kveld (08:00)"
+            "display": "4 <doser> morgen 4 <doser> midt på dagen 4 <doser> kveld (08:00, 16:00, 22:00)"
           },
           {
             "code": "333",
-            "display": "40 <doser> 1 gang daglig (8:00)"
+            "display": "40 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "334",
-            "display": "5 <doser> 1 gang daglig (8:00)"
+            "display": "5 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "335",
-            "display": "5 <doser> 2 ganger daglig (08:00)"
+            "display": "5 <doser> 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "336",
-            "display": "5 <doser> 3 ganger daglig (08:00)"
+            "display": "5 <doser> 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "337",
-            "display": "5 <doser> 3 ganger daglig i 7 dager (08:00)"
+            "display": "5 <doser> 3 ganger daglig i 7 dager (08:00, 16:00, 22:00)"
           },
           {
             "code": "338",
-            "display": "5 <doser> 4 ganger daglig (06:00"
+            "display": "5 <doser> 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "339",
-            "display": "5 <doser> morgen 5 <doser> kveld (08:00)"
+            "display": "5 <doser> morgen 5 <doser> kveld (08:00, 20:00)"
           },
           {
             "code": "340",
-            "display": "5 <doser> morgen 5 <doser> kveld i 3 dager (08:00)"
+            "display": "5 <doser> morgen 5 <doser> kveld i 3 dager (08:00, 20:00)"
           },
           {
             "code": "341",
-            "display": "5 <doser> morgen 5 <doser> midt på dagen 10 <doser> kveld (08:00)"
+            "display": "5 <doser> morgen 5 <doser> midt på dagen 10 <doser> kveld (08:00, 16:00, 22:00)"
           },
           {
             "code": "342",
-            "display": "5 <doser> morgen 5 <doser> midt på dagen 5 <doser> kveld (08:00)"
+            "display": "5 <doser> morgen 5 <doser> midt på dagen 5 <doser> kveld (08:00, 16:00, 22:00)"
           },
           {
             "code": "343",
-            "display": "5 <doser> morgen 5 <doser> formiddag 5 <doser> ettermiddag 5 <doser> kveld (06:00"
+            "display": "5 <doser> morgen 5 <doser> formiddag 5 <doser> ettermiddag 5 <doser> kveld (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "344",
-            "display": "6 <doser> 1 gang daglig (8:00)"
+            "display": "6 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "345",
-            "display": "6 <doser> 2 ganger daglig (08:00)"
+            "display": "6 <doser> 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "346",
-            "display": "6 <doser> 3 ganger daglig i 10-14 dager (08:00)"
+            "display": "6 <doser> 3 ganger daglig i 10-14 dager (08:00, 16:00, 22:00)"
           },
           {
             "code": "347",
-            "display": "7 <doser> 2 ganger daglig (08:00)"
+            "display": "7 <doser> 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "348",
@@ -1349,7 +1349,7 @@
           },
           {
             "code": "352",
-            "display": "7 <doser> morgen (8:00)"
+            "display": "7 <doser> morgen (08:00)"
           },
           {
             "code": "353",
@@ -1357,7 +1357,7 @@
           },
           {
             "code": "354",
-            "display": "1 <dose> påføres intra-analt hver 12. time (08:00)"
+            "display": "1 <dose> påføres intra-analt hver 12. time (08:00, 20:00)"
           },
           {
             "code": "355",
@@ -1429,7 +1429,7 @@
           },
           {
             "code": "374",
-            "display": "1 <dose> fortynnes med 2 ml saltvann og inhaleres 4 ganger daglig (06:00"
+            "display": "1 <dose> fortynnes med 2 ml saltvann og inhaleres 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "375",
@@ -1449,7 +1449,7 @@
           },
           {
             "code": "379",
-            "display": "2 <doser> 1 gang daglig (8:00)"
+            "display": "2 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "380",
@@ -1533,7 +1533,7 @@
           },
           {
             "code": "5343",
-            "display": "1 <dose> daglig. Røres ut i 15 ml vann og svelges (8:00)"
+            "display": "1 <dose> daglig. Røres ut i 15 ml vann og svelges (08:00)"
           },
           {
             "code": "5344",
@@ -1545,7 +1545,7 @@
           },
           {
             "code": "5346",
-            "display": "2 <doser> 1 gang daglig. Start 1-2 dager før innreise til malaria-sonen, fortsett i 7 dager etter utreise fra sonen (8:00)"
+            "display": "2 <doser> 1 gang daglig. Start 1-2 dager før innreise til malaria-sonen, fortsett i 7 dager etter utreise fra sonen (08:00)"
           },
           {
             "code": "5347",
@@ -1573,11 +1573,11 @@
           },
           {
             "code": "5353",
-            "display": "30 <doser> en gang daglig (8:00)"
+            "display": "30 <doser> en gang daglig (08:00)"
           },
           {
             "code": "5354",
-            "display": "30 <doser> morgen (8:00)"
+            "display": "30 <doser> morgen (08:00)"
           },
           {
             "code": "5355",
@@ -1585,11 +1585,11 @@
           },
           {
             "code": "5356",
-            "display": "4 <doser> i hvert nesebor morgen (8:00)"
+            "display": "4 <doser> i hvert nesebor morgen (08:00)"
           },
           {
             "code": "5357",
-            "display": "1 <dose> innføres i skjeden 3 ganger daglig i 30 dager (08:00)"
+            "display": "1 <dose> innføres i skjeden 3 ganger daglig i 30 dager (08:00, 16:00, 22:00)"
           },
           {
             "code": "5358",
@@ -1629,11 +1629,11 @@
           },
           {
             "code": "5367",
-            "display": "1 <dose> daglig fra første menstruasjonsdag (8:00)"
+            "display": "1 <dose> daglig fra første menstruasjonsdag (08:00)"
           },
           {
             "code": "5368",
-            "display": "1 <dose> daglig fra femte menstruasjonsdag (8:00)"
+            "display": "1 <dose> daglig fra femte menstruasjonsdag (08:00)"
           },
           {
             "code": "5369",
@@ -1641,7 +1641,7 @@
           },
           {
             "code": "5370",
-            "display": "Påsmøres tynt rene og tørre angrepne områder 2 ganger daglig med minst 8 timers mellomrom (08:00)"
+            "display": "Påsmøres tynt rene og tørre angrepne områder 2 ganger daglig med minst 8 timers mellomrom (08:00, 20:00)"
           },
           {
             "code": "5372",
@@ -1653,11 +1653,11 @@
           },
           {
             "code": "5374",
-            "display": "1 <dose> 1 gang daglig i 7 dager (8:00)"
+            "display": "1 <dose> 1 gang daglig i 7 dager (08:00)"
           },
           {
             "code": "5375",
-            "display": "2 <doser> 1 gang daglig i 10 dager (8:00)"
+            "display": "2 <doser> 1 gang daglig i 10 dager (08:00)"
           },
           {
             "code": "5376",
@@ -1765,15 +1765,15 @@
           },
           {
             "code": "5403",
-            "display": "1 <dose> innføres i skjeden daglig i 10 dager (8:00)"
+            "display": "1 <dose> innføres i skjeden daglig i 10 dager (08:00)"
           },
           {
             "code": "5404",
-            "display": "1 <dose> innføres i skjeden daglig fra eggløsning (8:00)"
+            "display": "1 <dose> innføres i skjeden daglig fra eggløsning (08:00)"
           },
           {
             "code": "5405",
-            "display": "1 <dose> innføres i skjeden daglig (8:00)"
+            "display": "1 <dose> innføres i skjeden daglig (08:00)"
           },
           {
             "code": "5407",
@@ -1781,23 +1781,23 @@
           },
           {
             "code": "5408",
-            "display": "2 <doser> innføres i endetarmen 2 ganger daglig (08:00)"
+            "display": "2 <doser> innføres i endetarmen 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "5409",
-            "display": "2 <doser> morgen 2 <doser> kveld Innføres i endetarmen (08:00)"
+            "display": "2 <doser> morgen 2 <doser> kveld Innføres i endetarmen (08:00, 20:00)"
           },
           {
             "code": "5410",
-            "display": "1 <dose> innføres i endetarmen 2 ganger daglig (08:00)"
+            "display": "1 <dose> innføres i endetarmen 2 ganger daglig (08:00, 20:00)"
           },
           {
             "code": "5411",
-            "display": "1 <dose> innføres i endetarmen 3 ganger daglig (08:00)"
+            "display": "1 <dose> innføres i endetarmen 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "5412",
-            "display": "1 <dose> innføres i endetarmen 4 ganger daglig (06:00"
+            "display": "1 <dose> innføres i endetarmen 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "5413",
@@ -1809,15 +1809,15 @@
           },
           {
             "code": "5415",
-            "display": "1-2 <doser> innføres i endetarmen 3 ganger daglig (08:00)"
+            "display": "1-2 <doser> innføres i endetarmen 3 ganger daglig (08:00, 16:00, 22:00)"
           },
           {
             "code": "5416",
-            "display": "1-2 <doser> innføres i endetarmen 4 ganger daglig (06:00"
+            "display": "1-2 <doser> innføres i endetarmen 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "5417",
-            "display": "1 <dose> innføres i endetarmen daglig (8:00)"
+            "display": "1 <dose> innføres i endetarmen daglig (08:00)"
           },
           {
             "code": "5418",
@@ -1829,11 +1829,11 @@
           },
           {
             "code": "5420",
-            "display": "8 <doser> morgen 8 <doser> midt på dagen 8 <doser> kveld (08:00)"
+            "display": "8 <doser> morgen 8 <doser> midt på dagen 8 <doser> kveld (08:00, 16:00, 22:00)"
           },
           {
             "code": "5421",
-            "display": "10 <doser> morgen 10 <doser> midt på dagen 10 <doser> kveld (08:00)"
+            "display": "10 <doser> morgen 10 <doser> midt på dagen 10 <doser> kveld (08:00, 16:00, 22:00)"
           },
           {
             "code": "5422",
@@ -1861,7 +1861,7 @@
           },
           {
             "code": "5428",
-            "display": "20 <doser> morgen 20 <doser> kveld (08:00)"
+            "display": "20 <doser> morgen 20 <doser> kveld (08:00, 20:00)"
           },
           {
             "code": "5429",
@@ -1873,11 +1873,11 @@
           },
           {
             "code": "5431",
-            "display": "6 <doser> morgen 6 <doser> kveld (08:00)"
+            "display": "6 <doser> morgen 6 <doser> kveld (08:00, 20:00)"
           },
           {
             "code": "5432",
-            "display": "3 <doser> morgen 3 <doser> formiddag 3 <doser> ettermiddag 3 <doser> kveld (06:00"
+            "display": "3 <doser> morgen 3 <doser> formiddag 3 <doser> ettermiddag 3 <doser> kveld (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "5433",
@@ -1909,11 +1909,11 @@
           },
           {
             "code": "5440",
-            "display": "1 <dose> morgen og 1 <dose> kveld Innføres i endetarmen (08:00)"
+            "display": "1 <dose> morgen og 1 <dose> kveld Innføres i endetarmen (08:00, 20:00)"
           },
           {
             "code": "5441",
-            "display": "1 <dose> morgen 1 <dose> midt på dagen 1 <dose> kveld Innføres i endetarmen (08:00)"
+            "display": "1 <dose> morgen 1 <dose> midt på dagen 1 <dose> kveld Innføres i endetarmen (08:00, 16:00, 22:00)"
           },
           {
             "code": "5442",
@@ -1933,7 +1933,7 @@
           },
           {
             "code": "5447",
-            "display": "3 <doser> morgen 4 <doser> kveld (08:00)"
+            "display": "3 <doser> morgen 4 <doser> kveld (08:00, 20:00)"
           },
           {
             "code": "5448",
@@ -1941,19 +1941,19 @@
           },
           {
             "code": "5449",
-            "display": "2 <doser> morgen 1 <dose> midt på dagen 2 <doser> kveld (08:00)"
+            "display": "2 <doser> morgen 1 <dose> midt på dagen 2 <doser> kveld (08:00, 16:00, 22:00)"
           },
           {
             "code": "5450",
-            "display": "3 <doser> morgen 2 <doser> midt på dagen 2 <doser> kveld (08:00)"
+            "display": "3 <doser> morgen 2 <doser> midt på dagen 2 <doser> kveld (08:00, 16:00, 22:00)"
           },
           {
             "code": "5451",
-            "display": "24 <doser> 1 gang daglig (8:00)"
+            "display": "24 <doser> 1 gang daglig (08:00)"
           },
           {
             "code": "5452",
-            "display": "1 <dose> i ett nesebor 4 ganger daglig (06:00"
+            "display": "1 <dose> i ett nesebor 4 ganger daglig (06:00, 12:00, 18:00, 23:30)"
           },
           {
             "code": "5453",
@@ -1993,15 +1993,15 @@
           },
           {
             "code": "5463",
-            "display": "1 <dose> 2 ganger daglig i 10 dager (08:00)"
+            "display": "1 <dose> 2 ganger daglig i 10 dager (08:00, 20:00)"
           },
           {
             "code": "5464",
-            "display": "1 <dose> morgen 1 <dose> kveld i 10 dager (08:00)"
+            "display": "1 <dose> morgen 1 <dose> kveld i 10 dager (08:00, 20:00)"
           },
           {
             "code": "5465",
-            "display": "1 <dose> daglig i 3 dager (8:00)"
+            "display": "1 <dose> daglig i 3 dager (08:00)"
           },
           {
             "code": "5466",
@@ -2037,19 +2037,19 @@
           },
           {
             "code": "5477",
-            "display": "5 <doser> morgen (8:00)"
+            "display": "5 <doser> morgen (08:00)"
           },
           {
             "code": "5478",
-            "display": "6 <doser> morgen (8:00)"
+            "display": "6 <doser> morgen (08:00)"
           },
           {
             "code": "5479",
-            "display": "8 <doser> morgen (8:00)"
+            "display": "8 <doser> morgen (08:00)"
           },
           {
             "code": "5480",
-            "display": "9 <doser> morgen (8:00)"
+            "display": "9 <doser> morgen (08:00)"
           },
           {
             "code": "5481",
@@ -2069,15 +2069,15 @@
           },
           {
             "code": "5485",
-            "display": "4-6 <doser> i høyre øre hver 8. time (08:00)"
+            "display": "4-6 <doser> i høyre øre hver 8. time (08:00, 16:00, 22:00)"
           },
           {
             "code": "5486",
-            "display": "4-6 <doser> i venstre øre hver 8. time (08:00)"
+            "display": "4-6 <doser> i venstre øre hver 8. time (08:00, 16:00, 22:00)"
           },
           {
             "code": "5488",
-            "display": "4-6 <doser> i begge ører hver 8. time (08:00)"
+            "display": "4-6 <doser> i begge ører hver 8. time (08:00, 16:00, 22:00)"
           },
           {
             "code": "5489",
@@ -2109,7 +2109,7 @@
           },
           {
             "code": "5496",
-            "display": "Påføres tynt på berørt område 3 ganger daglig (08:00)"
+            "display": "Påføres tynt på berørt område 3 ganger daglig (08:00, 16:00, 22:00)"
           }
     ]
   },
