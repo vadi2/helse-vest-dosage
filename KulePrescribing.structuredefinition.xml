@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-21T10:10:09.681+01:00" />
+    <lastUpdated value="2017-03-21T10:23:09.099+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -390,6 +390,13 @@
     <element>
       <path value="MedicationStatement.dosage.timing.repeat" />
       <comments value=" " />
+      <constraint>
+        <key value="kuleprescribing-2" />
+        <requirements value="eResept M1" />
+        <severity value="error" />
+        <human value="Either specificTime or timePeriod can be specified, but not both" />
+        <xpath value="not(exists(specificTime) and exists(timePeriod))" />
+      </constraint>
     </element>
     <element>
       <path value="MedicationStatement.dosage.timing.repeat.extension" />
@@ -401,7 +408,7 @@
     <element>
       <path value="MedicationStatement.dosage.timing.repeat.extension" />
       <name value="specificTime" />
-      <definition value="Exact time of day medication must be taken at." />
+      <definition value="Exact time of day medication must be taken at (e.g. 09:00, 12:30, 15:00)." />
       <alias value="specificTime" />
       <alias value="Klokkeslett" />
       <max value="1" />
@@ -418,7 +425,7 @@
     <element>
       <path value="MedicationStatement.dosage.timing.repeat.extension" />
       <name value="timePeriod" />
-      <definition value="Time period of the day the drug should be taken at (ex.: morning, noon, afternoon, etc)." />
+      <definition value="Time period of the day the drug should be taken at (eg. morning, noon, afternoon, etc)." />
       <comments value="Timing.repeat.when is not used as the binding is of strength &quot;required&quot; and is semantically incompatible with OID 8325 from volven.no" />
       <alias value="timePeriod" />
       <alias value="Tidsomrade" />
