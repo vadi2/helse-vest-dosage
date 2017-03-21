@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-21T10:23:09.099+01:00" />
+    <lastUpdated value="2017-03-21T10:49:23.733+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -259,23 +259,6 @@
       <mapping>
         <identity value="norway-kule-resept" />
         <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.Doseringsregel.DoseresEtter" />
-      </mapping>
-    </element>
-    <element>
-      <path value="MedicationStatement.dosage.extension" />
-      <name value="calculationBasisNote" />
-      <definition value="Comment, other relevant information about dosage." />
-      <alias value="calculationBasisNote" />
-      <alias value="Merknad" />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/calculation-basis-note" />
-      </type>
-      <mustSupport value="true" />
-      <mapping>
-        <identity value="norway-kule-resept" />
-        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.Doseringsregel.Merknad" />
       </mapping>
     </element>
     <element>
