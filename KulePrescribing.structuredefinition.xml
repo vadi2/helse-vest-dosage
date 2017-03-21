@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-14T11:38:29.569+01:00" />
+    <lastUpdated value="2017-03-21T10:10:09.681+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -78,6 +78,29 @@
         <identity value="norway-kule-resept" />
         <map value="Resept.ReseptDokLegemiddel.Resept.Forskrivning.Bruk" />
       </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.identifier" />
+      <slicing>
+        <rules value="openAtEnd" />
+      </slicing>
+    </element>
+    <element>
+      <path value="MedicationStatement.identifier" />
+      <name value="prescriptionIdentifier" />
+      <short value="Prescription identifier" />
+      <definition value="Several MedicationStatements will be issued in case of a single prescription requiring multiple medications or different periods and this identifier allows you to reconcile them into a single prescription." />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element>
+      <path value="MedicationStatement.identifier.use" />
+      <fixedCode value="official" />
+    </element>
+    <element>
+      <path value="MedicationStatement.identifier.system" />
+      <fixedUri value="urn:oid:HELSE-VEST-OID-HERE." />
     </element>
     <element>
       <path value="MedicationStatement.informationSource" />
