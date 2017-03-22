@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-22T08:47:44.26+01:00" />
+    <lastUpdated value="2017-03-22T09:01:54.571+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -265,7 +265,7 @@
     <element>
       <path value="MedicationStatement.dosage.extension" />
       <name value="daysAdministeredAmount" />
-      <definition value="Number of days a drug is to be used." />
+      <definition value="Number of days total a drug is to be used within the specified period." />
       <alias value="daysAdministeredAmount" />
       <alias value="DagerPa" />
       <max value="1" />
@@ -278,7 +278,7 @@
     <element>
       <path value="MedicationStatement.dosage.extension" />
       <name value="daysNotAdministeredAmount" />
-      <definition value="Number of days a drug is NOT to be used. This element is always in combination with DagerPa." />
+      <definition value="Number of days a drug is NOT to be used. This element is always in combination with daysAdministeredAmount." />
       <alias value="daysNotAdministeredAmount" />
       <alias value="DagerAv" />
       <max value="1" />
