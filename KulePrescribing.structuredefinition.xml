@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-22T09:01:54.571+01:00" />
+    <lastUpdated value="2017-03-23T11:56:51.038+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -15,7 +15,6 @@
   <publisher value="HL7 Norge" />
   <date value="2017-01-27T13:11:14.8692835+01:00" />
   <description value="A prescription as defined by KULE Helse Vest Norwegian project, based on the national standard M1 eResept standard." />
-  <fhirVersion value="1.0.2" />
   <kind value="resource" />
   <constrainedType value="MedicationStatement" />
   <abstract value="false" />
@@ -88,7 +87,7 @@
     </element>
     <element>
       <path value="MedicationStatement.identifier" />
-      <name value="prescriptionIdentifier" />
+      <name value="prescriptionInstance" />
       <short value="Prescription identifier" />
       <definition value="Several MedicationStatements will be issued in case of a single prescription requiring multiple medications or different periods and this identifier allows you to reconcile them into a single prescription." />
       <min value="1" />
@@ -102,6 +101,24 @@
     <element>
       <path value="MedicationStatement.identifier.system" />
       <fixedUri value="urn:oid:HELSE-VEST-OID-HERE." />
+    </element>
+    <element>
+      <path value="MedicationStatement.identifier" />
+      <name value="LIB" />
+      <max value="1" />
+    </element>
+    <element>
+      <path value="MedicationStatement.identifier.system" />
+      <fixedUri value="urn:oid:OID-FOR-LIBS-HERE." />
+    </element>
+    <element>
+      <path value="MedicationStatement.identifier" />
+      <name value="eResept" />
+      <max value="1" />
+    </element>
+    <element>
+      <path value="MedicationStatement.identifier.system" />
+      <fixedUri value="urn:oid:OID-FOR-ERESEPT-HERE." />
     </element>
     <element>
       <path value="MedicationStatement.informationSource" />
