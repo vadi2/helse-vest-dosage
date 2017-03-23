@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-medication" />
   <meta>
-    <lastUpdated value="2017-03-23T15:43:58.68+01:00" />
+    <lastUpdated value="2017-03-23T15:46:03.596+01:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/kule-medication" />
   <name value="KULE Medication" />
@@ -73,7 +73,7 @@
     </element>
     <element>
       <path value="Medication.code.coding" />
-      <name value="MeonaDrugID " />
+      <name value="MeonaDrugID" />
       <definition value="Meona-assigned drug identifier." />
       <max value="1" />
     </element>
