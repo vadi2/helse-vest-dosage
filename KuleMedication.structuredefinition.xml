@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-medication" />
   <meta>
-    <lastUpdated value="2017-03-22T08:33:45.376+01:00" />
+    <lastUpdated value="2017-03-23T15:43:58.68+01:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/kule-medication" />
   <name value="KULE Medication" />
@@ -27,7 +27,69 @@
     </element>
     <element>
       <path value="Medication.code.coding" />
+      <slicing>
+        <discriminator value="system" />
+        <rules value="open" />
+      </slicing>
+      <short value="Code(s) to describe the medication" />
+      <definition value="At least one of LegemiddelMerkevare, LegemiddelVirkestoff, or LegemiddelPakning medication IDs must be provided (in that preferred order). Additionally, the Meona drug ID and ATC code may be provided to assist in identification." />
       <min value="1" />
+      <constraint>
+        <key value="kule-medication-1" />
+        <severity value="error" />
+        <human value="At least one of LegemiddelMerkevare, LegemiddelVirkestoff, or LegemiddelPakning medication IDs must be provided (in that preferred order). Additionally, the Meona drug ID and/or ATC code may be provided to assist in identification." />
+        <xpath value="exists(coding[system='urn:oid:LEGEMIDDEL-MERKEVARE-HERE']) or (coding[system='urn:oid:LEGEMIDDEL-VIRKESTOFF-HERE']) or (coding[system='urn:oid:LEGEMIDDEL-PAKNING-HERE'])" />
+      </constraint>
+    </element>
+    <element>
+      <path value="Medication.code.coding" />
+      <name value="LegemiddelMerkevare" />
+      <definition value="Specific drug product identifier (does not cover package information)." />
+      <max value="1" />
+    </element>
+    <element>
+      <path value="Medication.code.coding.system" />
+      <fixedUri value="urn:oid:LEGEMIDDEL-MERKEVARE-HERE" />
+    </element>
+    <element>
+      <path value="Medication.code.coding" />
+      <name value="LegemiddelVirkestoff" />
+      <definition value="Generic drug identifier (i.e. without package information or producer information)." />
+      <max value="1" />
+    </element>
+    <element>
+      <path value="Medication.code.coding.system" />
+      <fixedUri value="urn:oid:LEGEMIDDEL-VIRKESTOFF-HERE" />
+    </element>
+    <element>
+      <path value="Medication.code.coding" />
+      <name value="LegemiddelPakning" />
+      <definition value="Drug package identifier with a Nordic varenummer." />
+      <max value="1" />
+    </element>
+    <element>
+      <path value="Medication.code.coding.system" />
+      <fixedUri value="urn:oid:LEGEMIDDEL-PAKNING-HERE" />
+    </element>
+    <element>
+      <path value="Medication.code.coding" />
+      <name value="MeonaDrugID " />
+      <definition value="Meona-assigned drug identifier." />
+      <max value="1" />
+    </element>
+    <element>
+      <path value="Medication.code.coding.system" />
+      <fixedUri value="urn:oid:MEONA-DRUD-ID-HERE" />
+    </element>
+    <element>
+      <path value="Medication.code.coding" />
+      <name value="ATC" />
+      <definition value="ATC-assigned drug identifier." />
+      <max value="1" />
+    </element>
+    <element>
+      <path value="Medication.code.coding.system" />
+      <fixedUri value="urn:oid:2.16.578.1.12.4.1.1.7180" />
     </element>
     <element>
       <path value="Medication.code.text" />
