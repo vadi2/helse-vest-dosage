@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-23T11:56:51.038+01:00" />
+    <lastUpdated value="2017-03-23T12:50:25.034+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -227,17 +227,6 @@
       </mapping>
     </element>
     <element>
-      <path value="MedicationStatement.note" />
-      <short value="Important information about the usage of the medication." />
-      <definition value="Important information about the usage of the medication." />
-      <alias value="Merknad" />
-      <mustSupport value="true" />
-      <mapping>
-        <identity value="norway-kule-resept" />
-        <map value="Resept.EkspAnm.Merknad" />
-      </mapping>
-    </element>
-    <element>
       <path value="MedicationStatement.medicationReference" />
       <type>
         <code value="Reference" />
@@ -329,11 +318,11 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.text" />
-      <alias value="Merknad" />
+      <alias value="DosVeiledEnkel" />
       <mustSupport value="true" />
       <mapping>
         <identity value="norway-kule-resept" />
-        <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.Doseringsregel.Merknad" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning.DosVeiledEnkel" />
       </mapping>
     </element>
     <element>
