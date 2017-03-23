@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-23T12:50:25.034+01:00" />
+    <lastUpdated value="2017-03-23T14:13:26.094+01:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -100,12 +100,16 @@
     </element>
     <element>
       <path value="MedicationStatement.identifier.system" />
-      <fixedUri value="urn:oid:HELSE-VEST-OID-HERE." />
+      <fixedUri value="urn:oid:2.16.578.1.34.9999" />
     </element>
     <element>
       <path value="MedicationStatement.identifier" />
       <name value="LIB" />
       <max value="1" />
+    </element>
+    <element>
+      <path value="MedicationStatement.identifier.use" />
+      <fixedCode value="secondary" />
     </element>
     <element>
       <path value="MedicationStatement.identifier.system" />
@@ -115,6 +119,10 @@
       <path value="MedicationStatement.identifier" />
       <name value="eResept" />
       <max value="1" />
+    </element>
+    <element>
+      <path value="MedicationStatement.identifier.use" />
+      <fixedCode value="secondary" />
     </element>
     <element>
       <path value="MedicationStatement.identifier.system" />
@@ -211,7 +219,9 @@
     <element>
       <path value="MedicationStatement.effectivePeriod.start" />
       <definition value="Time when the dosage starts." />
+      <requirements value="Cardinality is at 1..1, overring M1 cardinality, per Chapter 4 rules in https://ehelse.no/Documents/E-resept/Dokumentarkiv-Meldingsdefinisjoner/Brukskonvensjoner%20for%20avansert%20strukturert%20dosering%20versjon%201.1%20per%20130913.pdf." />
       <alias value="Starttidspunkt" />
+      <min value="1" />
       <mapping>
         <identity value="norway-kule-resept" />
         <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.Starttidspunkt" />
@@ -241,6 +251,18 @@
         <severity value="error" />
         <human value="Dosage must include a freetext if no structured dosage is used" />
         <xpath value="not(exists(f:text)) or not(exists(f:timing))" />
+      </constraint>
+      <constraint>
+        <key value="kuleprescribing-3" />
+        <severity value="error" />
+        <human value="Either detailed timing information or coded dosage information can be specified, but not both" />
+        <xpath value="not(exists(timing) and exists(extension[@url='http://hl7.no/fhir/StructureDefinition/short-dosage']))" />
+      </constraint>
+      <constraint>
+        <key value="kuleprescribing-4" />
+        <severity value="error" />
+        <human value="daysNotAdministeredAmount must always be used in combination with daysAdministeredAmount" />
+        <xpath value="not(exists(extension[@url='http://hl7.no/fhir/StructureDefinition/days-not-administered-amount'])) or exists(extension[@url='http://hl7.no/fhir/StructureDefinition/days-administered-amount'])" />
       </constraint>
     </element>
     <element>
@@ -297,7 +319,9 @@
     <element>
       <path value="MedicationStatement.dosage.extension" />
       <name value="shortDosage" />
-      <alias value="shortDosageText" />
+      <short value="Dosage timing information expressed as a code" />
+      <definition value="Ved rekvirering skal feltet &quot;kortdose&quot; følge med i M1 dersom DSSN feltet ikke er endret etter valg av kortdose som kommer fra FEST.&#xD;&#xA;&#xD;&#xA;Kortdose skal ikke sendes i M1 når bruker ikke har valgt kortdose eller har redigert i feltet for DSSN.&#xD;&#xA;&#xD;&#xA;Apotek skal kunne bruke kortdose for effektivt å kunne finne fram til ønsket avansert dosering basert på kortdose." />
+      <alias value="shortDosage" />
       <alias value="Kortdose" />
       <max value="1" />
       <type>
