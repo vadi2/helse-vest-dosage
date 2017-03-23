@@ -83,7 +83,7 @@
       <path value="MedicationStatement.identifier" />
       <slicing>
         <discriminator value="system" />
-        <rules value="openAtEnd" />
+        <rules value="open" />
       </slicing>
     </element>
     <element>
@@ -498,7 +498,7 @@
       <path value="MedicationStatement.dosage.rate[x]" />
       <slicing>
         <discriminator value="@type" />
-        <rules value="openAtEnd" />
+        <rules value="open" />
       </slicing>
       <mustSupport value="true" />
     </element>
