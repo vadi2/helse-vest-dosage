@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-medication" />
   <meta>
-    <lastUpdated value="2017-03-24T11:54:26.862+01:00" />
+    <lastUpdated value="2017-03-24T13:46:58.137+01:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/kule-medication" />
   <name value="KULE Medication" />
@@ -86,7 +86,7 @@
     <element>
       <path value="Medication.code.coding.system" />
       <min value="1" />
-      <fixedUri value="urn:oid:2.16.578.1.12.4.1.1.7180" />
+      <fixedUri value="urn:oid:2.16.578.1.12.4.1.1.7180 ?" />
     </element>
     <element>
       <path value="Medication.code.text" />
