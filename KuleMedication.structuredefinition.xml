@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-medication" />
   <meta>
-    <lastUpdated value="2017-03-24T10:54:58.738+01:00" />
+    <lastUpdated value="2017-03-24T11:11:24.008+01:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/kule-medication" />
   <name value="KULE Medication" />
@@ -57,7 +57,7 @@
     </element>
     <element>
       <path value="Medication.code.coding" />
-      <name value="LegemiddelPakning" />
+      <name value="LegemiddelPakningVarenr" />
       <definition value="Drug package identifier with a Nordic varenummer." />
       <max value="1" />
     </element>
