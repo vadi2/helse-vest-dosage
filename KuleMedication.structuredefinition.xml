@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-medication" />
   <meta>
-    <lastUpdated value="2017-03-24T11:11:24.008+01:00" />
+    <lastUpdated value="2017-03-24T11:32:43.273+01:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/kule-medication" />
   <name value="KULE Medication" />
@@ -32,8 +32,6 @@
         <rules value="open" />
       </slicing>
       <short value="Code defined by a terminology system" />
-      <definition value="A reference to a code defined by a terminology system." />
-      <min value="1" />
     </element>
     <element>
       <path value="Medication.code.coding" />
