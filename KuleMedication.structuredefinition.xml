@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-medication" />
   <meta>
-    <lastUpdated value="2017-03-24T11:36:50.415+01:00" />
+    <lastUpdated value="2017-03-24T11:54:26.862+01:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/kule-medication" />
   <name value="KULE Medication" />
@@ -91,10 +91,6 @@
     <element>
       <path value="Medication.code.text" />
       <definition value="Drug information such as the name in plaintext form. This may be helpful if the FEST database isn't available or the system just wishes to render the MedicationStatement without resolving the drug IDs." />
-      <min value="1" />
-    </element>
-    <element>
-      <path value="Medication.isBrand" />
       <min value="1" />
     </element>
     <element>
