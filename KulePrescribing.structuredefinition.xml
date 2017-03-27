@@ -2,13 +2,13 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-27T14:01:42.652+02:00" />
+    <lastUpdated value="2017-03-27T13:16:51.583+02:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
   <p>A profile on MedicationStatement describing a prescription as defined by KULE Helse Vest Norwegian project, based on the national standard M1 eResept standard.</p>
 </div></text>
-  <url value="http://hl7.no/fhir/StructureDefinition/kule-kule-prescribing" />
+  <url value="http://hl7.no/fhir/StructureDefinition/kule-prescribing" />
   <name value="KULE Prescribing" />
   <status value="draft" />
   <experimental value="false" />
@@ -144,7 +144,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/noPractitioner" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-noPractitioner" />
       </type>
       <type>
         <code value="Reference" />
@@ -246,7 +246,7 @@
       <path value="MedicationStatement.medicationReference" />
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/kule-kule-medication" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-medication" />
       </type>
       <mustSupport value="true" />
     </element>
