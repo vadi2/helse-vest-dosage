@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-27T15:45:35.786+02:00" />
+    <lastUpdated value="2017-03-27T16:55:38.482+02:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -26,7 +26,7 @@
       <short value="KULE Prescribing profile." />
       <definition value="A prescription as defined by KULE Helse Vest Norwegian project, based on the national standard M1 eResept standard." />
       <constraint>
-        <key value="kuleprescribing" />
+        <key value="kuleprescribing-5" />
         <severity value="error" />
         <human value="Reason not taken must be filled if wasNotTaken is true" />
         <xpath value="f:wasNotTaken/@value=false() or exists(f:wasNotTaken)" />
@@ -295,6 +295,16 @@
         <identity value="norway-kule-resept" />
         <map value="Resept.ReseptDokLegemiddel.Forskrivning.Dosering.Doseringsregel.DoseresEtter" />
       </mapping>
+    </element>
+    <element>
+      <path value="MedicationStatement.dosage.extension.valueCode" />
+      <binding>
+        <strength value="required" />
+        <description value="Dette kodeverket inneholder koder som benyttes for å angi hva som skal danne utgangspunktet for beregning av dosering av et legemiddel. (OID 9080)" />
+        <valueSetReference>
+          <reference value="https://simplifier.net/api/fhir/ValueSet/ed4e2ddb-2397-420d-9811-f6d212bd56f8" />
+        </valueSetReference>
+      </binding>
     </element>
     <element>
       <path value="MedicationStatement.dosage.extension" />
