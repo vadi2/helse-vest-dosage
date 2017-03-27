@@ -2,13 +2,13 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-27T13:03:03.955+02:00" />
+    <lastUpdated value="2017-03-27T13:16:51.583+02:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
   <p>A profile on MedicationStatement describing a prescription as defined by KULE Helse Vest Norwegian project, based on the national standard M1 eResept standard.</p>
 </div></text>
-  <url value="http://hl7.no/fhir/StructureDefinition/kule-prescribing" />
+  <url value="http://hl7.no/fhir/StructureDefinition/kule-kule-prescribing" />
   <name value="KULE Prescribing" />
   <status value="draft" />
   <experimental value="false" />
@@ -64,7 +64,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/drug-use-type" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-drug-use-type" />
       </type>
       <mustSupport value="true" />
       <binding>
@@ -144,7 +144,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/noPractitioner" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-noPractitioner" />
       </type>
       <type>
         <code value="Reference" />
@@ -180,7 +180,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/prescription-status" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-prescription-status" />
       </type>
       <meaningWhenMissing value="Code needed is available in MedicationStatement.status and the extended code was not required." />
       <mustSupport value="true" />
@@ -246,7 +246,7 @@
       <path value="MedicationStatement.medicationReference" />
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/kule-medication" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-kule-medication" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -262,13 +262,13 @@
         <key value="kuleprescribing-3" />
         <severity value="error" />
         <human value="Either detailed timing information or coded dosage information can be specified, but not both" />
-        <xpath value="not(exists(timing) and exists(extension[@url='http://hl7.no/fhir/StructureDefinition/short-dosage']))" />
+        <xpath value="not(exists(timing) and exists(extension[@url='http://hl7.no/fhir/StructureDefinition/kule-short-dosage']))" />
       </constraint>
       <constraint>
         <key value="kuleprescribing-4" />
         <severity value="error" />
         <human value="daysNotAdministeredAmount must always be used in combination with daysAdministeredAmount" />
-        <xpath value="not(exists(extension[@url='http://hl7.no/fhir/StructureDefinition/days-not-administered-amount'])) or exists(extension[@url='http://hl7.no/fhir/StructureDefinition/days-administered-amount'])" />
+        <xpath value="not(exists(extension[@url='http://hl7.no/fhir/StructureDefinition/kule-days-not-administered-amount'])) or exists(extension[@url='http://hl7.no/fhir/StructureDefinition/kule-days-administered-amount'])" />
       </constraint>
     </element>
     <element>
@@ -288,7 +288,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/calculation-basis" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-calculation-basis" />
       </type>
       <mustSupport value="true" />
       <mapping>
@@ -305,7 +305,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/days-administered-amount" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-days-administered-amount" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -318,7 +318,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/days-not-administered-amount" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-days-not-administered-amount" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -332,7 +332,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/short-dosage" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-short-dosage" />
       </type>
       <mustSupport value="true" />
       <binding>
@@ -376,7 +376,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/timing-exact" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-timing-exact" />
       </type>
       <mustSupport value="true" />
       <mapping>
@@ -392,7 +392,7 @@
       <alias value="Intervall" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/timing-interval" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-timing-interval" />
       </type>
       <mustSupport value="true" />
       <binding>
@@ -434,7 +434,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/time-of-day" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-time-of-day" />
       </type>
       <mustSupport value="true" />
       <mapping>
@@ -452,7 +452,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/timeperiod" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/kule-timeperiod" />
       </type>
       <mustSupport value="true" />
       <mapping>

@@ -8,7 +8,7 @@
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
   <p>An extension to backport Timing.repeat.timeOfDay (http://hl7.org/fhir/2017Jan/datatypes-definitions.html#Timing.repeat.timeOfDay) for use in DSTU2.</p>
 </div></text>
-  <url value="http://hl7.no/fhir/StructureDefinition/time-of-day" />
+  <url value="http://hl7.no/fhir/StructureDefinition/kule-time-of-day" />
   <name value="Time of day" />
   <status value="draft" />
   <experimental value="false" />
@@ -28,7 +28,7 @@
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="http://hl7.no/fhir/StructureDefinition/time-of-day" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/kule-time-of-day" />
     </element>
     <element>
       <path value="Extension.valueTime" />

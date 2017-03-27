@@ -8,7 +8,7 @@
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
   <p>An extension that specifies extra code for use in the status of a MedicationStatement</p>
 </div></text>
-  <url value="http://hl7.no/fhir/StructureDefinition/prescription-status" />
+  <url value="http://hl7.no/fhir/StructureDefinition/kule-prescription-status" />
   <name value="Prescription status" />
   <status value="draft" />
   <publisher value="HL7 Norge" />
@@ -28,7 +28,7 @@
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="http://hl7.no/fhir/StructureDefinition/prescription-status" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/kule-prescription-status" />
     </element>
     <element>
       <path value="Extension.valueCode" />

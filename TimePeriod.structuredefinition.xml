@@ -8,7 +8,7 @@
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
   <p>An extension to represent the approximate timeperiod of the day (morning, noon, etc).</p>
 </div></text>
-  <url value="http://hl7.no/fhir/StructureDefinition/timeperiod" />
+  <url value="http://hl7.no/fhir/StructureDefinition/kule-timeperiod" />
   <name value="Time period of the day" />
   <status value="draft" />
   <experimental value="false" />
@@ -28,7 +28,7 @@
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="http://hl7.no/fhir/StructureDefinition/timeperiod" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/kule-timeperiod" />
     </element>
     <element>
       <path value="Extension.valueCode" />

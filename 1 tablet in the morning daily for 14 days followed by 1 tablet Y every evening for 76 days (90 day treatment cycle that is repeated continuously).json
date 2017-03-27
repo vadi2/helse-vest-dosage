@@ -19,7 +19,7 @@
             "id": "1-tablet-in-the-morning-daily-for-14-days-12",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-kule-prescribing"
                ]
             },
             "effectivePeriod": {
@@ -29,11 +29,11 @@
                {
                   "extension": [
                      {
-                        "url": "http://hl7.no/fhir/StructureDefinition/days-administered-amount",
+                        "url": "http://hl7.no/fhir/StructureDefinition/kule-days-administered-amount",
                         "valuePositiveInt": "14"
                      },
                      {
-                        "url": "http://hl7.no/fhir/StructureDefinition/days-not-administered-amount",
+                        "url": "http://hl7.no/fhir/StructureDefinition/kule-days-not-administered-amount",
                         "valuePositiveInt": "76"
                      }
                   ],
@@ -41,11 +41,11 @@
                      "repeat": {
                         "extension": [
                            {
-                              "url": "http://hl7.no/fhir/StructureDefinition/timeperiod",
+                              "url": "http://hl7.no/fhir/StructureDefinition/kule-timeperiod",
                               "valueCode": "1"
                            },
                            {
-                              "url": "http://hl7.no/fhir/StructureDefinition/timing-exact",
+                              "url": "http://hl7.no/fhir/StructureDefinition/kule-timing-exact",
                               "valueBoolean": true
                            }
                         ]
@@ -72,7 +72,7 @@
             "id": "followed-by-1-tablet-Y-every-evening-for-76-days-22",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-kule-prescribing"
                ]
             },
             "effectivePeriod": {
@@ -82,11 +82,11 @@
                {
                   "extension": [
                      {
-                        "url": "http://hl7.no/fhir/StructureDefinition/days-administered-amount",
+                        "url": "http://hl7.no/fhir/StructureDefinition/kule-days-administered-amount",
                         "valuePositiveInt": "76"
                      },
                      {
-                        "url": "http://hl7.no/fhir/StructureDefinition/days-not-administered-amount",
+                        "url": "http://hl7.no/fhir/StructureDefinition/kule-days-not-administered-amount",
                         "valuePositiveInt": "14"
                      }
                   ],
@@ -94,11 +94,11 @@
                      "repeat": {
                         "extension": [
                            {
-                              "url": "http://hl7.no/fhir/StructureDefinition/timeperiod",
+                              "url": "http://hl7.no/fhir/StructureDefinition/kule-timeperiod",
                               "valueCode": "5"
                            },
                            {
-                              "url": "http://hl7.no/fhir/StructureDefinition/timing-exact",
+                              "url": "http://hl7.no/fhir/StructureDefinition/kule-timing-exact",
                               "valueBoolean": true
                            }
                         ]

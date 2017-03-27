@@ -8,7 +8,7 @@
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
   <p>An extension to represent a comment or other relevant information about dosage calculation basis.</p>
 </div></text>
-  <url value="http://hl7.no/fhir/StructureDefinition/timing-exact" />
+  <url value="http://hl7.no/fhir/StructureDefinition/kule-timing-exact" />
   <name value="Exact timing" />
   <status value="draft" />
   <experimental value="false" />
@@ -28,7 +28,7 @@
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="http://hl7.no/fhir/StructureDefinition/timing-exact" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/kule-timing-exact" />
     </element>
     <element>
       <path value="Extension.valueBoolean" />

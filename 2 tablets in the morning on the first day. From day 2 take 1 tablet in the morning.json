@@ -19,7 +19,7 @@
             "id": "from-day-2-take-1-tablet-in-the-morning",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-kule-prescribing"
                ]
             },
             "effectivePeriod": {
@@ -30,14 +30,14 @@
                   "timing": {
                      "extension": [
                         {
-                           "url": "http://hl7.no/fhir/StructureDefinition/timing-exact",
+                           "url": "http://hl7.no/fhir/StructureDefinition/kule-timing-exact",
                            "valueBoolean": "false"
                         }
                      ],
                      "repeat": {
                         "extension": [
                            {
-                              "url": "http://hl7.no/fhir/StructureDefinition/timeperiod",
+                              "url": "http://hl7.no/fhir/StructureDefinition/kule-timeperiod",
                               "valueCode": "1"
                            }
                         ]
@@ -64,7 +64,7 @@
             "id": "2-tablets-in-the-morning-on-the-first-day",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-kule-prescribing"
                ]
             },
             "effectivePeriod": {
@@ -76,14 +76,14 @@
                   "timing": {
                      "extension": [
                         {
-                           "url": "http://hl7.no/fhir/StructureDefinition/timing-exact",
+                           "url": "http://hl7.no/fhir/StructureDefinition/kule-timing-exact",
                            "valueBoolean": "false"
                         }
                      ],
                      "repeat": {
                         "extension": [
                            {
-                              "url": "http://hl7.no/fhir/StructureDefinition/timeperiod",
+                              "url": "http://hl7.no/fhir/StructureDefinition/kule-timeperiod",
                               "valueCode": "1"
                            }
                         ]

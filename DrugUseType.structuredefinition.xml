@@ -4,7 +4,7 @@
   <meta>
     <lastUpdated value="2017-02-22T16:27:43.373+01:00" />
   </meta>
-  <url value="http://hl7.no/fhir/StructureDefinition/drug-use-type" />
+  <url value="http://hl7.no/fhir/StructureDefinition/kule-drug-use-type" />
   <name value="Drug use type" />
   <status value="draft" />
   <experimental value="false" />
@@ -22,7 +22,7 @@
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="http://hl7.no/fhir/StructureDefinition/drug-use-type" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/kule-drug-use-type" />
     </element>
     <element>
       <path value="Extension.valueCode" />

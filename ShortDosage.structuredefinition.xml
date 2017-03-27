@@ -8,7 +8,7 @@
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
   <p>An extension for capturing the Resept.ReseptDokLegemiddel.Forskrivning.Kortdose dosage timing code from the Norwegian M1 eResept model.</p>
 </div></text>
-  <url value="http://hl7.no/fhir/StructureDefinition/short-dosage" />
+  <url value="http://hl7.no/fhir/StructureDefinition/kule-short-dosage" />
   <name value="Short dosage" />
   <status value="draft" />
   <experimental value="false" />
@@ -29,7 +29,7 @@
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="http://hl7.no/fhir/StructureDefinition/short-dosage" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/kule-short-dosage" />
     </element>
     <element>
       <path value="Extension.valueCode" />

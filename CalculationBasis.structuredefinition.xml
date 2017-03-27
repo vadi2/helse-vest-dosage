@@ -8,7 +8,7 @@
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
   <p>An extension that specifies what forms the basis for calculating the dose (weight, age, body surface, other).</p>
 </div></text>
-  <url value="http://hl7.no/fhir/StructureDefinition/calculation-basis" />
+  <url value="http://hl7.no/fhir/StructureDefinition/kule-calculation-basis" />
   <name value="Dose calculation basis" />
   <status value="draft" />
   <experimental value="false" />
@@ -28,7 +28,7 @@
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="http://hl7.no/fhir/StructureDefinition/calculation-basis" />
+      <fixedUri value="http://hl7.no/fhir/StructureDefinition/kule-calculation-basis" />
     </element>
     <element>
       <path value="Extension.valueCode" />
