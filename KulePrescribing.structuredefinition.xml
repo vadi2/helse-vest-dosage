@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-27T15:02:58.781+02:00" />
+    <lastUpdated value="2017-03-27T15:45:35.786+02:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -411,13 +411,12 @@
     </element>
     <element>
       <path value="MedicationStatement.dosage.timing.repeat" />
-      <comments value=" " />
       <constraint>
         <key value="kuleprescribing-2" />
         <requirements value="eResept M1" />
         <severity value="error" />
         <human value="Either specificTime or timePeriod can be specified, but not both" />
-        <xpath value="not(exists(specificTime) and exists(timePeriod))" />
+        <xpath value="not(exists(f:extension[@url='http://hl7.no/fhir/StructureDefinition/kule-time-of-day']) and exists(f:extension[@url='http://hl7.no/fhir/StructureDefinition/kule-timeperiod']))" />
       </constraint>
     </element>
     <element>
