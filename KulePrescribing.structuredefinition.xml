@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-24T15:19:30.818+01:00" />
+    <lastUpdated value="2017-03-27T13:03:03.955+02:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -144,7 +144,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.no/fhir/StructureDefinition/kule-practitioner" />
+        <profile value="http://hl7.no/fhir/StructureDefinition/noPractitioner" />
       </type>
       <type>
         <code value="Reference" />
