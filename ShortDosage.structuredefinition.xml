@@ -40,7 +40,7 @@
         <strength value="preferred" />
         <description value="Dosage timing codes used by LIB data from FM (Forskrivningsmodulen/Prescription Module) and Kjernejournal systems in the Helse Vest Norway" />
         <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/061bd2de-72d3-4c2f-b8cf-56db09fadad1" />
+          <reference value="https://simplifier.net/api/fhir/ValueSet/be824721-fb00-4e2d-a76f-1f9f9ec39b92" />
         </valueSetReference>
       </binding>
     </element>

@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-03-27T14:05:26.287+02:00" />
+    <lastUpdated value="2017-03-27T14:18:19.634+02:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -337,8 +337,9 @@
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
+        <description value="Dosage timing codes used by LIB data from FM (Forskrivningsmodulen/Prescription Module) and Kjernejournal systems in the Helse Vest Norway." />
         <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/061bd2de-72d3-4c2f-b8cf-56db09fadad1" />
+          <reference value="https://simplifier.net/api/fhir/ValueSet/be824721-fb00-4e2d-a76f-1f9f9ec39b92" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -399,7 +400,7 @@
         <strength value="required" />
         <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet (OID=9088)." />
         <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/91336a25-1f89-4f12-a185-08a6d06a1af5" />
+          <reference value="https://simplifier.net/api/fhir/ValueSet/7a2d7cf3-020e-4ef9-b877-2c8c21f4a1c5" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -568,7 +569,7 @@
         <strength value="required" />
         <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet (OID=9088)." />
         <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/91336a25-1f89-4f12-a185-08a6d06a1af5" />
+          <reference value="https://simplifier.net/api/fhir/ValueSet/7a2d7cf3-020e-4ef9-b877-2c8c21f4a1c5" />
         </valueSetReference>
       </binding>
       <mapping>

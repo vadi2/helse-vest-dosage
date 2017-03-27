@@ -33,7 +33,7 @@
       <binding>
         <strength value="preferred" />
         <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/f552702d-e769-4c4b-9fa5-0512c9ffe66b" />
+          <reference value="https://simplifier.net/api/fhir/ValueSet/88276d8b-c953-4f15-a5ff-bc1bbbfacd2e" />
         </valueSetReference>
       </binding>
     </element>
