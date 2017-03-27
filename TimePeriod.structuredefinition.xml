@@ -40,7 +40,7 @@
       <binding>
         <strength value="required" />
         <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/1021d407-859c-40a6-9358-af3bd7690205" />
+          <reference value="https://simplifier.net/api/fhir/ValueSet/518fdd18-91b3-48a3-982a-86af923cec14" />
         </valueSetReference>
       </binding>
     </element>
