@@ -507,7 +507,7 @@
         <strength value="required" />
         <description value="Administrasjonsvei (OID=7477)." />
         <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/7ab290d7-7e42-4ec2-a693-75440b0ea038" />
+          <reference value="https://simplifier.net/api/fhir/ValueSet/94583103-b856-49fe-9205-6d0495e3ebe7" />
         </valueSetReference>
       </binding>
     </element>
@@ -527,7 +527,7 @@
         <strength value="required" />
         <description value="Enhet som skal inngå i doseringstekst som sendes i M1 og inngår på apotek-etiketten. Kodeverk til bruk i M30 fra versjon 2.4, og i M1 (OID=7480)." />
         <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/7b326ba1-4fae-406f-a50a-35de49e172b1" />
+          <reference value="https://simplifier.net/api/fhir/ValueSet/09cd8042-2f56-4849-afef-f95322d453f0" />
         </valueSetReference>
       </binding>
     </element>
