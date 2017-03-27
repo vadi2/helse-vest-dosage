@@ -71,7 +71,7 @@
         <strength value="required" />
         <description value="Angir bruk av et legemiddel, f.eks. om det benyttes fast eller gis ved behov (OID=9101)." />
         <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/f552702d-e769-4c4b-9fa5-0512c9ffe66b" />
+          <reference value="https://simplifier.net/api/fhir/ValueSet/88276d8b-c953-4f15-a5ff-bc1bbbfacd2e" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -207,7 +207,7 @@
         <strength value="required" />
         <description value="Angir bruksområde for legemiddel. Det overføres til M1 og blir med på utskrift på apoteketikett. Brukes i FEST og Eresept (OID=7488)." />
         <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/c877187c-f362-4425-827b-db2192001969" />
+          <reference value="https://simplifier.net/api/fhir/ValueSet/11b282e8-15ac-40a4-9536-03e95e5f280f" />
         </valueSetReference>
       </binding>
       <mapping>
