@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://hl7.no/fhir/ValueSet/bruksomrade-til-etikett",
+  "url": "http://hl7.no/fhir/ValueSet/kule-bruksomrade-til-etikett",
   "name": "Bruksområde til etikett",
   "status": "draft",
   "compose": {
@@ -1258,7 +1258,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Bruksområde til etikett</h2><tt>http://hl7.no/fhir/ValueSet/bruksomrade-til-etikett</tt><p>Angir bruksområde for legemiddel. Det overføres til M1 og blir med på utskrift på apoteketikett. Brukes i FEST og Eresept.</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Bruksområde til etikett</h2><tt>http://hl7.no/fhir/ValueSet/kule-bruksomrade-til-etikett</tt><p>Angir bruksområde for legemiddel. Det overføres til M1 og blir med på utskrift på apoteketikett. Brukes i FEST og Eresept.</p></div>"
   },
   "identifier": {
     "value": "urn:oid:2.16.578.1.12.4.1.1.7488",

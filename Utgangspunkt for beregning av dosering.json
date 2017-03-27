@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://hl7.no/fhir/ValueSet/utgangspunkt-for-beregning-av-dosering",
+  "url": "http://hl7.no/fhir/ValueSet/kule-utgangspunkt-for-beregning-av-dosering",
   "name": "Utgangspunkt for beregning av dosering",
   "status": "draft",
   "compose": {
@@ -31,7 +31,7 @@
   "description": "Dette kodeverket inneholder koder som benyttes for å angi hva som skal danne utgangspunktet for beregning av dosering av et legemiddel.",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Utgangspunkt for beregning av dosering</h2><tt>http://hl7.no/fhir/ValueSet/utgangspunkt-for-beregning-av-dosering</tt><p>Dette kodeverket inneholder koder som benyttes for å angi hva som skal danne utgangspunktet for beregning av dosering av et legemiddel.</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Utgangspunkt for beregning av dosering</h2><tt>http://hl7.no/fhir/ValueSet/kule-utgangspunkt-for-beregning-av-dosering</tt><p>Dette kodeverket inneholder koder som benyttes for å angi hva som skal danne utgangspunktet for beregning av dosering av et legemiddel.</p></div>"
   },
   "date": "2017-01-20",
   "publisher": "HL7 Norge",

@@ -19,7 +19,7 @@
             "id": "from-day-2-take-1-tablet-in-the-morning",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/kule-kule-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
                ]
             },
             "effectivePeriod": {
@@ -46,7 +46,7 @@
                   "quantityQuantity": {
                      "value": "1.0",
                      "unit": "tablett",
-                     "system": "http://hl7.no/fhir/ValueSet/enhet-for-dosering",
+                     "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
                      "code": "tablett"
                   }
                }
@@ -64,7 +64,7 @@
             "id": "2-tablets-in-the-morning-on-the-first-day",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/kule-kule-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
                ]
             },
             "effectivePeriod": {
@@ -92,7 +92,7 @@
                   "quantityQuantity": {
                      "value": "2.0",
                      "unit": "tablett",
-                     "system": "http://hl7.no/fhir/ValueSet/enhet-for-dosering",
+                     "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
                      "code": "tablett"
                   }
                }

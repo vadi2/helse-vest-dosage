@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://hl7.no/fhir/ValueSet/tidspunkt-pa-dagen",
+  "url": "http://hl7.no/fhir/ValueSet/kule-tidspunkt-pa-dagen",
   "name": "Tidspunkt på dagen",
   "status": "draft",
   "compose": {
@@ -39,7 +39,7 @@
   "description": "Omtrentlige angivelser av tidspunkt på dagen. Kan være aktuell for bruk i alle elektroniske meldinger.",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Tidspunkt på dagen</h2><tt>http://hl7.no/fhir/ValueSet/tidspunkt-pa-dagen</tt><p>Omtrentlige angivelser av tidspunkt på dagen. Kan være aktuell for bruk i alle elektroniske meldinger.</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Tidspunkt på dagen</h2><tt>http://hl7.no/fhir/ValueSet/kule-tidspunkt-pa-dagen</tt><p>Omtrentlige angivelser av tidspunkt på dagen. Kan være aktuell for bruk i alle elektroniske meldinger.</p></div>"
   },
   "identifier": {
     "value": "urn:oid:2.16.578.1.12.4.1.1.8325",

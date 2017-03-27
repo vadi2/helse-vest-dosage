@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://hl7.no/fhir/ValueSet/enhet-for-dosering",
+  "url": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
   "name": "Enhet for dosering",
   "status": "draft",
   "compose": {
@@ -183,7 +183,7 @@
   "description": "Enhet som skal inngå i doseringstekst som sendes i M1 og inngår på apotek-etiketten. Kodeverk til bruk i M30 fra versjon 2.4, og i M1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Enhet for dosering</h2><tt>http://hl7.no/fhir/ValueSet/enhet-for-dosering</tt><p>Enhet som skal inngå i doseringstekst som sendes i M1 og inngår på apotek-etiketten. Kodeverk til bruk i M30 fra versjon 2.4, og i M1</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Enhet for dosering</h2><tt>http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering</tt><p>Enhet som skal inngå i doseringstekst som sendes i M1 og inngår på apotek-etiketten. Kodeverk til bruk i M30 fra versjon 2.4, og i M1</p></div>"
   },
   "identifier": {
     "value": "urn:oid:2.16.578.1.12.4.1.1.7480",

@@ -19,7 +19,7 @@
             "id": "1-tablet-in-the-morning-daily-for-14-days-12",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/kule-kule-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
                ]
             },
             "effectivePeriod": {
@@ -54,7 +54,7 @@
                   "quantityQuantity": {
                      "value": "1.0",
                      "unit": "tablett",
-                     "system": "http://hl7.no/fhir/ValueSet/enhet-for-dosering",
+                     "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
                      "code": "tablett"
                   }
                }
@@ -72,7 +72,7 @@
             "id": "followed-by-1-tablet-Y-every-evening-for-76-days-22",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/kule-kule-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
                ]
             },
             "effectivePeriod": {
@@ -107,7 +107,7 @@
                   "quantityQuantity": {
                      "value": "1.0",
                      "unit": "tablett",
-                     "system": "http://hl7.no/fhir/ValueSet/enhet-for-dosering",
+                     "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
                      "code": "tablett"
                   }
                }

@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://hl7.no/fhir/ValueSet/maleenhet-for-legemidlers-styrke",
+  "url": "http://hl7.no/fhir/ValueSet/kule-maleenhet-for-legemidlers-styrke",
   "name": "Måleenhet for legemidlers styrke",
   "status": "draft",
   "compose": {
@@ -247,7 +247,7 @@
   "description": "Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Måleenhet for legemidlers styrke</h2><tt>http://hl7.no/fhir/ValueSet/maleenhet-for-legemidlers-styrke</tt><p>Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Måleenhet for legemidlers styrke</h2><tt>http://hl7.no/fhir/ValueSet/kule-maleenhet-for-legemidlers-styrke</tt><p>Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST</p></div>"
   },
   "identifier": {
     "value": "oid:2.16.578.1.12.4.1.1.9090",

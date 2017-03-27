@@ -19,7 +19,7 @@
             "id": "2-tablets-every-morning-and-1-tablet-every-evening-for-5-days-13",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/kule-kule-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
                ]
             },
             "effectivePeriod": {
@@ -47,7 +47,7 @@
                   "quantityQuantity": {
                      "value": "2.0",
                      "unit": "stk",
-                     "system": "http://hl7.no/fhir/ValueSet/enhet-for-dosering",
+                     "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
                      "code": "stk"
                   }
                },
@@ -71,7 +71,7 @@
                   "quantityQuantity": {
                      "value": "1.0",
                      "unit": "stk",
-                     "system": "http://hl7.no/fhir/ValueSet/enhet-for-dosering",
+                     "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
                      "code": "stk"
                   }
                }
@@ -89,7 +89,7 @@
             "id": "1-tablet-every-morning-and-1-tablet-every-evening-for-5-days-23",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/kule-kule-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
                ]
             },
             "effectivePeriod": {
@@ -117,7 +117,7 @@
                   "quantityQuantity": {
                      "value": "1.0",
                      "unit": "stk",
-                     "system": "http://hl7.no/fhir/ValueSet/enhet-for-dosering",
+                     "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
                      "code": "stk"
                   }
                },
@@ -141,7 +141,7 @@
                   "quantityQuantity": {
                      "value": "1.0",
                      "unit": "stk",
-                     "system": "http://hl7.no/fhir/ValueSet/enhet-for-dosering",
+                     "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
                      "code": "stk"
                   }
                }
@@ -159,7 +159,7 @@
             "id": "1-tablet-every-morning-33",
             "meta": {
                "profile": [
-                  "http://hl7.no/fhir/StructureDefinition/kule-kule-prescribing"
+                  "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
                ]
             },
             "effectivePeriod": {
@@ -180,7 +180,7 @@
                   "quantityQuantity": {
                      "value": "1.0",
                      "unit": "stk",
-                     "system": "http://hl7.no/fhir/ValueSet/enhet-for-dosering",
+                     "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
                      "code": "stk"
                   }
                }

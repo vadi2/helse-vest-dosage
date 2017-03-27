@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "url": "http://hl7.no/fhir/ValueSet/legemiddelbruk",
+  "url": "http://hl7.no/fhir/ValueSet/kule-legemiddelbruk",
   "name": "Legemiddelbruk",
   "status": "draft",
   "compose": {
@@ -35,7 +35,7 @@
   "description": "Angir bruk av et legemiddel, f.eks. om det benyttes fast eller gis ved behov.",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Legemiddelbruk</h2><tt>http://hl7.no/fhir/ValueSet/legemiddelbruk</tt><p>Angir bruk av et legemiddel, f.eks. om det benyttes fast eller gis ved behov.</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Legemiddelbruk</h2><tt>http://hl7.no/fhir/ValueSet/kule-legemiddelbruk</tt><p>Angir bruk av et legemiddel, f.eks. om det benyttes fast eller gis ved behov.</p></div>"
   },
   "identifier": {
     "value": "urn:oid:2.16.578.1.12.4.1.1.9101",
