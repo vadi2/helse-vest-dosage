@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-medication" />
   <meta>
-    <lastUpdated value="2017-03-28T11:24:46.912+02:00" />
+    <lastUpdated value="2017-03-28T11:55:17.376+02:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/kule-medication" />
   <name value="KULE Medication" />
@@ -89,8 +89,13 @@
     </element>
     <element>
       <path value="Medication.code.text" />
-      <definition value="Drug information such as the name in plaintext form. This may be helpful if the FEST database isn't available or the system just wishes to render the MedicationStatement without resolving the drug IDs." />
+      <definition value="Drug information such as the name in plaintext form. This may be helpful if the FEST database isn't available/too old, or the system just wishes to render the MedicationStatement without resolving the drug IDs." />
+      <alias value="NavnFormStyrke" />
       <min value="1" />
+      <mapping>
+        <identity value="norway-kule-resept" />
+        <map value="Resept.ReseptDokLegemiddel.Forskrivning,Legemiddel*.NavnFormStyrke" />
+      </mapping>
     </element>
     <element>
       <path value="Medication.product" />
