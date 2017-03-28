@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-medication" />
   <meta>
-    <lastUpdated value="2017-03-28T11:55:17.376+02:00" />
+    <lastUpdated value="2017-03-28T11:56:51.27+02:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/kule-medication" />
   <name value="KULE Medication" />
@@ -10,7 +10,7 @@
   <experimental value="false" />
   <publisher value="HL7 Norge" />
   <date value="2017-02-20T13:28:02.1831186+01:00" />
-  <description value="A medication as defined by KULE Helse Vest Norwegian project project, based on the national standard M1 eResept standard." />
+  <description value="A medication as defined by KULE Helse Vest Norwegian project project, based on the national standard M1 eResept standard.&#xD;&#xA;&#xD;&#xA;The basics of it are that one or more drug IDs are allowed, plus mandatory freetext. The receiving system will recognise the drug by one of the IDs it understands or fallback to displaying freetext." />
   <fhirVersion value="1.0.2" />
   <kind value="resource" />
   <constrainedType value="Medication" />
@@ -19,7 +19,7 @@
   <differential>
     <element>
       <path value="Medication" />
-      <definition value="Profile to describe the medication in the Helse Vest to FM integration scenario. The basics of it are that one or more drug IDs are allowed, plus mandatory freetext. The receiving system will recognise the drug by one of the IDs it understands or fallback to displaying freetext." />
+      <definition value="A medication as defined by KULE Helse Vest Norwegian project project, based on the national standard M1 eResept standard.&#xD;&#xA;&#xD;&#xA;The basics of it are that one or more drug IDs are allowed, plus mandatory freetext. The receiving system will recognise the drug by one of the IDs it understands or fallback to displaying freetext." />
     </element>
     <element>
       <path value="Medication.code" />
