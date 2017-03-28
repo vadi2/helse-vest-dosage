@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-medication" />
   <meta>
-    <lastUpdated value="2017-03-24T13:46:58.137+01:00" />
+    <lastUpdated value="2017-03-28T11:24:46.912+02:00" />
   </meta>
   <url value="http://hl7.no/fhir/StructureDefinition/kule-medication" />
   <name value="KULE Medication" />
@@ -19,7 +19,7 @@
   <differential>
     <element>
       <path value="Medication" />
-      <comments value="Modelled originally on 'Medication_HVIKT_eng' sheet in MedicationStatement_HVIKT.xlsx." />
+      <definition value="Profile to describe the medication in the Helse Vest to FM integration scenario. The basics of it are that one or more drug IDs are allowed, plus mandatory freetext. The receiving system will recognise the drug by one of the IDs it understands or fallback to displaying freetext." />
     </element>
     <element>
       <path value="Medication.code" />
@@ -31,7 +31,6 @@
         <discriminator value="system" />
         <rules value="open" />
       </slicing>
-      <short value="Code defined by a terminology system" />
     </element>
     <element>
       <path value="Medication.code.coding" />
