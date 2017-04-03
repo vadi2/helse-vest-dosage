@@ -2125,7 +2125,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Coded dosage timing</h2><tt>http://hl7.no/fhir/ValueSet/kule-coded-dosage-timing</tt></div>"
   },
   "identifier": {
-    "value": "urn:oid:2.16.578.1.34.5.5",
+    "value": "urn:oid:2.16.578.1.34.11.1",
     "system": "urn:ietf:rfc:3986"
   },
   "experimental": false,
