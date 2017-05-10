@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-05-10T10:23:44.009+02:00" />
+    <lastUpdated value="2017-05-10T10:45:55.177+02:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -204,9 +204,7 @@
       <binding>
         <strength value="required" />
         <description value="Angir bruksområde for legemiddel. Det overføres til M1 og blir med på utskrift på apoteketikett. Brukes i FEST og Eresept (OID=7488)." />
-        <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/11b282e8-15ac-40a4-9536-03e95e5f280f" />
-        </valueSetReference>
+        <valueSetUri value="http://hl7.no/fhir/ValueSet/kule-bruksomrade-til-etikett" />
       </binding>
       <mapping>
         <identity value="norway-kule-resept" />
@@ -342,9 +340,7 @@
       <binding>
         <strength value="required" />
         <description value="Dosage timing codes used by LIB data from FM (Forskrivningsmodulen/Prescription Module) and Kjernejournal systems in the Helse Vest Norway." />
-        <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/be824721-fb00-4e2d-a76f-1f9f9ec39b92" />
-        </valueSetReference>
+        <valueSetUri value=" http://hl7.no/fhir/ValueSet/kule-coded-dosage-timing" />
       </binding>
       <mapping>
         <identity value="norway-kule-resept" />
@@ -404,9 +400,7 @@
       <binding>
         <strength value="required" />
         <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet (OID=9088)." />
-        <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/7a2d7cf3-020e-4ef9-b877-2c8c21f4a1c5" />
-        </valueSetReference>
+        <valueSetUri value="http://hl7.no/fhir/ValueSet/kule-benevning-tidsenhet" />
       </binding>
       <mapping>
         <identity value="norway-kule-resept" />
@@ -510,9 +504,7 @@
       <binding>
         <strength value="required" />
         <description value="Administrasjonsvei (OID=7477)." />
-        <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/94583103-b856-49fe-9205-6d0495e3ebe7" />
-        </valueSetReference>
+        <valueSetUri value="http://hl7.no/fhir/ValueSet/kule-administrasjonsvei" />
       </binding>
     </element>
     <element>
@@ -530,9 +522,7 @@
       <binding>
         <strength value="required" />
         <description value="Enhet som skal inngå i doseringstekst som sendes i M1 og inngår på apotek-etiketten. Kodeverk til bruk i M30 fra versjon 2.4, og i M1 (OID=7480)." />
-        <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/09cd8042-2f56-4849-afef-f95322d453f0" />
-        </valueSetReference>
+        <valueSetUri value="http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering" />
       </binding>
     </element>
     <element>
@@ -557,9 +547,7 @@
       <binding>
         <strength value="required" />
         <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST (OID=9090)." />
-        <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/7a86c026-005b-489c-86d5-c68dcf7c08c9" />
-        </valueSetReference>
+        <valueSetUri value="http://hl7.no/fhir/ValueSet/kule-maleenhet-for-legemidlers-styrke" />
       </binding>
       <mapping>
         <identity value="norway-kule-resept" />
@@ -572,9 +560,7 @@
       <binding>
         <strength value="required" />
         <description value="Dette kodeverket inneholder benevning for tidsenheter. Skal benyttes for datatypen PQ når enhet skal være tidsenhet (OID=9088)." />
-        <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/7a2d7cf3-020e-4ef9-b877-2c8c21f4a1c5" />
-        </valueSetReference>
+        <valueSetUri value="http://hl7.no/fhir/ValueSet/kule-benevning-tidsenhet" />
       </binding>
       <mapping>
         <identity value="norway-kule-resept" />
@@ -596,9 +582,7 @@
       <binding>
         <strength value="required" />
         <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST (OID=9090)." />
-        <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/7a86c026-005b-489c-86d5-c68dcf7c08c9" />
-        </valueSetReference>
+        <valueSetUri value="http://hl7.no/fhir/ValueSet/kule-maleenhet-for-legemidlers-styrke" />
       </binding>
       <mapping>
         <identity value="norway-kule-resept" />
@@ -612,9 +596,7 @@
       <binding>
         <strength value="required" />
         <description value="Dette kodeverket inneholder benevning for legemidlers styrke Skal benyttes for datatypen PQ når enhet skal være legemidlers styrke. Kodeverket oppdateres kun for verdier som inngår i nyeste versjon av FEST (OID=9090)." />
-        <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/7a86c026-005b-489c-86d5-c68dcf7c08c9" />
-        </valueSetReference>
+        <valueSetUri value="http://hl7.no/fhir/ValueSet/kule-maleenhet-for-legemidlers-styrke" />
       </binding>
       <mapping>
         <identity value="norway-kule-resept" />
