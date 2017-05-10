@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="kule-prescribing" />
   <meta>
-    <lastUpdated value="2017-04-03T12:54:41.891+02:00" />
+    <lastUpdated value="2017-05-10T10:23:44.009+02:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -70,9 +70,7 @@
       <binding>
         <strength value="required" />
         <description value="Angir bruk av et legemiddel, f.eks. om det benyttes fast eller gis ved behov (OID=9101)." />
-        <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/88276d8b-c953-4f15-a5ff-bc1bbbfacd2e" />
-        </valueSetReference>
+        <valueSetUri value="http://hl7.no/fhir/ValueSet/kule-legemiddelbruk" />
       </binding>
       <mapping>
         <identity value="norway-kule-resept" />
