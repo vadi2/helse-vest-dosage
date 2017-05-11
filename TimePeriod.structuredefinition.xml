@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="timeperiod" />
   <meta>
-    <lastUpdated value="2017-01-27T10:44:53.218+01:00" />
+    <lastUpdated value="2017-05-11T09:10:37.376+02:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -16,6 +16,7 @@
   <date value="2017-01-20T15:55:40.0084834+01:00" />
   <description value="An approximate way of describing the time of day." />
   <requirements value="A need to represent the element timePeriod (Tidsomrade in Norwegian, type CS): an approximate time period of a day (morning, noon, etc) using the coding system OID 8325 (timeperiod) from www.volven.vo." />
+  <fhirVersion value="1.0.2" />
   <kind value="datatype" />
   <constrainedType value="Extension" />
   <abstract value="false" />
@@ -39,9 +40,7 @@
       </type>
       <binding>
         <strength value="required" />
-        <valueSetReference>
-          <reference value="https://simplifier.net/api/fhir/ValueSet/518fdd18-91b3-48a3-982a-86af923cec14" />
-        </valueSetReference>
+        <valueSetUri value="http://hl7.no/fhir/ValueSet/kule-tidspunkt-pa-dagen" />
       </binding>
     </element>
   </differential>
