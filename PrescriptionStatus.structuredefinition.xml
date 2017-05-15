@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="prescription-status" />
   <meta>
-    <lastUpdated value="2017-05-15T11:06:07.888+02:00" />
+    <lastUpdated value="2017-05-15T11:20:07.431+02:00" />
   </meta>
   <text>
     <status value="generated" /><div xmlns="http://www.w3.org/1999/xhtml">
@@ -39,7 +39,7 @@
       <binding>
         <strength value="preferred" />
         <valueSetReference>
-          <reference value="http://hl7.org/fhir/ValueSet/medication-request-status" />
+          <reference value="http://hl7.org/fhir/ValueSet/medication-order-status" />
         </valueSetReference>
       </binding>
     </element>
