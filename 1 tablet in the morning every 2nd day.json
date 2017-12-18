@@ -1,55 +1,55 @@
-{ 
-   "resourceType": "MedicationStatement",
-   "id": "1-tablet-in-the-morning-every-2nd-day",
-   "meta": {
-      "profile": [
-         "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
-      ]
-   },
-   "effectivePeriod": {
-      "start": "2012-11-01T00:00:00"
-   },
-   "dosage": [
-      {
-         "timing": {
+{
+  "resourceType": "MedicationStatement",
+  "id": "1-tablet-in-the-morning-every-2nd-day",
+  "meta": {
+    "profile": [
+      "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
+    ]
+  },
+  "effectivePeriod": {
+    "start": "2012-11-01T00:00:00"
+  },
+  "dosage": [
+    {
+      "timing": {
+        "extension": [
+          {
+            "url": "http://hl7.no/fhir/StructureDefinition/kule-timing-exact",
+            "valueBoolean": "false"
+          },
+          {
             "extension": [
-               {
-                  "url": "http://hl7.no/fhir/StructureDefinition/kule-timing-exact",
-                  "valueBoolean": "false"
-               },
-               {
-                  "extension": [
-                     {
-                        "url": "min",
-                        "valueInteger": "2"
-                     },
-                     {
-                        "url": "max",
-                        "valueInteger": "2"
-                     },
-                     {
-                        "url": "code",
-                        "valueCode": "d"
-                     }
-                  ],
-                  "url": "http://hl7.no/fhir/StructureDefinition/kule-timing-interval"
-               }
+              {
+                "url": "min",
+                "valueInteger": "2"
+              },
+              {
+                "url": "max",
+                "valueInteger": "2"
+              },
+              {
+                "url": "code",
+                "valueCode": "d"
+              }
             ],
-            "repeat": {
-               "extension": [
-                  {
-                     "url": "http://hl7.no/fhir/StructureDefinition/kule-timeperiod",
-                     "valueCode": "1"
-                  }
-               ]
+            "url": "http://hl7.no/fhir/StructureDefinition/kule-timing-interval"
+          }
+        ],
+        "repeat": {
+          "extension": [
+            {
+              "url": "http://hl7.no/fhir/StructureDefinition/kule-timeperiod",
+              "valueCode": "1"
             }
-         },
-         "quantityQuantity": {
-            "value": "1.0",
-            "unit": "tablett",
-            "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
-            "code": "tablett"
-         }
+          ]
+        }
+      },
+      "quantityQuantity": {
+        "value": "1.0",
+        "unit": "tablett",
+        "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
+        "code": "tablett"
       }
-   ]
+    }
+  ]
 }
