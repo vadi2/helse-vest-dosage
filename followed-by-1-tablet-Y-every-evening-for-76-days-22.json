@@ -1,0 +1,46 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "followed-by-1-tablet-Y-every-evening-for-76-days-22",
+  "meta": {
+    "profile": [
+      "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
+    ]
+  },
+  "effectivePeriod": {
+    "start": "2012-11-15T00:00:00"
+  },
+  "dosage": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.no/fhir/StructureDefinition/kule-days-administered-amount",
+          "valuePositiveInt": "76"
+        },
+        {
+          "url": "http://hl7.no/fhir/StructureDefinition/kule-days-not-administered-amount",
+          "valuePositiveInt": "14"
+        }
+      ],
+      "timing": {
+        "repeat": {
+          "extension": [
+            {
+              "url": "http://hl7.no/fhir/StructureDefinition/kule-timeperiod",
+              "valueCode": "5"
+            },
+            {
+              "url": "http://hl7.no/fhir/StructureDefinition/kule-timing-exact",
+              "valueBoolean": true
+            }
+          ]
+        }
+      },
+      "quantityQuantity": {
+        "value": "1.0",
+        "unit": "tablett",
+        "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
+        "code": "tablett"
+      }
+    }
+  ]
+}
