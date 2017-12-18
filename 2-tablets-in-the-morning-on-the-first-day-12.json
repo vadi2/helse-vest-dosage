@@ -1,0 +1,39 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "2-tablets-in-the-morning-on-the-first-day",
+  "meta": {
+    "profile": [
+      "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
+    ]
+  },
+  "effectivePeriod": {
+    "start": "2012-11-01T00:00:00",
+    "end": "2012-11-02T00:00:00"
+  },
+  "dosage": [
+    {
+      "timing": {
+        "extension": [
+          {
+            "url": "http://hl7.no/fhir/StructureDefinition/kule-timing-exact",
+            "valueBoolean": "false"
+          }
+        ],
+        "repeat": {
+          "extension": [
+            {
+              "url": "http://hl7.no/fhir/StructureDefinition/kule-timeperiod",
+              "valueCode": "1"
+            }
+          ]
+        }
+      },
+      "quantityQuantity": {
+        "value": "2.0",
+        "unit": "tablett",
+        "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
+        "code": "tablett"
+      }
+    }
+  ]
+}
