@@ -1,0 +1,63 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "2-tablets-every-morning-and-1-tablet-every-evening-for-5-days-13",
+  "meta": {
+    "profile": [
+      "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
+    ]
+  },
+  "effectivePeriod": {
+    "start": "2012-11-16T00:00:00",
+    "end": "2012-11-21T00:00:00"
+  },
+  "dosage": [
+    {
+      "timing": {
+        "extension": [
+          {
+            "url": "http://hl7.no/fhir/StructureDefinition/kule-timing-exact",
+            "valueBoolean": "false"
+          }
+        ],
+        "repeat": {
+          "extension": [
+            {
+              "url": "http://hl7.no/fhir/StructureDefinition/kule-timeperiod",
+              "valueCode": "1"
+            }
+          ]
+        }
+      },
+      "quantityQuantity": {
+        "value": "2.0",
+        "unit": "stk",
+        "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
+        "code": "stk"
+      }
+    },
+    {
+      "timing": {
+        "extension": [
+          {
+            "url": "http://hl7.no/fhir/StructureDefinition/kule-timing-exact",
+            "valueBoolean": "false"
+          }
+        ],
+        "repeat": {
+          "extension": [
+            {
+              "url": "http://hl7.no/fhir/StructureDefinition/kule-timeperiod",
+              "valueCode": "5"
+            }
+          ]
+        }
+      },
+      "quantityQuantity": {
+        "value": "1.0",
+        "unit": "stk",
+        "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
+        "code": "stk"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "1-tablet-every-morning-33",
+  "meta": {
+    "profile": [
+      "http://hl7.no/fhir/StructureDefinition/kule-prescribing"
+    ]
+  },
+  "effectivePeriod": {
+    "start": "2012-11-01T00:00:00"
+  },
+  "dosage": [
+    {
+      "timing": {
+        "repeat": {
+          "extension": [
+            {
+              "url": "http://hl7.no/fhir/StructureDefinition/kule-timeperiod",
+              "valueCode": "1"
+            }
+          ]
+        }
+      },
+      "quantityQuantity": {
+        "value": "1.0",
+        "unit": "stk",
+        "system": "http://hl7.no/fhir/ValueSet/kule-enhet-for-dosering",
+        "code": "stk"
+      }
+    }
+  ]
+}
